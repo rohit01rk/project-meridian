@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Project Meridian — Streaming Media Data Platform",
+  title: "Project Meridian — Streaming Data Engineering Dashboard",
   description:
     "Streaming-media data engineering & analytics: Kafka playback events, Bronze/Silver/Gold medallion pipeline, ClickHouse + dbt, FastAPI and a live engagement dashboard.",
 };
