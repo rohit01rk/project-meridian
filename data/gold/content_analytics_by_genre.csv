@@ -1,1 +1,8 @@
-Z2VucmUsc2Vzc2lvbnMsdW5pcXVlX3ZpZXdlcnMsdG90YWxfZHVyYXRpb25fbWluLGF2Z19kdXJhdGlvbl9taW4sYXZnX2NvbXBsZXRpb25fcGN0CkFjdGlvbiw2LDYsMjM1LjQ3LDM5LjI0LDc1LjMzCkNvbWVkeSw2LDYsODcuNzksMTQuNjMsMzIuMApEb2N1bWVudGFyeSw0LDQsMTEzLjc2LDI4LjQ0LDQ4LjAKRHJhbWEsNiw2LDE5Ni40MSwzMi43NCw1Ny4xNwpSb21hbmNlLDcsNywyMDIuNywyOC45Niw2NC4xNApTY2ktRmksNiw2LDI0MC45Myw0MC4xNiw2Ni41ClRocmlsbGVyLDYsNiwxOTguMDMsMzMuMDEsNjUuMTcK
+genre,sessions,unique_viewers,total_duration_min,avg_duration_min,avg_completion_pct
+Action,6,6,235.47,39.24,75.33
+Comedy,6,6,87.79,14.63,32.0
+Documentary,4,4,113.76,28.44,48.0
+Drama,6,6,196.41,32.74,57.17
+Romance,7,7,202.7,28.96,64.14
+Sci-Fi,6,6,240.93,40.16,66.5
+Thriller,6,6,198.03,33.01,65.17
