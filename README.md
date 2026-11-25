@@ -4,6 +4,7 @@
 
 Rohit Kumar · BTech CSE (Final Year) · GD Goenka University
 GitHub: [github.com/rohit01rk](https://github.com/rohit01rk)
+Live Demo: [project-meridian-three.vercel.app](https://project-meridian-three.vercel.app)
 
 ---
 
