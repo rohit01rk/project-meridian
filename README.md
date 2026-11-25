@@ -1,234 +1,145 @@
-# Project Meridian – Streaming Media Analytics & Personalization Platform
+# Project Meridian
 
-## Overview
+**Streaming-Media Data Engineering and Analytics Platform**
 
-Project Meridian is a streaming media analytics platform designed to collect, process, and analyze user playback events. It uses Apache Kafka for event streaming and a Bronze-Silver-Gold data processing architecture to transform raw playback data into meaningful analytical insights.
-
-The platform helps understand user engagement, content popularity, viewing sessions, watch-time estimates, and content completion patterns. Its long-term goal is to support personalized content recommendations.
-
-## Key Features
-
-- **Real-Time Event Streaming:** Generates playback events such as play, pause, seek, stop, and buffer using Python and Apache Kafka.
-- **Data Ingestion:** Uses Kafka producers and consumers to transfer and collect streaming events.
-- **Medallion Architecture:** Organizes data into Bronze, Silver, and Gold processing layers.
-- **Data Cleaning:** Validates and transforms raw playback events.
-- **Sessionization:** Groups related user activities into viewing sessions using a 30-minute inactivity threshold.
-- **Analytical Data Modeling:** Builds user, content, and viewing-session datasets.
-- **ClickHouse Integration:** Stores analytical datasets and supports fast analytical queries.
-- **dbt Transformations:** Creates SQL-based staging, intermediate, and mart models with data tests.
-- **Analytics Dashboard:** Displays content engagement, viewers, sessions, estimated watch time, and completion percentages.
-- **A/B Testing Prototype:** Uses statistical testing to compare control and treatment groups.
-
-## Architecture
-
-```text
-        Python Event Producer
-                 |
-                 v
-          Apache Kafka
-                 |
-                 v
-          Python Consumer
-                 |
-                 v
-          BRONZE LAYER
-          Raw JSONL Events
-                 |
-                 v
-          SILVER LAYER
-       Cleaning & Validation
-          Sessionization
-                 |
-                 v
-           GOLD LAYER
-       Analytical Datasets
-                 |
-                 v
-             dbt Models
-                 |
-                 v
-           ClickHouse
-                 |
-                 v
-             FastAPI
-                 |
-                 v
-         React Dashboard
-```
-
-## Technology Stack
-
-| Technology | Purpose |
-|---|---|
-| Python | Event generation and data processing |
-| Apache Kafka | Streaming event ingestion |
-| ClickHouse | Analytical database |
-| FastAPI | Backend REST API |
-| React.js | Frontend dashboard |
-| Vite | Frontend development and build tool |
-| Pandas | Data cleaning and transformation |
-| Parquet | Processed data storage |
-| dbt | SQL transformations and testing |
-| Docker | Containerized services |
-| SQL | Analytical queries |
-| Git & GitHub | Version control |
-
-## Data Pipeline
-
-### 1. Bronze Layer
-Stores raw playback events in JSONL format.
-
-### 2. Silver Layer
-Cleans and validates incoming events and converts processed data into Parquet format. It also groups events into viewing sessions.
-
-### 3. Gold Layer
-Creates analytical datasets, including viewing-session facts and user and content dimensions.
-
-### 4. Analytics Layer
-Uses ClickHouse and dbt models to prepare data for analytical queries and dashboard reporting.
-
-## Dashboard
-
-The React dashboard connects to the FastAPI backend and displays:
-
-- Content titles and genres
-- Viewing sessions
-- Viewer counts
-- Estimated watch time
-- Content completion percentages
-- Backend and database connection status
-
-## Backend API
-
-The FastAPI backend exposes REST endpoints.
-
-| Endpoint | Description |
-|---|---|
-| `/api/health` | Checks backend and database connectivity |
-| `/api/analytics/content` | Returns content engagement analytics |
-
-Interactive API documentation is available at:
-
-`http://localhost:8000/docs`
-
-## Getting Started
-
-### Prerequisites
-
-- Python
-- Node.js and npm
-- Docker Desktop
-- Git
-
-### 1. Clone the Repository
-
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd project-meridian
-```
-
-### 2. Start Docker Services
-
-```bash
-docker compose up -d
-```
-
-This starts the Kafka and ClickHouse services defined in the Docker Compose configuration.
-
-### 3. Run the Python Consumer
-
-```bash
-source venv/bin/activate
-python consumer/consumer.py
-```
-
-### 4. Run the Event Producer
-
-Open another terminal:
-
-```bash
-source venv/bin/activate
-python producer/producer.py
-```
-
-### 5. Start the Backend
-
-Open another terminal:
-
-```bash
-source dbt-venv/bin/activate
-uvicorn backend.main:app --reload --port 8000
-```
-
-### 6. Start the Frontend
-
-Open another terminal:
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Open the dashboard at:
-
-`http://localhost:5173`
-
-## Project Structure
-
-```text
-project-meridian/
-│
-├── producer/
-├── consumer/
-├── streaming/
-├── bronze/
-├── silver/
-├── gold/
-├── batch/
-├── features/
-├── experiments/
-├── dashboard/
-├── backend/
-├── frontend/
-├── dbt/
-├── airflow/
-├── tests/
-├── docker-compose.yml
-└── README.md
-```
-
-*Note: Some directories represent planned or supporting components and may not contain completed functionality.*
-
-## Future Improvements
-
-- Implement a production-ready personalized recommendation engine.
-- Add automated workflow orchestration using Apache Airflow.
-- Improve dashboard refresh for continuously arriving events.
-- Implement advanced anomaly detection and late-event handling.
-- Add monitoring, logging, and deployment automation.
-- Improve A/B testing with larger datasets and statistically validated experiments.
-
-## Learning Outcomes
-
-Through Project Meridian, I explored:
-
-- Event-driven data architecture
-- Streaming data ingestion using Kafka
-- Data engineering and ETL pipelines
-- Medallion architecture
-- Analytical databases and SQL
-- Data modeling using dbt
-- REST API development
-- Full-stack dashboard integration
-- Statistical analysis and A/B testing
-
-## Author
-
-**Rohit Kumar**
-
-GitHub: [rohit01rk](https://github.com/rohit01rk)
+Rohit Kumar · BTech CSE (Final Year) · GD Goenka University
+GitHub: [github.com/rohit01rk](https://github.com/rohit01rk)
 
 ---
 
-*Project Meridian – Turning streaming playback events into meaningful insights.*
+## Abstract
+
+Project Meridian is a streaming-media data engineering and analytics platform that collects playback events, transforms them into reliable analytical datasets, and presents content-engagement insights. The platform captures play, pause, seek, stop, and buffer events together with user identifiers, content identifiers, timestamps, and playback positions. Its processing design separates raw ingestion, data quality management, and business-ready analysis into Bronze, Silver, and Gold layers.
+
+## Problem Statement
+
+Streaming platforms produce continuous interaction data, but raw playback events are not immediately suitable for reporting. Records may arrive out of order, fields may be missing or invalid, and individual events must be grouped into meaningful viewing sessions. Without a structured pipeline, session boundaries remain unclear, content comparisons require repeated manual queries, and analytical results are difficult to expose through an application.
+
+## Objectives
+
+- Ingest and preserve playback events through a Python producer, Apache Kafka, and a traceable Bronze storage layer.
+- Clean and organise the data by validating fields, normalising timestamps, creating viewing sessions, and producing Gold fact and dimension datasets.
+- Support analysis through ClickHouse tables and views, dbt transformations, and content-engagement metrics.
+- Expose results through FastAPI endpoints and a React dashboard that displays analytics and system status.
+- Establish a foundation for user features, experiment evaluation, recommendations, orchestration, monitoring, and deployment automation.
+
+## System Architecture
+
+```
+Python Producer → Apache Kafka → Kafka Consumer → Bronze (JSONL)
+    → Silver (Cleaning and Sessionization) → Gold (Fact / Dimension Datasets)
+    → ClickHouse and dbt → FastAPI → React Dashboard
+```
+
+| Stage | Description |
+|---|---|
+| Event production | A Python producer creates playback records containing event type, user ID, content ID, timestamp, and playback position, and publishes them to the `playback-events` Kafka topic. |
+| Stream transport | Apache Kafka provides the event transport layer and preserves stream position for traceability. |
+| Bronze capture | The consumer appends incoming records to `bronze/playback_events.jsonl` and adds the Kafka partition, offset, and ingestion timestamp. |
+| Silver cleaning | Python and pandas validate required fields, normalise event names and identifiers, parse timestamps as UTC, convert playback positions to numeric values, filter unsupported event types, and remove negative playback positions. Cleaned data is written to Parquet/CSV. |
+| Sessionization | Valid events are sorted by user, content, and timestamp. A new viewing session begins when the gap between adjacent events exceeds the 30-minute inactivity threshold. |
+| Gold modelling | The pipeline produces a viewing-session fact dataset together with user and content dimensions that summarise sessions, event counts, duration indicators, and maximum playback positions. |
+| Analytical storage | ClickHouse stores the viewing-session fact table, content catalog, user features, and analytical views. dbt organises SQL transformations into staging, intermediate, and mart models and applies configured data-quality tests. |
+| Delivery | FastAPI exposes health and content-analytics endpoints, and the React dashboard presents system status and engagement data in the browser. |
+
+## Technology Stack
+
+| Technology | Role |
+|---|---|
+| Python, pandas | Event generation, cleaning, sessionization, and feature engineering |
+| Apache Kafka | Playback-event topic and stream transport |
+| JSONL / Parquet | Raw records and processed datasets |
+| ClickHouse | Analytical tables, views, and queries |
+| dbt + dbt-clickhouse | Staging, intermediate, and mart transformations; data-quality tests |
+| FastAPI | Health and content-analytics API endpoints |
+| React + Vite / Next.js | Dashboard consuming the API |
+| Docker Compose | Local service containers (Kafka, ClickHouse) |
+| Apache Airflow | Scheduled pipeline orchestration (setup in progress) |
+| GitHub Actions / Terraform | CI/CD and infrastructure automation (planned) |
+
+## Results
+
+| Measure | Result |
+|---|---|
+| Bronze events | 112 |
+| Records retained after validation | 112 |
+| Viewing sessions | 41 |
+| Users | 33 |
+| Content items | 14 |
+
+The Gold layer contains the `fact_viewing_sessions` dataset and the `dim_user` and `dim_content` dimensions. Session facts include start and end timestamps, an elapsed-duration estimate, event counts by type, and maximum playback position.
+
+### Engagement and Completion Analysis
+
+Sessions were categorised by estimated completion:
+
+| Category | Sessions | Share |
+|---|---|---|
+| Completion at or above 80% | 18 | 43.90% |
+| Completion between 30% and 79% | 11 | 26.83% |
+| Completion below 30% | 12 | 29.27% |
+
+These results describe the current small demo dataset and are not representative audience findings.
+
+### Feature Engineering
+
+The feature-generation step produces 33 user records with 13 columns, including total sessions, total estimated watch minutes, average session duration, total event counts, average maximum playback position, night-viewing sessions, and average viewing hour. These features provide a foundation for ranking and recommendation work.
+
+### A/B Testing
+
+Users were randomly assigned to control and treatment groups (16 and 17 users) and average estimated watch time was compared using a Welch two-sample t-test. The measured difference was not statistically significant (p = 0.3121). A sample-size calculation estimated 64 users per group, or 128 in total, under the assumptions of effect size 0.5, alpha 0.05, and statistical power 0.80.
+
+## API and Dashboard
+
+FastAPI provides a root status endpoint, a health endpoint, and a content-analytics endpoint. The health endpoint verifies database connectivity. Content analytics returns genre, session count, unique viewers, total session-duration minutes, average session duration, and estimated completion percentage. The dashboard requests health and analytics data, displays backend and database status, and presents the content-engagement results in tabular form.
+
+## How to Run
+
+```bash
+# 1) Run the data pipeline locally (no Kafka or ClickHouse required)
+python3 -m pipeline.run_pipeline_local
+
+# 2) Run the dashboard
+npm install
+npm run dev            # http://localhost:3000
+
+# 3) Optional: full stack with Kafka and ClickHouse
+docker compose up -d
+python3 -m pipeline.producer
+uvicorn backend.main:app --port 8000
+```
+
+## Repository Structure
+
+- `pipeline/` — event producer, Kafka consumer, Bronze/Silver processing, sessionization, Gold build, feature engineering, and A/B testing scripts
+- `backend/` — FastAPI application (`/`, `/health`, `/analytics/content`)
+- `clickhouse/` — analytical schema: tables and views
+- `dbt/` — dbt project with staging, intermediate, and mart models and data-quality tests
+- `app/`, `lib/`, `components/` — dashboard application
+- `data/` — Bronze, Silver, and Gold datasets and generated outputs
+- `docs/` — project notes and viva preparation material
+- `docker-compose.yml` — local Kafka and ClickHouse services
+
+## Limitations
+
+- The prototype uses a relatively small synthetic/demo dataset.
+- Sessionization currently sorts records in batch and applies a 30-minute inactivity threshold, rather than implementing streaming watermarks and late-arrival processing.
+- Session duration represents elapsed time between the first and last event, not verified active playback time.
+- Estimated completion is based on maximum recorded playback position relative to catalog duration, capped at 100%; it is not a precise watch-percentage measure.
+
+## Future Work
+
+- Complete a reliable Airflow deployment with a DAG that runs processing and dbt steps in dependency order.
+- Add watermark-based content-catalog ingestion with explicit handling for licensing expiry.
+- Introduce late-arrival policies, deduplication, and robust event-time handling.
+- Improve feature definitions with rolling 30-day genre preferences and implement a recommendation API.
+- Add dashboard visualisations for concurrent viewers, the completion funnel, and A/B-test outcomes.
+- Add automated unit and integration tests, GitHub Actions CI, Terraform, logging, and monitoring.
+
+## Conclusion
+
+Project Meridian connects Kafka-based event ingestion, Python-based Bronze/Silver/Gold processing, ClickHouse analytics, dbt transformations, a FastAPI service layer, and a React dashboard into one working prototype. It demonstrates the complete data path from playback events to content-engagement outputs that can be queried and displayed, and provides a foundation for recommendations, experiment evaluation, automated scheduling, and operational monitoring.
+
+---
+
+**Author:** Rohit Kumar — BTech CSE (Final Year), GD Goenka University — [github.com/rohit01rk](https://github.com/rohit01rk)
