@@ -1,1 +1,16 @@
-aW1wb3J0ICIuL2dsb2JhbHMuY3NzIjsKaW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhOiBNZXRhZGF0YSA9IHsKICB0aXRsZTogIlByb2plY3QgTWVyaWRpYW4g4oCUIFN0cmVhbWluZyBNZWRpYSBEYXRhIFBsYXRmb3JtIiwKICBkZXNjcmlwdGlvbjoKICAgICJTdHJlYW1pbmctbWVkaWEgZGF0YSBlbmdpbmVlcmluZyAmIGFuYWx5dGljczogS2Fma2EgcGxheWJhY2sgZXZlbnRzLCBCcm9uemUvU2lsdmVyL0dvbGQgbWVkYWxsaW9uIHBpcGVsaW5lLCBDbGlja0hvdXNlICsgZGJ0LCBGYXN0QVBJIGFuZCBhIGxpdmUgZW5nYWdlbWVudCBkYXNoYm9hcmQuIiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoeyBjaGlsZHJlbiB9OiB7IGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGUgfSkgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJlbiI+CiAgICAgIDxib2R5PntjaGlsZHJlbn08L2JvZHk+CiAgICA8L2h0bWw+CiAgKTsKfQo=
+import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Project Meridian — Streaming Media Data Platform",
+  description:
+    "Streaming-media data engineering & analytics: Kafka playback events, Bronze/Silver/Gold medallion pipeline, ClickHouse + dbt, FastAPI and a live engagement dashboard.",
+};
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
