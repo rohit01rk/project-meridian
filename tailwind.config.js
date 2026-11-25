@@ -1,1 +1,17 @@
-LyoqIEB0eXBlIHtpbXBvcnQoJ3RhaWx3aW5kY3NzJykuQ29uZmlnfSAqLwptb2R1bGUuZXhwb3J0cyA9IHsKICBjb250ZW50OiBbIi4vYXBwLyoqLyoue3RzLHRzeH0iLCAiLi9jb21wb25lbnRzLyoqLyoue3RzLHRzeH0iLCAiLi9saWIvKiovKi57dHMsdHN4fSJdLAogIHRoZW1lOiB7CiAgICBleHRlbmQ6IHsKICAgICAgY29sb3JzOiB7CiAgICAgICAgaW5rOiAiIzA4MEIxNCIsCiAgICAgICAgcGFuZWw6ICIjMEUxNTI2IiwKICAgICAgICBhY2NlbnQ6ICIjRThCMzNEIiwKICAgICAgICB0ZWFsMjogIiMyREQ0QkYiLAogICAgICAgIHZpb2xldDI6ICIjOEI3Q0ZGIiwKICAgICAgICBkYW5nZXI6ICIjRkY0RDZEIiwKICAgICAgfSwKICAgIH0sCiAgfSwKICBwbHVnaW5zOiBbXSwKfTsK
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./lib/**/*.{ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        ink: "#080B14",
+        panel: "#0E1526",
+        accent: "#E8B33D",
+        teal2: "#2DD4BF",
+        violet2: "#8B7CFF",
+        danger: "#FF4D6D",
+      },
+    },
+  },
+  plugins: [],
+};
