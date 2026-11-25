@@ -1,1 +1,9 @@
-ZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gS3BpKHsgbGFiZWwsIHZhbHVlLCBzdWIgfTogeyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogc3RyaW5nOyBzdWI/OiBzdHJpbmcgfSkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1bMTFweF0gdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIHRleHQtc2xhdGUtNDAwIj57bGFiZWx9PC9kaXY+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQtMnhsIGZvbnQtZXh0cmFib2xkIHRleHQtd2hpdGUiPnt2YWx1ZX08L2Rpdj4KICAgICAge3N1YiA/IDxkaXYgY2xhc3NOYW1lPSJtdC0xIHRleHQteHMgdGV4dC1zbGF0ZS00MDAiPntzdWJ9PC9kaXY+IDogbnVsbH0KICAgIDwvZGl2PgogICk7Cn0K
+export default function Kpi({ label, value, sub }: { label: string; value: string; sub?: string }) {
+  return (
+    <div className="card p-4">
+      <div className="text-[11px] uppercase tracking-wider text-slate-400">{label}</div>
+      <div className="mt-1 text-2xl font-extrabold text-white">{value}</div>
+      {sub ? <div className="mt-1 text-xs text-slate-400">{sub}</div> : null}
+    </div>
+  );
+}
