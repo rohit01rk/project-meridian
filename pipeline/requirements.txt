@@ -1,1 +1,5 @@
-cGFuZGFzPj0yLjEuNApzY2lweT49MS4xMQojIE9wdGlvbmFsOgojIGthZmthLXB5dGhvbj49Mi4wICAgIyBvbmx5IGZvciB0aGUgcmVhbCBLYWZrYSBwcm9kdWNlci9jb25zdW1lcgojIHB5YXJyb3c+PTE0ICAgICAgICAgIyBlbmFibGVzIFBhcnF1ZXQgU2lsdmVyIG91dHB1dCBpbnN0ZWFkIG9mIENTViBmYWxsYmFjawo=
+pandas>=2.1.4
+scipy>=1.11
+# Optional:
+# kafka-python>=2.0   # only for the real Kafka producer/consumer
+# pyarrow>=14         # enables Parquet Silver output instead of CSV fallback
