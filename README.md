@@ -1,1 +1,234 @@
-IyBQcm9qZWN0IE1lcmlkaWFuCgoqKlN0cmVhbWluZy1NZWRpYSBEYXRhIEVuZ2luZWVyaW5nIGFuZCBBbmFseXRpY3MgUGxhdGZvcm0qKgoKUm9oaXQgS3VtYXIgwrcgQlRlY2ggQ1NFIChGaW5hbCBZZWFyKSDCtyBHRCBHb2Vua2EgVW5pdmVyc2l0eQpHaXRIdWI6IFtnaXRodWIuY29tL3JvaGl0MDFya10oaHR0cHM6Ly9naXRodWIuY29tL3JvaGl0MDFyaykKCi0tLQoKIyMgQWJzdHJhY3QKClByb2plY3QgTWVyaWRpYW4gaXMgYSBzdHJlYW1pbmctbWVkaWEgZGF0YSBlbmdpbmVlcmluZyBhbmQgYW5hbHl0aWNzIHBsYXRmb3JtIHRoYXQgY29sbGVjdHMgcGxheWJhY2sgZXZlbnRzLCB0cmFuc2Zvcm1zIHRoZW0gaW50byByZWxpYWJsZSBhbmFseXRpY2FsIGRhdGFzZXRzLCBhbmQgcHJlc2VudHMgY29udGVudC1lbmdhZ2VtZW50IGluc2lnaHRzLiBUaGUgcGxhdGZvcm0gY2FwdHVyZXMgcGxheSwgcGF1c2UsIHNlZWssIHN0b3AsIGFuZCBidWZmZXIgZXZlbnRzIHRvZ2V0aGVyIHdpdGggdXNlciBpZGVudGlmaWVycywgY29udGVudCBpZGVudGlmaWVycywgdGltZXN0YW1wcywgYW5kIHBsYXliYWNrIHBvc2l0aW9ucy4gSXRzIHByb2Nlc3NpbmcgZGVzaWduIHNlcGFyYXRlcyByYXcgaW5nZXN0aW9uLCBkYXRhIHF1YWxpdHkgbWFuYWdlbWVudCwgYW5kIGJ1c2luZXNzLXJlYWR5IGFuYWx5c2lzIGludG8gQnJvbnplLCBTaWx2ZXIsIGFuZCBHb2xkIGxheWVycy4KCiMjIFByb2JsZW0gU3RhdGVtZW50CgpTdHJlYW1pbmcgcGxhdGZvcm1zIHByb2R1Y2UgY29udGludW91cyBpbnRlcmFjdGlvbiBkYXRhLCBidXQgcmF3IHBsYXliYWNrIGV2ZW50cyBhcmUgbm90IGltbWVkaWF0ZWx5IHN1aXRhYmxlIGZvciByZXBvcnRpbmcuIFJlY29yZHMgbWF5IGFycml2ZSBvdXQgb2Ygb3JkZXIsIGZpZWxkcyBtYXkgYmUgbWlzc2luZyBvciBpbnZhbGlkLCBhbmQgaW5kaXZpZHVhbCBldmVudHMgbXVzdCBiZSBncm91cGVkIGludG8gbWVhbmluZ2Z1bCB2aWV3aW5nIHNlc3Npb25zLiBXaXRob3V0IGEgc3RydWN0dXJlZCBwaXBlbGluZSwgc2Vzc2lvbiBib3VuZGFyaWVzIHJlbWFpbiB1bmNsZWFyLCBjb250ZW50IGNvbXBhcmlzb25zIHJlcXVpcmUgcmVwZWF0ZWQgbWFudWFsIHF1ZXJpZXMsIGFuZCBhbmFseXRpY2FsIHJlc3VsdHMgYXJlIGRpZmZpY3VsdCB0byBleHBvc2UgdGhyb3VnaCBhbiBhcHBsaWNhdGlvbi4KCiMjIE9iamVjdGl2ZXMKCi0gSW5nZXN0IGFuZCBwcmVzZXJ2ZSBwbGF5YmFjayBldmVudHMgdGhyb3VnaCBhIFB5dGhvbiBwcm9kdWNlciwgQXBhY2hlIEthZmthLCBhbmQgYSB0cmFjZWFibGUgQnJvbnplIHN0b3JhZ2UgbGF5ZXIuCi0gQ2xlYW4gYW5kIG9yZ2FuaXNlIHRoZSBkYXRhIGJ5IHZhbGlkYXRpbmcgZmllbGRzLCBub3JtYWxpc2luZyB0aW1lc3RhbXBzLCBjcmVhdGluZyB2aWV3aW5nIHNlc3Npb25zLCBhbmQgcHJvZHVjaW5nIEdvbGQgZmFjdCBhbmQgZGltZW5zaW9uIGRhdGFzZXRzLgotIFN1cHBvcnQgYW5hbHlzaXMgdGhyb3VnaCBDbGlja0hvdXNlIHRhYmxlcyBhbmQgdmlld3MsIGRidCB0cmFuc2Zvcm1hdGlvbnMsIGFuZCBjb250ZW50LWVuZ2FnZW1lbnQgbWV0cmljcy4KLSBFeHBvc2UgcmVzdWx0cyB0aHJvdWdoIEZhc3RBUEkgZW5kcG9pbnRzIGFuZCBhIFJlYWN0IGRhc2hib2FyZCB0aGF0IGRpc3BsYXlzIGFuYWx5dGljcyBhbmQgc3lzdGVtIHN0YXR1cy4KLSBFc3RhYmxpc2ggYSBmb3VuZGF0aW9uIGZvciB1c2VyIGZlYXR1cmVzLCBleHBlcmltZW50IGV2YWx1YXRpb24sIHJlY29tbWVuZGF0aW9ucywgb3JjaGVzdHJhdGlvbiwgbW9uaXRvcmluZywgYW5kIGRlcGxveW1lbnQgYXV0b21hdGlvbi4KCiMjIFN5c3RlbSBBcmNoaXRlY3R1cmUKCmBgYApQeXRob24gUHJvZHVjZXIg4oaSIEFwYWNoZSBLYWZrYSDihpIgS2Fma2EgQ29uc3VtZXIg4oaSIEJyb256ZSAoSlNPTkwpCiAgICDihpIgU2lsdmVyIChDbGVhbmluZyBhbmQgU2Vzc2lvbml6YXRpb24pIOKGkiBHb2xkIChGYWN0IC8gRGltZW5zaW9uIERhdGFzZXRzKQogICAg4oaSIENsaWNrSG91c2UgYW5kIGRidCDihpIgRmFzdEFQSSDihpIgUmVhY3QgRGFzaGJvYXJkCmBgYAoKfCBTdGFnZSB8IERlc2NyaXB0aW9uIHwKfC0tLXwtLS18CnwgRXZlbnQgcHJvZHVjdGlvbiB8IEEgUHl0aG9uIHByb2R1Y2VyIGNyZWF0ZXMgcGxheWJhY2sgcmVjb3JkcyBjb250YWluaW5nIGV2ZW50IHR5cGUsIHVzZXIgSUQsIGNvbnRlbnQgSUQsIHRpbWVzdGFtcCwgYW5kIHBsYXliYWNrIHBvc2l0aW9uLCBhbmQgcHVibGlzaGVzIHRoZW0gdG8gdGhlIGBwbGF5YmFjay1ldmVudHNgIEthZmthIHRvcGljLiB8CnwgU3RyZWFtIHRyYW5zcG9ydCB8IEFwYWNoZSBLYWZrYSBwcm92aWRlcyB0aGUgZXZlbnQgdHJhbnNwb3J0IGxheWVyIGFuZCBwcmVzZXJ2ZXMgc3RyZWFtIHBvc2l0aW9uIGZvciB0cmFjZWFiaWxpdHkuIHwKfCBCcm9uemUgY2FwdHVyZSB8IFRoZSBjb25zdW1lciBhcHBlbmRzIGluY29taW5nIHJlY29yZHMgdG8gYGJyb256ZS9wbGF5YmFja19ldmVudHMuanNvbmxgIGFuZCBhZGRzIHRoZSBLYWZrYSBwYXJ0aXRpb24sIG9mZnNldCwgYW5kIGluZ2VzdGlvbiB0aW1lc3RhbXAuIHwKfCBTaWx2ZXIgY2xlYW5pbmcgfCBQeXRob24gYW5kIHBhbmRhcyB2YWxpZGF0ZSByZXF1aXJlZCBmaWVsZHMsIG5vcm1hbGlzZSBldmVudCBuYW1lcyBhbmQgaWRlbnRpZmllcnMsIHBhcnNlIHRpbWVzdGFtcHMgYXMgVVRDLCBjb252ZXJ0IHBsYXliYWNrIHBvc2l0aW9ucyB0byBudW1lcmljIHZhbHVlcywgZmlsdGVyIHVuc3VwcG9ydGVkIGV2ZW50IHR5cGVzLCBhbmQgcmVtb3ZlIG5lZ2F0aXZlIHBsYXliYWNrIHBvc2l0aW9ucy4gQ2xlYW5lZCBkYXRhIGlzIHdyaXR0ZW4gdG8gUGFycXVldC9DU1YuIHwKfCBTZXNzaW9uaXphdGlvbiB8IFZhbGlkIGV2ZW50cyBhcmUgc29ydGVkIGJ5IHVzZXIsIGNvbnRlbnQsIGFuZCB0aW1lc3RhbXAuIEEgbmV3IHZpZXdpbmcgc2Vzc2lvbiBiZWdpbnMgd2hlbiB0aGUgZ2FwIGJldHdlZW4gYWRqYWNlbnQgZXZlbnRzIGV4Y2VlZHMgdGhlIDMwLW1pbnV0ZSBpbmFjdGl2aXR5IHRocmVzaG9sZC4gfAp8IEdvbGQgbW9kZWxsaW5nIHwgVGhlIHBpcGVsaW5lIHByb2R1Y2VzIGEgdmlld2luZy1zZXNzaW9uIGZhY3QgZGF0YXNldCB0b2dldGhlciB3aXRoIHVzZXIgYW5kIGNvbnRlbnQgZGltZW5zaW9ucyB0aGF0IHN1bW1hcmlzZSBzZXNzaW9ucywgZXZlbnQgY291bnRzLCBkdXJhdGlvbiBpbmRpY2F0b3JzLCBhbmQgbWF4aW11bSBwbGF5YmFjayBwb3NpdGlvbnMuIHwKfCBBbmFseXRpY2FsIHN0b3JhZ2UgfCBDbGlja0hvdXNlIHN0b3JlcyB0aGUgdmlld2luZy1zZXNzaW9uIGZhY3QgdGFibGUsIGNvbnRlbnQgY2F0YWxvZywgdXNlciBmZWF0dXJlcywgYW5kIGFuYWx5dGljYWwgdmlld3MuIGRidCBvcmdhbmlzZXMgU1FMIHRyYW5zZm9ybWF0aW9ucyBpbnRvIHN0YWdpbmcsIGludGVybWVkaWF0ZSwgYW5kIG1hcnQgbW9kZWxzIGFuZCBhcHBsaWVzIGNvbmZpZ3VyZWQgZGF0YS1xdWFsaXR5IHRlc3RzLiB8CnwgRGVsaXZlcnkgfCBGYXN0QVBJIGV4cG9zZXMgaGVhbHRoIGFuZCBjb250ZW50LWFuYWx5dGljcyBlbmRwb2ludHMsIGFuZCB0aGUgUmVhY3QgZGFzaGJvYXJkIHByZXNlbnRzIHN5c3RlbSBzdGF0dXMgYW5kIGVuZ2FnZW1lbnQgZGF0YSBpbiB0aGUgYnJvd3Nlci4gfAoKIyMgVGVjaG5vbG9neSBTdGFjawoKfCBUZWNobm9sb2d5IHwgUm9sZSB8CnwtLS18LS0tfAp8IFB5dGhvbiwgcGFuZGFzIHwgRXZlbnQgZ2VuZXJhdGlvbiwgY2xlYW5pbmcsIHNlc3Npb25pemF0aW9uLCBhbmQgZmVhdHVyZSBlbmdpbmVlcmluZyB8CnwgQXBhY2hlIEthZmthIHwgUGxheWJhY2stZXZlbnQgdG9waWMgYW5kIHN0cmVhbSB0cmFuc3BvcnQgfAp8IEpTT05MIC8gUGFycXVldCB8IFJhdyByZWNvcmRzIGFuZCBwcm9jZXNzZWQgZGF0YXNldHMgfAp8IENsaWNrSG91c2UgfCBBbmFseXRpY2FsIHRhYmxlcywgdmlld3MsIGFuZCBxdWVyaWVzIHwKfCBkYnQgKyBkYnQtY2xpY2tob3VzZSB8IFN0YWdpbmcsIGludGVybWVkaWF0ZSwgYW5kIG1hcnQgdHJhbnNmb3JtYXRpb25zOyBkYXRhLXF1YWxpdHkgdGVzdHMgfAp8IEZhc3RBUEkgfCBIZWFsdGggYW5kIGNvbnRlbnQtYW5hbHl0aWNzIEFQSSBlbmRwb2ludHMgfAp8IFJlYWN0ICsgVml0ZSAvIE5leHQuanMgfCBEYXNoYm9hcmQgY29uc3VtaW5nIHRoZSBBUEkgfAp8IERvY2tlciBDb21wb3NlIHwgTG9jYWwgc2VydmljZSBjb250YWluZXJzIChLYWZrYSwgQ2xpY2tIb3VzZSkgfAp8IEFwYWNoZSBBaXJmbG93IHwgU2NoZWR1bGVkIHBpcGVsaW5lIG9yY2hlc3RyYXRpb24gKHNldHVwIGluIHByb2dyZXNzKSB8CnwgR2l0SHViIEFjdGlvbnMgLyBUZXJyYWZvcm0gfCBDSS9DRCBhbmQgaW5mcmFzdHJ1Y3R1cmUgYXV0b21hdGlvbiAocGxhbm5lZCkgfAoKIyMgUmVzdWx0cwoKfCBNZWFzdXJlIHwgUmVzdWx0IHwKfC0tLXwtLS18CnwgQnJvbnplIGV2ZW50cyB8IDExMiB8CnwgUmVjb3JkcyByZXRhaW5lZCBhZnRlciB2YWxpZGF0aW9uIHwgMTEyIHwKfCBWaWV3aW5nIHNlc3Npb25zIHwgNDEgfAp8IFVzZXJzIHwgMzMgfAp8IENvbnRlbnQgaXRlbXMgfCAxNCB8CgpUaGUgR29sZCBsYXllciBjb250YWlucyB0aGUgYGZhY3Rfdmlld2luZ19zZXNzaW9uc2AgZGF0YXNldCBhbmQgdGhlIGBkaW1fdXNlcmAgYW5kIGBkaW1fY29udGVudGAgZGltZW5zaW9ucy4gU2Vzc2lvbiBmYWN0cyBpbmNsdWRlIHN0YXJ0IGFuZCBlbmQgdGltZXN0YW1wcywgYW4gZWxhcHNlZC1kdXJhdGlvbiBlc3RpbWF0ZSwgZXZlbnQgY291bnRzIGJ5IHR5cGUsIGFuZCBtYXhpbXVtIHBsYXliYWNrIHBvc2l0aW9uLgoKIyMjIEVuZ2FnZW1lbnQgYW5kIENvbXBsZXRpb24gQW5hbHlzaXMKClNlc3Npb25zIHdlcmUgY2F0ZWdvcmlzZWQgYnkgZXN0aW1hdGVkIGNvbXBsZXRpb246Cgp8IENhdGVnb3J5IHwgU2Vzc2lvbnMgfCBTaGFyZSB8CnwtLS18LS0tfC0tLXwKfCBDb21wbGV0aW9uIGF0IG9yIGFib3ZlIDgwJSB8IDE4IHwgNDMuOTAlIHwKfCBDb21wbGV0aW9uIGJldHdlZW4gMzAlIGFuZCA3OSUgfCAxMSB8IDI2LjgzJSB8CnwgQ29tcGxldGlvbiBiZWxvdyAzMCUgfCAxMiB8IDI5LjI3JSB8CgpUaGVzZSByZXN1bHRzIGRlc2NyaWJlIHRoZSBjdXJyZW50IHNtYWxsIGRlbW8gZGF0YXNldCBhbmQgYXJlIG5vdCByZXByZXNlbnRhdGl2ZSBhdWRpZW5jZSBmaW5kaW5ncy4KCiMjIyBGZWF0dXJlIEVuZ2luZWVyaW5nCgpUaGUgZmVhdHVyZS1nZW5lcmF0aW9uIHN0ZXAgcHJvZHVjZXMgMzMgdXNlciByZWNvcmRzIHdpdGggMTMgY29sdW1ucywgaW5jbHVkaW5nIHRvdGFsIHNlc3Npb25zLCB0b3RhbCBlc3RpbWF0ZWQgd2F0Y2ggbWludXRlcywgYXZlcmFnZSBzZXNzaW9uIGR1cmF0aW9uLCB0b3RhbCBldmVudCBjb3VudHMsIGF2ZXJhZ2UgbWF4aW11bSBwbGF5YmFjayBwb3NpdGlvbiwgbmlnaHQtdmlld2luZyBzZXNzaW9ucywgYW5kIGF2ZXJhZ2Ugdmlld2luZyBob3VyLiBUaGVzZSBmZWF0dXJlcyBwcm92aWRlIGEgZm91bmRhdGlvbiBmb3IgcmFua2luZyBhbmQgcmVjb21tZW5kYXRpb24gd29yay4KCiMjIyBBL0IgVGVzdGluZwoKVXNlcnMgd2VyZSByYW5kb21seSBhc3NpZ25lZCB0byBjb250cm9sIGFuZCB0cmVhdG1lbnQgZ3JvdXBzICgxNiBhbmQgMTcgdXNlcnMpIGFuZCBhdmVyYWdlIGVzdGltYXRlZCB3YXRjaCB0aW1lIHdhcyBjb21wYXJlZCB1c2luZyBhIFdlbGNoIHR3by1zYW1wbGUgdC10ZXN0LiBUaGUgbWVhc3VyZWQgZGlmZmVyZW5jZSB3YXMgbm90IHN0YXRpc3RpY2FsbHkgc2lnbmlmaWNhbnQgKHAgPSAwLjMxMjEpLiBBIHNhbXBsZS1zaXplIGNhbGN1bGF0aW9uIGVzdGltYXRlZCA2NCB1c2VycyBwZXIgZ3JvdXAsIG9yIDEyOCBpbiB0b3RhbCwgdW5kZXIgdGhlIGFzc3VtcHRpb25zIG9mIGVmZmVjdCBzaXplIDAuNSwgYWxwaGEgMC4wNSwgYW5kIHN0YXRpc3RpY2FsIHBvd2VyIDAuODAuCgojIyBBUEkgYW5kIERhc2hib2FyZAoKRmFzdEFQSSBwcm92aWRlcyBhIHJvb3Qgc3RhdHVzIGVuZHBvaW50LCBhIGhlYWx0aCBlbmRwb2ludCwgYW5kIGEgY29udGVudC1hbmFseXRpY3MgZW5kcG9pbnQuIFRoZSBoZWFsdGggZW5kcG9pbnQgdmVyaWZpZXMgZGF0YWJhc2UgY29ubmVjdGl2aXR5LiBDb250ZW50IGFuYWx5dGljcyByZXR1cm5zIGdlbnJlLCBzZXNzaW9uIGNvdW50LCB1bmlxdWUgdmlld2VycywgdG90YWwgc2Vzc2lvbi1kdXJhdGlvbiBtaW51dGVzLCBhdmVyYWdlIHNlc3Npb24gZHVyYXRpb24sIGFuZCBlc3RpbWF0ZWQgY29tcGxldGlvbiBwZXJjZW50YWdlLiBUaGUgZGFzaGJvYXJkIHJlcXVlc3RzIGhlYWx0aCBhbmQgYW5hbHl0aWNzIGRhdGEsIGRpc3BsYXlzIGJhY2tlbmQgYW5kIGRhdGFiYXNlIHN0YXR1cywgYW5kIHByZXNlbnRzIHRoZSBjb250ZW50LWVuZ2FnZW1lbnQgcmVzdWx0cyBpbiB0YWJ1bGFyIGZvcm0uCgojIyBIb3cgdG8gUnVuCgpgYGBiYXNoCiMgMSkgUnVuIHRoZSBkYXRhIHBpcGVsaW5lIGxvY2FsbHkgKG5vIEthZmthIG9yIENsaWNrSG91c2UgcmVxdWlyZWQpCnB5dGhvbjMgLW0gcGlwZWxpbmUucnVuX3BpcGVsaW5lX2xvY2FsCgojIDIpIFJ1biB0aGUgZGFzaGJvYXJkCm5wbSBpbnN0YWxsCm5wbSBydW4gZGV2ICAgICAgICAgICAgIyBodHRwOi8vbG9jYWxob3N0OjMwMDAKCiMgMykgT3B0aW9uYWw6IGZ1bGwgc3RhY2sgd2l0aCBLYWZrYSBhbmQgQ2xpY2tIb3VzZQpkb2NrZXIgY29tcG9zZSB1cCAtZApweXRob24zIC1tIHBpcGVsaW5lLnByb2R1Y2VyCnV2aWNvcm4gYmFja2VuZC5tYWluOmFwcCAtLXBvcnQgODAwMApgYGAKCiMjIFJlcG9zaXRvcnkgU3RydWN0dXJlCgotIGBwaXBlbGluZS9gIOKAlCBldmVudCBwcm9kdWNlciwgS2Fma2EgY29uc3VtZXIsIEJyb256ZS9TaWx2ZXIgcHJvY2Vzc2luZywgc2Vzc2lvbml6YXRpb24sIEdvbGQgYnVpbGQsIGZlYXR1cmUgZW5naW5lZXJpbmcsIGFuZCBBL0IgdGVzdGluZyBzY3JpcHRzCi0gYGJhY2tlbmQvYCDigJQgRmFzdEFQSSBhcHBsaWNhdGlvbiAoYC9gLCBgL2hlYWx0aGAsIGAvYW5hbHl0aWNzL2NvbnRlbnRgKQotIGBjbGlja2hvdXNlL2Ag4oCUIGFuYWx5dGljYWwgc2NoZW1hOiB0YWJsZXMgYW5kIHZpZXdzCi0gYGRidC9gIOKAlCBkYnQgcHJvamVjdCB3aXRoIHN0YWdpbmcsIGludGVybWVkaWF0ZSwgYW5kIG1hcnQgbW9kZWxzIGFuZCBkYXRhLXF1YWxpdHkgdGVzdHMKLSBgYXBwL2AsIGBsaWIvYCwgYGNvbXBvbmVudHMvYCDigJQgZGFzaGJvYXJkIGFwcGxpY2F0aW9uCi0gYGRhdGEvYCDigJQgQnJvbnplLCBTaWx2ZXIsIGFuZCBHb2xkIGRhdGFzZXRzIGFuZCBnZW5lcmF0ZWQgb3V0cHV0cwotIGBkb2NzL2Ag4oCUIHByb2plY3Qgbm90ZXMgYW5kIHZpdmEgcHJlcGFyYXRpb24gbWF0ZXJpYWwKLSBgZG9ja2VyLWNvbXBvc2UueW1sYCDigJQgbG9jYWwgS2Fma2EgYW5kIENsaWNrSG91c2Ugc2VydmljZXMKCiMjIExpbWl0YXRpb25zCgotIFRoZSBwcm90b3R5cGUgdXNlcyBhIHJlbGF0aXZlbHkgc21hbGwgc3ludGhldGljL2RlbW8gZGF0YXNldC4KLSBTZXNzaW9uaXphdGlvbiBjdXJyZW50bHkgc29ydHMgcmVjb3JkcyBpbiBiYXRjaCBhbmQgYXBwbGllcyBhIDMwLW1pbnV0ZSBpbmFjdGl2aXR5IHRocmVzaG9sZCwgcmF0aGVyIHRoYW4gaW1wbGVtZW50aW5nIHN0cmVhbWluZyB3YXRlcm1hcmtzIGFuZCBsYXRlLWFycml2YWwgcHJvY2Vzc2luZy4KLSBTZXNzaW9uIGR1cmF0aW9uIHJlcHJlc2VudHMgZWxhcHNlZCB0aW1lIGJldHdlZW4gdGhlIGZpcnN0IGFuZCBsYXN0IGV2ZW50LCBub3QgdmVyaWZpZWQgYWN0aXZlIHBsYXliYWNrIHRpbWUuCi0gRXN0aW1hdGVkIGNvbXBsZXRpb24gaXMgYmFzZWQgb24gbWF4aW11bSByZWNvcmRlZCBwbGF5YmFjayBwb3NpdGlvbiByZWxhdGl2ZSB0byBjYXRhbG9nIGR1cmF0aW9uLCBjYXBwZWQgYXQgMTAwJTsgaXQgaXMgbm90IGEgcHJlY2lzZSB3YXRjaC1wZXJjZW50YWdlIG1lYXN1cmUuCgojIyBGdXR1cmUgV29yawoKLSBDb21wbGV0ZSBhIHJlbGlhYmxlIEFpcmZsb3cgZGVwbG95bWVudCB3aXRoIGEgREFHIHRoYXQgcnVucyBwcm9jZXNzaW5nIGFuZCBkYnQgc3RlcHMgaW4gZGVwZW5kZW5jeSBvcmRlci4KLSBBZGQgd2F0ZXJtYXJrLWJhc2VkIGNvbnRlbnQtY2F0YWxvZyBpbmdlc3Rpb24gd2l0aCBleHBsaWNpdCBoYW5kbGluZyBmb3IgbGljZW5zaW5nIGV4cGlyeS4KLSBJbnRyb2R1Y2UgbGF0ZS1hcnJpdmFsIHBvbGljaWVzLCBkZWR1cGxpY2F0aW9uLCBhbmQgcm9idXN0IGV2ZW50LXRpbWUgaGFuZGxpbmcuCi0gSW1wcm92ZSBmZWF0dXJlIGRlZmluaXRpb25zIHdpdGggcm9sbGluZyAzMC1kYXkgZ2VucmUgcHJlZmVyZW5jZXMgYW5kIGltcGxlbWVudCBhIHJlY29tbWVuZGF0aW9uIEFQSS4KLSBBZGQgZGFzaGJvYXJkIHZpc3VhbGlzYXRpb25zIGZvciBjb25jdXJyZW50IHZpZXdlcnMsIHRoZSBjb21wbGV0aW9uIGZ1bm5lbCwgYW5kIEEvQi10ZXN0IG91dGNvbWVzLgotIEFkZCBhdXRvbWF0ZWQgdW5pdCBhbmQgaW50ZWdyYXRpb24gdGVzdHMsIEdpdEh1YiBBY3Rpb25zIENJLCBUZXJyYWZvcm0sIGxvZ2dpbmcsIGFuZCBtb25pdG9yaW5nLgoKIyMgQ29uY2x1c2lvbgoKUHJvamVjdCBNZXJpZGlhbiBjb25uZWN0cyBLYWZrYS1iYXNlZCBldmVudCBpbmdlc3Rpb24sIFB5dGhvbi1iYXNlZCBCcm9uemUvU2lsdmVyL0dvbGQgcHJvY2Vzc2luZywgQ2xpY2tIb3VzZSBhbmFseXRpY3MsIGRidCB0cmFuc2Zvcm1hdGlvbnMsIGEgRmFzdEFQSSBzZXJ2aWNlIGxheWVyLCBhbmQgYSBSZWFjdCBkYXNoYm9hcmQgaW50byBvbmUgd29ya2luZyBwcm90b3R5cGUuIEl0IGRlbW9uc3RyYXRlcyB0aGUgY29tcGxldGUgZGF0YSBwYXRoIGZyb20gcGxheWJhY2sgZXZlbnRzIHRvIGNvbnRlbnQtZW5nYWdlbWVudCBvdXRwdXRzIHRoYXQgY2FuIGJlIHF1ZXJpZWQgYW5kIGRpc3BsYXllZCwgYW5kIHByb3ZpZGVzIGEgZm91bmRhdGlvbiBmb3IgcmVjb21tZW5kYXRpb25zLCBleHBlcmltZW50IGV2YWx1YXRpb24sIGF1dG9tYXRlZCBzY2hlZHVsaW5nLCBhbmQgb3BlcmF0aW9uYWwgbW9uaXRvcmluZy4KCi0tLQoKKipBdXRob3I6KiogUm9oaXQgS3VtYXIg4oCUIEJUZWNoIENTRSAoRmluYWwgWWVhciksIEdEIEdvZW5rYSBVbml2ZXJzaXR5IOKAlCBbZ2l0aHViLmNvbS9yb2hpdDAxcmtdKGh0dHBzOi8vZ2l0aHViLmNvbS9yb2hpdDAxcmspCg==
+# Project Meridian – Streaming Media Analytics & Personalization Platform
+
+## Overview
+
+Project Meridian is a streaming media analytics platform designed to collect, process, and analyze user playback events. It uses Apache Kafka for event streaming and a Bronze-Silver-Gold data processing architecture to transform raw playback data into meaningful analytical insights.
+
+The platform helps understand user engagement, content popularity, viewing sessions, watch-time estimates, and content completion patterns. Its long-term goal is to support personalized content recommendations.
+
+## Key Features
+
+- **Real-Time Event Streaming:** Generates playback events such as play, pause, seek, stop, and buffer using Python and Apache Kafka.
+- **Data Ingestion:** Uses Kafka producers and consumers to transfer and collect streaming events.
+- **Medallion Architecture:** Organizes data into Bronze, Silver, and Gold processing layers.
+- **Data Cleaning:** Validates and transforms raw playback events.
+- **Sessionization:** Groups related user activities into viewing sessions using a 30-minute inactivity threshold.
+- **Analytical Data Modeling:** Builds user, content, and viewing-session datasets.
+- **ClickHouse Integration:** Stores analytical datasets and supports fast analytical queries.
+- **dbt Transformations:** Creates SQL-based staging, intermediate, and mart models with data tests.
+- **Analytics Dashboard:** Displays content engagement, viewers, sessions, estimated watch time, and completion percentages.
+- **A/B Testing Prototype:** Uses statistical testing to compare control and treatment groups.
+
+## Architecture
+
+```text
+        Python Event Producer
+                 |
+                 v
+          Apache Kafka
+                 |
+                 v
+          Python Consumer
+                 |
+                 v
+          BRONZE LAYER
+          Raw JSONL Events
+                 |
+                 v
+          SILVER LAYER
+       Cleaning & Validation
+          Sessionization
+                 |
+                 v
+           GOLD LAYER
+       Analytical Datasets
+                 |
+                 v
+             dbt Models
+                 |
+                 v
+           ClickHouse
+                 |
+                 v
+             FastAPI
+                 |
+                 v
+         React Dashboard
+```
+
+## Technology Stack
+
+| Technology | Purpose |
+|---|---|
+| Python | Event generation and data processing |
+| Apache Kafka | Streaming event ingestion |
+| ClickHouse | Analytical database |
+| FastAPI | Backend REST API |
+| React.js | Frontend dashboard |
+| Vite | Frontend development and build tool |
+| Pandas | Data cleaning and transformation |
+| Parquet | Processed data storage |
+| dbt | SQL transformations and testing |
+| Docker | Containerized services |
+| SQL | Analytical queries |
+| Git & GitHub | Version control |
+
+## Data Pipeline
+
+### 1. Bronze Layer
+Stores raw playback events in JSONL format.
+
+### 2. Silver Layer
+Cleans and validates incoming events and converts processed data into Parquet format. It also groups events into viewing sessions.
+
+### 3. Gold Layer
+Creates analytical datasets, including viewing-session facts and user and content dimensions.
+
+### 4. Analytics Layer
+Uses ClickHouse and dbt models to prepare data for analytical queries and dashboard reporting.
+
+## Dashboard
+
+The React dashboard connects to the FastAPI backend and displays:
+
+- Content titles and genres
+- Viewing sessions
+- Viewer counts
+- Estimated watch time
+- Content completion percentages
+- Backend and database connection status
+
+## Backend API
+
+The FastAPI backend exposes REST endpoints.
+
+| Endpoint | Description |
+|---|---|
+| `/api/health` | Checks backend and database connectivity |
+| `/api/analytics/content` | Returns content engagement analytics |
+
+Interactive API documentation is available at:
+
+`http://localhost:8000/docs`
+
+## Getting Started
+
+### Prerequisites
+
+- Python
+- Node.js and npm
+- Docker Desktop
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd project-meridian
+```
+
+### 2. Start Docker Services
+
+```bash
+docker compose up -d
+```
+
+This starts the Kafka and ClickHouse services defined in the Docker Compose configuration.
+
+### 3. Run the Python Consumer
+
+```bash
+source venv/bin/activate
+python consumer/consumer.py
+```
+
+### 4. Run the Event Producer
+
+Open another terminal:
+
+```bash
+source venv/bin/activate
+python producer/producer.py
+```
+
+### 5. Start the Backend
+
+Open another terminal:
+
+```bash
+source dbt-venv/bin/activate
+uvicorn backend.main:app --reload --port 8000
+```
+
+### 6. Start the Frontend
+
+Open another terminal:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Open the dashboard at:
+
+`http://localhost:5173`
+
+## Project Structure
+
+```text
+project-meridian/
+│
+├── producer/
+├── consumer/
+├── streaming/
+├── bronze/
+├── silver/
+├── gold/
+├── batch/
+├── features/
+├── experiments/
+├── dashboard/
+├── backend/
+├── frontend/
+├── dbt/
+├── airflow/
+├── tests/
+├── docker-compose.yml
+└── README.md
+```
+
+*Note: Some directories represent planned or supporting components and may not contain completed functionality.*
+
+## Future Improvements
+
+- Implement a production-ready personalized recommendation engine.
+- Add automated workflow orchestration using Apache Airflow.
+- Improve dashboard refresh for continuously arriving events.
+- Implement advanced anomaly detection and late-event handling.
+- Add monitoring, logging, and deployment automation.
+- Improve A/B testing with larger datasets and statistically validated experiments.
+
+## Learning Outcomes
+
+Through Project Meridian, I explored:
+
+- Event-driven data architecture
+- Streaming data ingestion using Kafka
+- Data engineering and ETL pipelines
+- Medallion architecture
+- Analytical databases and SQL
+- Data modeling using dbt
+- REST API development
+- Full-stack dashboard integration
+- Statistical analysis and A/B testing
+
+## Author
+
+**Rohit Kumar**
+
+GitHub: [rohit01rk](https://github.com/rohit01rk)
+
+---
+
+*Project Meridian – Turning streaming playback events into meaningful insights.*
