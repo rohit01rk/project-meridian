@@ -1,1 +1,14 @@
-LS0gSW50ZXJtZWRpYXRlOiBwZXItdGl0bGUgZW5nYWdlbWVudCBhZ2dyZWdhdGVkIGZyb20gc3RhZ2VkIHNlc3Npb25zLgpzZWxlY3QKICAgIGNvbnRlbnRfaWQsCiAgICB0aXRsZSwKICAgIGdlbnJlLAogICAgY291bnQoKSBhcyBzZXNzaW9ucywKICAgIHVuaXFFeGFjdCh1c2VyX2lkKSBhcyB1bmlxdWVfdmlld2VycywKICAgIHN1bShldmVudF9jb3VudCkgYXMgdG90YWxfZXZlbnRzLAogICAgcm91bmQoc3VtKGR1cmF0aW9uX2VsYXBzZWRfbWluKSwgMikgYXMgdG90YWxfZHVyYXRpb25fbWluLAogICAgcm91bmQoYXZnKGR1cmF0aW9uX2VsYXBzZWRfbWluKSwgMikgYXMgYXZnX2R1cmF0aW9uX21pbiwKICAgIHJvdW5kKGF2Zyhlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QpLCAyKSBhcyBhdmdfY29tcGxldGlvbl9wY3QsCiAgICBjb3VudElmKGVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCA+PSA4MCkgYXMgaGlnaF9jb21wbGV0aW9uX3Nlc3Npb25zCmZyb20ge3sgcmVmKCdzdGdfdmlld2luZ19zZXNzaW9ucycpIH19Cmdyb3VwIGJ5IGNvbnRlbnRfaWQsIHRpdGxlLCBnZW5yZQo=
+-- Intermediate: per-title engagement aggregated from staged sessions.
+select
+    content_id,
+    title,
+    genre,
+    count() as sessions,
+    uniqExact(user_id) as unique_viewers,
+    sum(event_count) as total_events,
+    round(sum(duration_elapsed_min), 2) as total_duration_min,
+    round(avg(duration_elapsed_min), 2) as avg_duration_min,
+    round(avg(estimated_completion_pct), 2) as avg_completion_pct,
+    countIf(estimated_completion_pct >= 80) as high_completion_sessions
+from {{ ref('stg_viewing_sessions') }}
+group by content_id, title, genre
