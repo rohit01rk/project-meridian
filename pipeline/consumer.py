@@ -1,1 +1,71 @@
-IiIiS2Fma2EgY29uc3VtZXIgLT4gQnJvbnplIGxheWVyLgoKQXBwZW5kcyBldmVyeSByZWNvcmQgdG8gYnJvbnplL3BsYXliYWNrX2V2ZW50cy5qc29ubCwgcHJlc2VydmluZyB0aGUgc291cmNlCnJlY29yZCB2ZXJiYXRpbSBwbHVzIGl0cyBpbmdlc3Rpb24gY29udGV4dCAoS2Fma2EgcGFydGl0aW9uLCBvZmZzZXQgYW5kCmluZ2VzdGlvbiB0aW1lc3RhbXApIOKAlCB0aGUgQnJvbnplIGNvbnRyYWN0OiByYXcsIHRyYWNlYWJsZSwgbmV2ZXIgbXV0YXRlZC4KCkFsc28gcHJvdmlkZXMgYHdyaXRlX2Jyb256ZSgpYCwgdGhlIGZpbGUtYmFzZWQgZXF1aXZhbGVudCB1c2VkIGJ5IHRoZSBsb2NhbAplbmQtdG8tZW5kIHJ1biB3aGVuIEthZmthIGlzIG5vdCBhdmFpbGFibGUuCiIiIgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFubm90YXRpb25zCgppbXBvcnQgYXJncGFyc2UKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZXpvbmUKZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgpUT1BJQyA9ICJwbGF5YmFjay1ldmVudHMiCgoKZGVmIGJyb256ZV9yZWNvcmQoZXZlbnQ6IGRpY3QsIHBhcnRpdGlvbjogaW50LCBvZmZzZXQ6IGludCkgLT4gZGljdDoKICAgIHJlYyA9IGRpY3QoZXZlbnQpCiAgICByZWNbImthZmthX3BhcnRpdGlvbiJdID0gaW50KHBhcnRpdGlvbikKICAgIHJlY1sia2Fma2Ffb2Zmc2V0Il0gPSBpbnQob2Zmc2V0KQogICAgcmVjWyJpbmdlc3RlZF9hdCJdID0gZGF0ZXRpbWUubm93KHRpbWV6b25lLnV0Yykuc3RyZnRpbWUoIiVZLSVtLSVkVCVIOiVNOiVTWiIpCiAgICByZXR1cm4gcmVjCgoKZGVmIHdyaXRlX2Jyb256ZShldmVudHM6IGxpc3RbZGljdF0sIG91dF9wYXRoOiBQYXRoKSAtPiBpbnQ6CiAgICBvdXRfcGF0aC5wYXJlbnQubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgd2l0aCBvcGVuKG91dF9wYXRoLCAidyIsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGZoOgogICAgICAgIGZvciBpLCBlIGluIGVudW1lcmF0ZShldmVudHMpOgogICAgICAgICAgICAjIFNpbmdsZS1wYXJ0aXRpb24gbG9jYWwgcnVuOiBvZmZzZXRzIGFyZSBzZXF1ZW50aWFsLCBwYXJ0aXRpb24gMC4KICAgICAgICAgICAgZmgud3JpdGUoanNvbi5kdW1wcyhicm9uemVfcmVjb3JkKGUsIHBhcnRpdGlvbj0wLCBvZmZzZXQ9aSkpICsgIlxuIikKICAgIHJldHVybiBsZW4oZXZlbnRzKQoKCmRlZiBjb25zdW1lKGJvb3RzdHJhcF9zZXJ2ZXJzOiBzdHIsIG91dF9wYXRoOiBQYXRoKSAtPiBpbnQ6ICAjIHByYWdtYTogbm8gY292ZXIKICAgIHRyeToKICAgICAgICBmcm9tIGthZmthIGltcG9ydCBLYWZrYUNvbnN1bWVyICAjIG9wdGlvbmFsIGRlcGVuZGVuY3ksIGd1YXJkZWQKICAgIGV4Y2VwdCBJbXBvcnRFcnJvcjoKICAgICAgICBwcmludCgia2Fma2EtcHl0aG9uIG5vdCBpbnN0YWxsZWQg4oCUIGNhbm5vdCBjb25zdW1lLiAiCiAgICAgICAgICAgICAgIlVzZSBydW5fcGlwZWxpbmVfbG9jYWwucHkgZm9yIHRoZSBmaWxlLWJhc2VkIHJ1bi4iLCBmaWxlPXN5cy5zdGRlcnIpCiAgICAgICAgcmV0dXJuIDAKICAgIGNvbnN1bWVyID0gS2Fma2FDb25zdW1lcigKICAgICAgICBUT1BJQywKICAgICAgICBib290c3RyYXBfc2VydmVycz1ib290c3RyYXBfc2VydmVycywKICAgICAgICBhdXRvX29mZnNldF9yZXNldD0iZWFybGllc3QiLAogICAgICAgIGVuYWJsZV9hdXRvX2NvbW1pdD1UcnVlLAogICAgICAgIHZhbHVlX2Rlc2VyaWFsaXplcj1sYW1iZGEgdjoganNvbi5sb2Fkcyh2LmRlY29kZSgidXRmLTgiKSksCiAgICApCiAgICBuID0gMAogICAgb3V0X3BhdGgucGFyZW50Lm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHdpdGggb3BlbihvdXRfcGF0aCwgImEiLCBlbmNvZGluZz0idXRmLTgiKSBhcyBmaDoKICAgICAgICBmb3IgbXNnIGluIGNvbnN1bWVyOgogICAgICAgICAgICBmaC53cml0ZShqc29uLmR1bXBzKGJyb256ZV9yZWNvcmQobXNnLnZhbHVlLCBtc2cucGFydGl0aW9uLCBtc2cub2Zmc2V0KSkgKyAiXG4iKQogICAgICAgICAgICBmaC5mbHVzaCgpCiAgICAgICAgICAgIG4gKz0gMQogICAgcmV0dXJuIG4KCgpkZWYgbWFpbigpIC0+IE5vbmU6CiAgICBhcCA9IGFyZ3BhcnNlLkFyZ3VtZW50UGFyc2VyKGRlc2NyaXB0aW9uPSJQcm9qZWN0IE1lcmlkaWFuIEJyb256ZSBjb25zdW1lciIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tYm9vdHN0cmFwLXNlcnZlcnMiLCBkZWZhdWx0PSJsb2NhbGhvc3Q6OTA5MiIpCiAgICBhcC5hZGRfYXJndW1lbnQoIi0tb3V0IiwgZGVmYXVsdD0iZGF0YS9icm9uemUvcGxheWJhY2tfZXZlbnRzLmpzb25sIikKICAgIGFyZ3MgPSBhcC5wYXJzZV9hcmdzKCkKICAgIGNvbnN1bWUoYXJncy5ib290c3RyYXBfc2VydmVycywgUGF0aChhcmdzLm91dCkpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""Kafka consumer -> Bronze layer.
+
+Appends every record to bronze/playback_events.jsonl, preserving the source
+record verbatim plus its ingestion context (Kafka partition, offset and
+ingestion timestamp) — the Bronze contract: raw, traceable, never mutated.
+
+Also provides `write_bronze()`, the file-based equivalent used by the local
+end-to-end run when Kafka is not available.
+"""
+from __future__ import annotations
+
+import argparse
+import json
+import sys
+from datetime import datetime, timezone
+from pathlib import Path
+
+TOPIC = "playback-events"
+
+
+def bronze_record(event: dict, partition: int, offset: int) -> dict:
+    rec = dict(event)
+    rec["kafka_partition"] = int(partition)
+    rec["kafka_offset"] = int(offset)
+    rec["ingested_at"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    return rec
+
+
+def write_bronze(events: list[dict], out_path: Path) -> int:
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "w", encoding="utf-8") as fh:
+        for i, e in enumerate(events):
+            # Single-partition local run: offsets are sequential, partition 0.
+            fh.write(json.dumps(bronze_record(e, partition=0, offset=i)) + "\n")
+    return len(events)
+
+
+def consume(bootstrap_servers: str, out_path: Path) -> int:  # pragma: no cover
+    try:
+        from kafka import KafkaConsumer  # optional dependency, guarded
+    except ImportError:
+        print("kafka-python not installed — cannot consume. "
+              "Use run_pipeline_local.py for the file-based run.", file=sys.stderr)
+        return 0
+    consumer = KafkaConsumer(
+        TOPIC,
+        bootstrap_servers=bootstrap_servers,
+        auto_offset_reset="earliest",
+        enable_auto_commit=True,
+        value_deserializer=lambda v: json.loads(v.decode("utf-8")),
+    )
+    n = 0
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_path, "a", encoding="utf-8") as fh:
+        for msg in consumer:
+            fh.write(json.dumps(bronze_record(msg.value, msg.partition, msg.offset)) + "\n")
+            fh.flush()
+            n += 1
+    return n
+
+
+def main() -> None:
+    ap = argparse.ArgumentParser(description="Project Meridian Bronze consumer")
+    ap.add_argument("--bootstrap-servers", default="localhost:9092")
+    ap.add_argument("--out", default="data/bronze/playback_events.jsonl")
+    args = ap.parse_args()
+    consume(args.bootstrap_servers, Path(args.out))
+
+
+if __name__ == "__main__":
+    main()
