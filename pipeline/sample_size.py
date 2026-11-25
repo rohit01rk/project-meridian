@@ -1,1 +1,30 @@
-IiIiU2FtcGxlLXNpemUgZXN0aW1hdGlvbiBmb3IgYSB0d28tc2FtcGxlIHQtdGVzdC4KCkl0ZXJhdGl2ZSBub24tY2VudHJhbC10IHBvd2VyIGNhbGN1bGF0aW9uIChubyBzdGF0c21vZGVscyBkZXBlbmRlbmN5KToKZmluZHMgdGhlIHNtYWxsZXN0IHBlci1ncm91cCBuIHJlYWNoaW5nIHRoZSByZXF1ZXN0ZWQgcG93ZXIuIEZvcgplZmZlY3Rfc2l6ZT0wLjUsIGFscGhhPTAuMDUsIHBvd2VyPTAuODAgdGhpcyByZXR1cm5zIGV4YWN0bHkgNjQgcGVyCmdyb3VwICgxMjggdG90YWwpIOKAlCB0aGUgZmlndXJlIHJlY29yZGVkIGluIHRoZSBwcm9qZWN0IHJlcG9ydC4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBtYXRoCgoKZGVmIHJlcXVpcmVkX25fcGVyX2dyb3VwKGVmZmVjdF9zaXplOiBmbG9hdCA9IDAuNSwgYWxwaGE6IGZsb2F0ID0gMC4wNSwgcG93ZXI6IGZsb2F0ID0gMC44MCkgLT4gaW50OgogICAgZnJvbSBzY2lweSBpbXBvcnQgc3RhdHMKCiAgICBuID0gMgogICAgd2hpbGUgbiA8IDEwMDAwMDoKICAgICAgICBkZiA9IDIgKiBuIC0gMgogICAgICAgIG5jcCA9IGVmZmVjdF9zaXplICogbWF0aC5zcXJ0KG4gLyAyLjApCiAgICAgICAgY3JpdCA9IHN0YXRzLnQucHBmKDEgLSBhbHBoYSAvIDIsIGRmKQogICAgICAgIGFjaGlldmVkID0gMSAtIHN0YXRzLm5jdC5jZGYoY3JpdCwgZGYsIG5jcCkgKyBzdGF0cy5uY3QuY2RmKC1jcml0LCBkZiwgbmNwKQogICAgICAgIGlmIGFjaGlldmVkID49IHBvd2VyOgogICAgICAgICAgICByZXR1cm4gbgogICAgICAgIG4gKz0gMQogICAgcmFpc2UgUnVudGltZUVycm9yKCJzYW1wbGUgc2l6ZSBzZWFyY2ggZGlkIG5vdCBjb252ZXJnZSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG4gPSByZXF1aXJlZF9uX3Blcl9ncm91cCgpCiAgICBwcmludChmInJlcXVpcmVkIHBlciBncm91cDoge259OyB0b3RhbDogezIgKiBufSIpCg==
+"""Sample-size estimation for a two-sample t-test.
+
+Iterative non-central-t power calculation (no statsmodels dependency):
+finds the smallest per-group n reaching the requested power. For
+effect_size=0.5, alpha=0.05, power=0.80 this returns exactly 64 per
+group (128 total) — the figure recorded in the project report.
+"""
+from __future__ import annotations
+
+import math
+
+
+def required_n_per_group(effect_size: float = 0.5, alpha: float = 0.05, power: float = 0.80) -> int:
+    from scipy import stats
+
+    n = 2
+    while n < 100000:
+        df = 2 * n - 2
+        ncp = effect_size * math.sqrt(n / 2.0)
+        crit = stats.t.ppf(1 - alpha / 2, df)
+        achieved = 1 - stats.nct.cdf(crit, df, ncp) + stats.nct.cdf(-crit, df, ncp)
+        if achieved >= power:
+            return n
+        n += 1
+    raise RuntimeError("sample size search did not converge")
+
+
+if __name__ == "__main__":
+    n = required_n_per_group()
+    print(f"required per group: {n}; total: {2 * n}")
