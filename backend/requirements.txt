@@ -1,1 +1,5 @@
-ZmFzdGFwaT49MC4xMTAKdXZpY29ybltzdGFuZGFyZF0+PTAuMjkKcGFuZGFzPj0yLjEuNAojIE9wdGlvbmFsIOKAlCBvbmx5IG5lZWRlZCB3aGVuIENMSUNLSE9VU0VfSE9TVCBpcyBjb25maWd1cmVkOgojIGNsaWNraG91c2UtY29ubmVjdD49MC43Cg==
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pandas>=2.1.4
+# Optional — only needed when CLICKHOUSE_HOST is configured:
+# clickhouse-connect>=0.7
