@@ -1,1 +1,149 @@
-aW1wb3J0IHNlZWRKc29uIGZyb20gIi4vc2VlZC5qc29uIjsKCmV4cG9ydCBpbnRlcmZhY2UgQ2F0YWxvZ0l0ZW0gewogIGNvbnRlbnRfaWQ6IHN0cmluZzsKICB0aXRsZTogc3RyaW5nOwogIGdlbnJlOiBzdHJpbmc7CiAgZHVyYXRpb25fbWluOiBudW1iZXI7CiAgcmVsZWFzZV95ZWFyOiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgU2Vzc2lvblJvdyB7CiAgc2Vzc2lvbl9pZDogc3RyaW5nOwogIHVzZXJfaWQ6IHN0cmluZzsKICBjb250ZW50X2lkOiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICBnZW5yZTogc3RyaW5nOwogIHNlc3Npb25fc3RhcnQ6IHN0cmluZzsKICBzZXNzaW9uX2VuZDogc3RyaW5nOwogIGR1cmF0aW9uX2VsYXBzZWRfbWluOiBudW1iZXI7CiAgZXZlbnRfY291bnQ6IG51bWJlcjsKICBtYXhfcGxheWJhY2tfcG9zaXRpb25fbWluOiBudW1iZXI7CiAgY2F0YWxvZ19kdXJhdGlvbl9taW46IG51bWJlcjsKICBlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3Q6IG51bWJlcjsKICBjb21wbGV0aW9uX2J1Y2tldDogc3RyaW5nOwp9CgpleHBvcnQgaW50ZXJmYWNlIEdlbnJlQW5hbHl0aWNzIHsKICBnZW5yZTogc3RyaW5nOwogIHNlc3Npb25zOiBudW1iZXI7CiAgdW5pcXVlX3ZpZXdlcnM6IG51bWJlcjsKICB0b3RhbF9kdXJhdGlvbl9taW46IG51bWJlcjsKICBhdmdfZHVyYXRpb25fbWluOiBudW1iZXI7CiAgYXZnX2NvbXBsZXRpb25fcGN0OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgVXNlckZlYXR1cmUgewogIHVzZXJfaWQ6IHN0cmluZzsKICB0b3RhbF9zZXNzaW9uczogbnVtYmVyOwogIHRvdGFsX2V2ZW50czogbnVtYmVyOwogIHRvdGFsX3dhdGNoX21pbjogbnVtYmVyOwogIGF2Z19zZXNzaW9uX2R1cmF0aW9uX21pbjogbnVtYmVyOwogIGF2Z19tYXhfcG9zaXRpb25fbWluOiBudW1iZXI7CiAgYXZnX2NvbXBsZXRpb25fcGN0OiBudW1iZXI7CiAgbmlnaHRfc2Vzc2lvbnM6IG51bWJlcjsKICBhdmdfdmlld2luZ19ob3VyOiBudW1iZXI7CiAgZGlzdGluY3RfY29udGVudDogbnVtYmVyOwogIHBsYXlfZXZlbnRzOiBudW1iZXI7CiAgc3RvcF9ldmVudHM6IG51bWJlcjsKICBoaWdoX2NvbXBsZXRpb25fc2Vzc2lvbnM6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBEaW1Db250ZW50IGV4dGVuZHMgQ2F0YWxvZ0l0ZW0gewogIHRvdGFsX3Nlc3Npb25zOiBudW1iZXI7CiAgdW5pcXVlX3ZpZXdlcnM6IG51bWJlcjsKICB0b3RhbF9ldmVudHM6IG51bWJlcjsKICB0b3RhbF93YXRjaF9taW46IG51bWJlcjsKICBhdmdfc2Vzc2lvbl9kdXJhdGlvbl9taW46IG51bWJlcjsKICBhdmdfY29tcGxldGlvbl9wY3Q6IG51bWJlcjsKfQoKZXhwb3J0IGludGVyZmFjZSBEaW1Vc2VyIHsKICB1c2VyX2lkOiBzdHJpbmc7CiAgdG90YWxfc2Vzc2lvbnM6IG51bWJlcjsKICB0b3RhbF9ldmVudHM6IG51bWJlcjsKICB0b3RhbF93YXRjaF9taW46IG51bWJlcjsKICBhdmdfc2Vzc2lvbl9kdXJhdGlvbl9taW46IG51bWJlcjsKICBhdmdfY29tcGxldGlvbl9wY3Q6IG51bWJlcjsKICBkaXN0aW5jdF9jb250ZW50OiBudW1iZXI7Cn0KCmludGVyZmFjZSBTZWVkIHsKICBzdW1tYXJ5OiB7CiAgICBicm9uemVFdmVudHM6IG51bWJlcjsKICAgIHNpbHZlclJldGFpbmVkOiBudW1iZXI7CiAgICBzZXNzaW9uczogbnVtYmVyOwogICAgdXNlcnM6IG51bWJlcjsKICAgIGNvbnRlbnRJdGVtczogbnVtYmVyOwogICAgdG90YWxXYXRjaE1pbjogbnVtYmVyOwogICAgYXZnQ29tcGxldGlvblBjdDogbnVtYmVyOwogICAgY29tcGxldGlvbkJ1Y2tldHM6IHsgaGlnaF9nZV84MDogbnVtYmVyOyBtaWRfMzBfNzk6IG51bWJlcjsgbG93X2x0XzMwOiBudW1iZXIgfTsKICB9OwogIGNhdGFsb2c6IENhdGFsb2dJdGVtW107CiAgZmFjdFZpZXdpbmdTZXNzaW9uczogU2Vzc2lvblJvd1tdOwogIGRpbVVzZXI6IERpbVVzZXJbXTsKICBkaW1Db250ZW50OiBEaW1Db250ZW50W107CiAgY29udGVudEFuYWx5dGljc0J5R2VucmU6IEdlbnJlQW5hbHl0aWNzW107CiAgdXNlckZlYXR1cmVzOiBVc2VyRmVhdHVyZVtdOwogIGFiVGVzdDogewogICAgY29udHJvbF91c2VyczogbnVtYmVyOwogICAgdHJlYXRtZW50X3VzZXJzOiBudW1iZXI7CiAgICBjb250cm9sX21lYW5fd2F0Y2hfbWluOiBudW1iZXI7CiAgICB0cmVhdG1lbnRfbWVhbl93YXRjaF9taW46IG51bWJlcjsKICAgIHRfc3RhdGlzdGljOiBudW1iZXI7CiAgICBwX3ZhbHVlOiBudW1iZXI7CiAgICBzaWduaWZpY2FudF9hdF8wXzA1OiBib29sZWFuOwogICAgaW50ZXJwcmV0YXRpb246IHN0cmluZzsKICAgIHJlcG9ydGVkX3J1bl9wX3ZhbHVlOiBudW1iZXI7CiAgICByZXF1aXJlZF91c2Vyc19wZXJfZ3JvdXA6IG51bWJlcjsKICAgIHJlcXVpcmVkX3VzZXJzX3RvdGFsOiBudW1iZXI7CiAgfTsKICBhYkFzc2lnbm1lbnRzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+Owp9CgpleHBvcnQgY29uc3Qgc2VlZCA9IHNlZWRKc29uIGFzIHVua25vd24gYXMgU2VlZDsKZXhwb3J0IGNvbnN0IGNhdGFsb2c6IENhdGFsb2dJdGVtW10gPSBzZWVkLmNhdGFsb2c7CmV4cG9ydCBjb25zdCBFVkVOVF9UWVBFUyA9IFsicGxheSIsICJwYXVzZSIsICJzZWVrIiwgImJ1ZmZlciIsICJzdG9wIl0gYXMgY29uc3Q7CmV4cG9ydCB0eXBlIFBsYXliYWNrRXZlbnRUeXBlID0gKHR5cGVvZiBFVkVOVF9UWVBFUylbbnVtYmVyXTsKCmV4cG9ydCBpbnRlcmZhY2UgTGl2ZUV2ZW50IHsKICBpZDogbnVtYmVyOwogIGV2ZW50X3R5cGU6IFBsYXliYWNrRXZlbnRUeXBlOwogIHVzZXJfaWQ6IHN0cmluZzsKICBjb250ZW50X2lkOiBzdHJpbmc7CiAgdGl0bGU6IHN0cmluZzsKICBnZW5yZTogc3RyaW5nOwogIHBsYXliYWNrX3Bvc2l0aW9uX21pbjogbnVtYmVyOwogIGF0OiBzdHJpbmc7Cn0KCi8qKiBMaXZlIHNpbXVsYXRvcjogZW1pdHMgb25lIHBsYXVzaWJsZSBwbGF5YmFjayBldmVudCBwZXIgdGljayAofjEuOHMgaW4KICogdGhlIGRhc2hib2FyZCkuIFBsYXliYWNrIHBvc2l0aW9ucyBhZHZhbmNlIHdpdGhpbiBhIHRpdGxlJ3MgZHVyYXRpb247CiAqIGEgZnJlc2ggInBsYXkiIGF0IHBvc2l0aW9uIDAgc3RhcnRzIGEgbmV3IGxpdmUgdmlld2luZyBzZXNzaW9uLiBUaGlzIGlzCiAqIGEgYnJvd3Nlci1zaWRlIHNpbXVsYXRpb24gb2YgdGhlIEthZmthIHByb2R1Y2VyIGZvciB0aGUgVmVyY2VsIGRlbW8g4oCUCiAqIHRoZSByZWFsIHByb2R1Y2VyIGlzIHBpcGVsaW5lL3Byb2R1Y2VyLnB5LiAqLwpleHBvcnQgZnVuY3Rpb24gbmV4dExpdmVFdmVudChpZDogbnVtYmVyKTogTGl2ZUV2ZW50IHsKICBjb25zdCBpdGVtID0gY2F0YWxvZ1tNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiBjYXRhbG9nLmxlbmd0aCldOwogIGNvbnN0IHVzZXIgPSBgVSR7U3RyaW5nKDEgKyBNYXRoLmZsb29yKE1hdGgucmFuZG9tKCkgKiAzMykpLnBhZFN0YXJ0KDMsICIwIil9YDsKICBjb25zdCByb2xsID0gTWF0aC5yYW5kb20oKTsKICBjb25zdCBldmVudF90eXBlOiBQbGF5YmFja0V2ZW50VHlwZSA9CiAgICByb2xsIDwgMC4zNCA/ICJwbGF5IiA6IHJvbGwgPCAwLjUyID8gInBhdXNlIiA6IHJvbGwgPCAwLjY4ID8gInNlZWsiIDogcm9sbCA8IDAuOCA/ICJidWZmZXIiIDogInN0b3AiOwogIGNvbnN0IHBvc2l0aW9uID0KICAgIGV2ZW50X3R5cGUgPT09ICJwbGF5IgogICAgICA/IDAKICAgICAgOiBNYXRoLnJvdW5kKE1hdGgucmFuZG9tKCkgKiBpdGVtLmR1cmF0aW9uX21pbiAqIDEwKSAvIDEwOwogIHJldHVybiB7CiAgICBpZCwKICAgIGV2ZW50X3R5cGUsCiAgICB1c2VyX2lkOiB1c2VyLAogICAgY29udGVudF9pZDogaXRlbS5jb250ZW50X2lkLAogICAgdGl0bGU6IGl0ZW0udGl0bGUsCiAgICBnZW5yZTogaXRlbS5nZW5yZSwKICAgIHBsYXliYWNrX3Bvc2l0aW9uX21pbjogcG9zaXRpb24sCiAgICBhdDogbmV3IERhdGUoKS50b0xvY2FsZVRpbWVTdHJpbmcoImVuLUdCIiksCiAgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGZtdERhdGVUaW1lKGlzbzogc3RyaW5nKTogc3RyaW5nIHsKICByZXR1cm4gaXNvLnJlcGxhY2UoIlQiLCAiICIpLnJlcGxhY2UoIiswMDowMCIsICIiKS5zbGljZSgwLCAxNikgKyAiIFVUQyI7Cn0K
+import seedJson from "./seed.json";
+
+export interface CatalogItem {
+  content_id: string;
+  title: string;
+  genre: string;
+  duration_min: number;
+  release_year: number;
+}
+
+export interface SessionRow {
+  session_id: string;
+  user_id: string;
+  content_id: string;
+  title: string;
+  genre: string;
+  session_start: string;
+  session_end: string;
+  duration_elapsed_min: number;
+  event_count: number;
+  max_playback_position_min: number;
+  catalog_duration_min: number;
+  estimated_completion_pct: number;
+  completion_bucket: string;
+}
+
+export interface GenreAnalytics {
+  genre: string;
+  sessions: number;
+  unique_viewers: number;
+  total_duration_min: number;
+  avg_duration_min: number;
+  avg_completion_pct: number;
+}
+
+export interface UserFeature {
+  user_id: string;
+  total_sessions: number;
+  total_events: number;
+  total_watch_min: number;
+  avg_session_duration_min: number;
+  avg_max_position_min: number;
+  avg_completion_pct: number;
+  night_sessions: number;
+  avg_viewing_hour: number;
+  distinct_content: number;
+  play_events: number;
+  stop_events: number;
+  high_completion_sessions: number;
+}
+
+export interface DimContent extends CatalogItem {
+  total_sessions: number;
+  unique_viewers: number;
+  total_events: number;
+  total_watch_min: number;
+  avg_session_duration_min: number;
+  avg_completion_pct: number;
+}
+
+export interface DimUser {
+  user_id: string;
+  total_sessions: number;
+  total_events: number;
+  total_watch_min: number;
+  avg_session_duration_min: number;
+  avg_completion_pct: number;
+  distinct_content: number;
+}
+
+interface Seed {
+  summary: {
+    bronzeEvents: number;
+    silverRetained: number;
+    sessions: number;
+    users: number;
+    contentItems: number;
+    totalWatchMin: number;
+    avgCompletionPct: number;
+    completionBuckets: { high_ge_80: number; mid_30_79: number; low_lt_30: number };
+  };
+  catalog: CatalogItem[];
+  factViewingSessions: SessionRow[];
+  dimUser: DimUser[];
+  dimContent: DimContent[];
+  contentAnalyticsByGenre: GenreAnalytics[];
+  userFeatures: UserFeature[];
+  abTest: {
+    control_users: number;
+    treatment_users: number;
+    control_mean_watch_min: number;
+    treatment_mean_watch_min: number;
+    t_statistic: number;
+    p_value: number;
+    significant_at_0_05: boolean;
+    interpretation: string;
+    reported_run_p_value: number;
+    required_users_per_group: number;
+    required_users_total: number;
+  };
+  abAssignments: Record<string, string>;
+}
+
+export const seed = seedJson as unknown as Seed;
+export const catalog: CatalogItem[] = seed.catalog;
+export const EVENT_TYPES = ["play", "pause", "seek", "buffer", "stop"] as const;
+export type PlaybackEventType = (typeof EVENT_TYPES)[number];
+
+export interface LiveEvent {
+  id: number;
+  event_type: PlaybackEventType;
+  user_id: string;
+  content_id: string;
+  title: string;
+  genre: string;
+  playback_position_min: number;
+  at: string;
+}
+
+/** Live simulator: emits one plausible playback event per tick (~1.8s in
+ * the dashboard). Playback positions advance within a title's duration;
+ * a fresh "play" at position 0 starts a new live viewing session. This is
+ * a browser-side simulation of the Kafka producer for the Vercel demo —
+ * the real producer is pipeline/producer.py. */
+export function nextLiveEvent(id: number): LiveEvent {
+  const item = catalog[Math.floor(Math.random() * catalog.length)];
+  const user = `U${String(1 + Math.floor(Math.random() * 33)).padStart(3, "0")}`;
+  const roll = Math.random();
+  const event_type: PlaybackEventType =
+    roll < 0.34 ? "play" : roll < 0.52 ? "pause" : roll < 0.68 ? "seek" : roll < 0.8 ? "buffer" : "stop";
+  const position =
+    event_type === "play"
+      ? 0
+      : Math.round(Math.random() * item.duration_min * 10) / 10;
+  return {
+    id,
+    event_type,
+    user_id: user,
+    content_id: item.content_id,
+    title: item.title,
+    genre: item.genre,
+    playback_position_min: position,
+    at: new Date().toLocaleTimeString("en-GB"),
+  };
+}
+
+export function fmtDateTime(iso: string): string {
+  return iso.replace("T", " ").replace("+00:00", "").slice(0, 16) + " UTC";
+}
