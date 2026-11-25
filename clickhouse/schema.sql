@@ -1,1 +1,97 @@
-LS0gUHJvamVjdCBNZXJpZGlhbiDigJQgQ2xpY2tIb3VzZSBhbmFseXRpY2FsIGxheWVyCkNSRUFURSBEQVRBQkFTRSBJRiBOT1QgRVhJU1RTIG1lcmlkaWFuOwoKLS0gR29sZCBmYWN0OiBvbmUgcm93IHBlciB2aWV3aW5nIHNlc3Npb24gKDMwLW1pbiBpbmFjdGl2aXR5IHNlc3Npb25pemF0aW9uKS4KLS0gZHVyYXRpb25fZWxhcHNlZF9taW4gaXMgZWxhcHNlZCBmaXJzdC10by1sYXN0IGV2ZW50IHRpbWUsIE5PVCB2ZXJpZmllZAotLSBhY3RpdmUgcGxheWJhY2sgdGltZS4gZXN0aW1hdGVkX2NvbXBsZXRpb25fcGN0ID0gbWF4IHBsYXliYWNrIHBvc2l0aW9uIC8KLS0gY2F0YWxvZyBkdXJhdGlvbiwgY2FwcGVkIGF0IDEwMC4KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgbWVyaWRpYW4uZmFjdF92aWV3aW5nX3Nlc3Npb25zCigKICAgIHNlc3Npb25faWQgICAgICAgICAgICAgICAgU3RyaW5nLAogICAgdXNlcl9pZCAgICAgICAgICAgICAgICAgICBTdHJpbmcsCiAgICBjb250ZW50X2lkICAgICAgICAgICAgICAgIFN0cmluZywKICAgIHRpdGxlICAgICAgICAgICAgICAgICAgICAgU3RyaW5nLAogICAgZ2VucmUgICAgICAgICAgICAgICAgICAgICBMb3dDYXJkaW5hbGl0eShTdHJpbmcpLAogICAgc2Vzc2lvbl9zdGFydCAgICAgICAgICAgICBEYXRlVGltZTY0KDMsICdVVEMnKSwKICAgIHNlc3Npb25fZW5kICAgICAgICAgICAgICAgRGF0ZVRpbWU2NCgzLCAnVVRDJyksCiAgICBkdXJhdGlvbl9lbGFwc2VkX21pbiAgICAgIEZsb2F0NjQsCiAgICBldmVudF9jb3VudCAgICAgICAgICAgICAgIFVJbnQzMiwKICAgIHBsYXlfZXZlbnRzICAgICAgICAgICAgICAgVUludDMyLAogICAgcGF1c2VfZXZlbnRzICAgICAgICAgICAgICBVSW50MzIsCiAgICBzZWVrX2V2ZW50cyAgICAgICAgICAgICAgIFVJbnQzMiwKICAgIGJ1ZmZlcl9ldmVudHMgICAgICAgICAgICAgVUludDMyLAogICAgc3RvcF9ldmVudHMgICAgICAgICAgICAgICBVSW50MzIsCiAgICBtYXhfcGxheWJhY2tfcG9zaXRpb25fbWluIEZsb2F0NjQsCiAgICBjYXRhbG9nX2R1cmF0aW9uX21pbiAgICAgIEZsb2F0NjQsCiAgICBlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QgIEZsb2F0NjQsCiAgICBjb21wbGV0aW9uX2J1Y2tldCAgICAgICAgIExvd0NhcmRpbmFsaXR5KFN0cmluZykKKQpFTkdJTkUgPSBNZXJnZVRyZWUKT1JERVIgQlkgKGdlbnJlLCBzZXNzaW9uX3N0YXJ0LCBzZXNzaW9uX2lkKTsKCi0tIENvbnRlbnQgY2F0YWxvZy4KQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgbWVyaWRpYW4uY29udGVudF9jYXRhbG9nCigKICAgIGNvbnRlbnRfaWQgICBTdHJpbmcsCiAgICB0aXRsZSAgICAgICAgU3RyaW5nLAogICAgZ2VucmUgICAgICAgIExvd0NhcmRpbmFsaXR5KFN0cmluZyksCiAgICBkdXJhdGlvbl9taW4gRmxvYXQ2NCwKICAgIHJlbGVhc2VfeWVhciBVSW50MTYKKQpFTkdJTkUgPSBSZXBsYWNpbmdNZXJnZVRyZWUKT1JERVIgQlkgY29udGVudF9pZDsKCi0tIFVzZXIgZmVhdHVyZXMgKDEzIGNvbHVtbnMsIG9uZSByb3cgcGVyIHVzZXIg4oCUIGZyb20gcGlwZWxpbmUvZmVhdHVyZXMucHkpLgpDUkVBVEUgVEFCTEUgSUYgTk9UIEVYSVNUUyBtZXJpZGlhbi51c2VyX2ZlYXR1cmVzCigKICAgIHVzZXJfaWQgICAgICAgICAgICAgICAgICAgU3RyaW5nLAogICAgdG90YWxfc2Vzc2lvbnMgICAgICAgICAgICBVSW50MzIsCiAgICB0b3RhbF9ldmVudHMgICAgICAgICAgICAgIFVJbnQzMiwKICAgIHRvdGFsX3dhdGNoX21pbiAgICAgICAgICAgRmxvYXQ2NCwKICAgIGF2Z19zZXNzaW9uX2R1cmF0aW9uX21pbiAgRmxvYXQ2NCwKICAgIGF2Z19tYXhfcG9zaXRpb25fbWluICAgICAgRmxvYXQ2NCwKICAgIGF2Z19jb21wbGV0aW9uX3BjdCAgICAgICAgRmxvYXQ2NCwKICAgIG5pZ2h0X3Nlc3Npb25zICAgICAgICAgICAgVUludDMyLAogICAgYXZnX3ZpZXdpbmdfaG91ciAgICAgICAgICBGbG9hdDY0LAogICAgZGlzdGluY3RfY29udGVudCAgICAgICAgICBVSW50MzIsCiAgICBwbGF5X2V2ZW50cyAgICAgICAgICAgICAgIFVJbnQzMiwKICAgIHN0b3BfZXZlbnRzICAgICAgICAgICAgICAgVUludDMyLAogICAgaGlnaF9jb21wbGV0aW9uX3Nlc3Npb25zICBVSW50MzIKKQpFTkdJTkUgPSBSZXBsYWNpbmdNZXJnZVRyZWUKT1JERVIgQlkgdXNlcl9pZDsKCi0tIEdlbnJlLWxldmVsIGVuZ2FnZW1lbnQg4oCUIHRoZSBzaGFwZSB0aGUgRmFzdEFQSSAvYW5hbHl0aWNzL2NvbnRlbnQKLS0gZW5kcG9pbnQgYW5kIHRoZSBkYXNoYm9hcmQgY29udGVudC1lbmdhZ2VtZW50IHRhYmxlIGNvbnN1bWUuCkNSRUFURSBPUiBSRVBMQUNFIFZJRVcgbWVyaWRpYW4udl9jb250ZW50X2VuZ2FnZW1lbnQgQVMKU0VMRUNUCiAgICBnZW5yZSwKICAgIGNvdW50KCkgICAgICAgICAgICAgICAgICAgICAgIEFTIHNlc3Npb25zLAogICAgdW5pcUV4YWN0KHVzZXJfaWQpICAgICAgICAgICAgQVMgdW5pcXVlX3ZpZXdlcnMsCiAgICByb3VuZChzdW0oZHVyYXRpb25fZWxhcHNlZF9taW4pLCAyKSBBUyB0b3RhbF9kdXJhdGlvbl9taW4sCiAgICByb3VuZChhdmcoZHVyYXRpb25fZWxhcHNlZF9taW4pLCAyKSBBUyBhdmdfZHVyYXRpb25fbWluLAogICAgcm91bmQoYXZnKGVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCksIDIpIEFTIGF2Z19jb21wbGV0aW9uX3BjdApGUk9NIG1lcmlkaWFuLmZhY3Rfdmlld2luZ19zZXNzaW9ucwpHUk9VUCBCWSBnZW5yZQpPUkRFUiBCWSBnZW5yZTsKCi0tIFBlci10aXRsZSBjb21wYXJpc29uIGZvciBjb250ZW50IHJhbmtpbmcgLyByZWNvbW1lbmRhdGlvbiBmb3VuZGF0aW9ucy4KQ1JFQVRFIE9SIFJFUExBQ0UgVklFVyBtZXJpZGlhbi52X2NvbnRlbnRfY29tcGFyaXNvbiBBUwpTRUxFQ1QKICAgIGNvbnRlbnRfaWQsCiAgICB0aXRsZSwKICAgIGdlbnJlLAogICAgY291bnQoKSAgICAgICAgICAgICAgICAgICAgICAgQVMgc2Vzc2lvbnMsCiAgICB1bmlxRXhhY3QodXNlcl9pZCkgICAgICAgICAgICBBUyB1bmlxdWVfdmlld2VycywKICAgIHJvdW5kKHN1bShkdXJhdGlvbl9lbGFwc2VkX21pbiksIDIpIEFTIHRvdGFsX2R1cmF0aW9uX21pbiwKICAgIHJvdW5kKGF2Zyhlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QpLCAyKSBBUyBhdmdfY29tcGxldGlvbl9wY3QsCiAgICBjb3VudElmKGVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCA+PSA4MCkgQVMgaGlnaF9jb21wbGV0aW9uX3Nlc3Npb25zCkZST00gbWVyaWRpYW4uZmFjdF92aWV3aW5nX3Nlc3Npb25zCkdST1VQIEJZIGNvbnRlbnRfaWQsIHRpdGxlLCBnZW5yZQpPUkRFUiBCWSBhdmdfY29tcGxldGlvbl9wY3QgREVTQzsKCi0tIENvbXBsZXRpb24gZnVubmVsIGJ1Y2tldHMgKHJlY29yZGVkIHJ1bjogMTggLyAxMSAvIDEyKS4KQ1JFQVRFIE9SIFJFUExBQ0UgVklFVyBtZXJpZGlhbi52X2NvbXBsZXRpb25fYnVja2V0cyBBUwpTRUxFQ1QgY29tcGxldGlvbl9idWNrZXQsIGNvdW50KCkgQVMgc2Vzc2lvbnMKRlJPTSBtZXJpZGlhbi5mYWN0X3ZpZXdpbmdfc2Vzc2lvbnMKR1JPVVAgQlkgY29tcGxldGlvbl9idWNrZXQ7Cg==
+-- Project Meridian — ClickHouse analytical layer
+CREATE DATABASE IF NOT EXISTS meridian;
+
+-- Gold fact: one row per viewing session (30-min inactivity sessionization).
+-- duration_elapsed_min is elapsed first-to-last event time, NOT verified
+-- active playback time. estimated_completion_pct = max playback position /
+-- catalog duration, capped at 100.
+CREATE TABLE IF NOT EXISTS meridian.fact_viewing_sessions
+(
+    session_id                String,
+    user_id                   String,
+    content_id                String,
+    title                     String,
+    genre                     LowCardinality(String),
+    session_start             DateTime64(3, 'UTC'),
+    session_end               DateTime64(3, 'UTC'),
+    duration_elapsed_min      Float64,
+    event_count               UInt32,
+    play_events               UInt32,
+    pause_events              UInt32,
+    seek_events               UInt32,
+    buffer_events             UInt32,
+    stop_events               UInt32,
+    max_playback_position_min Float64,
+    catalog_duration_min      Float64,
+    estimated_completion_pct  Float64,
+    completion_bucket         LowCardinality(String)
+)
+ENGINE = MergeTree
+ORDER BY (genre, session_start, session_id);
+
+-- Content catalog.
+CREATE TABLE IF NOT EXISTS meridian.content_catalog
+(
+    content_id   String,
+    title        String,
+    genre        LowCardinality(String),
+    duration_min Float64,
+    release_year UInt16
+)
+ENGINE = ReplacingMergeTree
+ORDER BY content_id;
+
+-- User features (13 columns, one row per user — from pipeline/features.py).
+CREATE TABLE IF NOT EXISTS meridian.user_features
+(
+    user_id                   String,
+    total_sessions            UInt32,
+    total_events              UInt32,
+    total_watch_min           Float64,
+    avg_session_duration_min  Float64,
+    avg_max_position_min      Float64,
+    avg_completion_pct        Float64,
+    night_sessions            UInt32,
+    avg_viewing_hour          Float64,
+    distinct_content          UInt32,
+    play_events               UInt32,
+    stop_events               UInt32,
+    high_completion_sessions  UInt32
+)
+ENGINE = ReplacingMergeTree
+ORDER BY user_id;
+
+-- Genre-level engagement — the shape the FastAPI /analytics/content
+-- endpoint and the dashboard content-engagement table consume.
+CREATE OR REPLACE VIEW meridian.v_content_engagement AS
+SELECT
+    genre,
+    count()                       AS sessions,
+    uniqExact(user_id)            AS unique_viewers,
+    round(sum(duration_elapsed_min), 2) AS total_duration_min,
+    round(avg(duration_elapsed_min), 2) AS avg_duration_min,
+    round(avg(estimated_completion_pct), 2) AS avg_completion_pct
+FROM meridian.fact_viewing_sessions
+GROUP BY genre
+ORDER BY genre;
+
+-- Per-title comparison for content ranking / recommendation foundations.
+CREATE OR REPLACE VIEW meridian.v_content_comparison AS
+SELECT
+    content_id,
+    title,
+    genre,
+    count()                       AS sessions,
+    uniqExact(user_id)            AS unique_viewers,
+    round(sum(duration_elapsed_min), 2) AS total_duration_min,
+    round(avg(estimated_completion_pct), 2) AS avg_completion_pct,
+    countIf(estimated_completion_pct >= 80) AS high_completion_sessions
+FROM meridian.fact_viewing_sessions
+GROUP BY content_id, title, genre
+ORDER BY avg_completion_pct DESC;
+
+-- Completion funnel buckets (recorded run: 18 / 11 / 12).
+CREATE OR REPLACE VIEW meridian.v_completion_buckets AS
+SELECT completion_bucket, count() AS sessions
+FROM meridian.fact_viewing_sessions
+GROUP BY completion_bucket;
