@@ -1,1 +1,306 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VNZW1vLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IEtwaSBmcm9tICJAL2NvbXBvbmVudHMvS3BpIjsKaW1wb3J0IHsKICBjYXRhbG9nLCBmbXREYXRlVGltZSwgbmV4dExpdmVFdmVudCwgc2VlZCwKICB0eXBlIExpdmVFdmVudCwKfSBmcm9tICJAL2xpYi9lbmdpbmUiOwoKY29uc3QgVEFCUyA9IFsKICAiTGl2ZSBEYXNoYm9hcmQiLAogICJDb250ZW50IEFuYWx5dGljcyIsCiAgIlNlc3Npb25zICYgR29sZCIsCiAgIkRhdGEgUXVhbGl0eSAmIGRidCIsCiAgIkZlYXR1cmVzICYgQS9CIFRlc3QiLAogICJBcmNoaXRlY3R1cmUgJiBSb2FkbWFwIiwKXSBhcyBjb25zdDsKCmNvbnN0IHMgPSBzZWVkLnN1bW1hcnk7CmNvbnN0IGJ1Y2tldHMgPSBbCiAgeyBsYWJlbDogIkhpZ2gg4oCUIGNvbXBsZXRpb24g4omlIDgwJSIsIGNvdW50OiBzLmNvbXBsZXRpb25CdWNrZXRzLmhpZ2hfZ2VfODAsIGNvbG9yOiAiIzJERDRCRiIgfSwKICB7IGxhYmVsOiAiTWlkIOKAlCBjb21wbGV0aW9uIDMw4oCTNzklIiwgY291bnQ6IHMuY29tcGxldGlvbkJ1Y2tldHMubWlkXzMwXzc5LCBjb2xvcjogIiNFOEIzM0QiIH0sCiAgeyBsYWJlbDogIkxvdyDigJQgY29tcGxldGlvbiA8IDMwJSIsIGNvdW50OiBzLmNvbXBsZXRpb25CdWNrZXRzLmxvd19sdF8zMCwgY29sb3I6ICIjRkY0RDZEIiB9LApdOwoKZnVuY3Rpb24gR2VucmVUYWJsZSgpIHsKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9ImNhcmQgb3ZlcmZsb3cteC1hdXRvIHNjcm9sbHRoaW4gcC0yIj4KICAgICAgPHRhYmxlIGNsYXNzTmFtZT0idy1mdWxsIHRleHQtc20iPgogICAgICAgIDx0aGVhZD48dHI+PHRoPkdlbnJlPC90aD48dGg+U2Vzc2lvbnM8L3RoPjx0aD5VbmlxdWUgdmlld2VyczwvdGg+PHRoPlRvdGFsIGR1cmF0aW9uIChtaW4pPC90aD48dGg+QXZnIGR1cmF0aW9uIChtaW4pPC90aD48dGg+QXZnIGNvbXBsZXRpb24gJTwvdGg+PC90cj48L3RoZWFkPgogICAgICAgIDx0Ym9keT4KICAgICAgICAgIHtzZWVkLmNvbnRlbnRBbmFseXRpY3NCeUdlbnJlLm1hcCgoZykgPT4gKAogICAgICAgICAgICA8dHIga2V5PXtnLmdlbnJlfT4KICAgICAgICAgICAgICA8dGQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtd2hpdGUiPntnLmdlbnJlfTwvdGQ+PHRkPntnLnNlc3Npb25zfTwvdGQ+PHRkPntnLnVuaXF1ZV92aWV3ZXJzfTwvdGQ+CiAgICAgICAgICAgICAgPHRkPntnLnRvdGFsX2R1cmF0aW9uX21pbi50b0ZpeGVkKDIpfTwvdGQ+PHRkPntnLmF2Z19kdXJhdGlvbl9taW4udG9GaXhlZCgyKX08L3RkPjx0ZD57Zy5hdmdfY29tcGxldGlvbl9wY3QudG9GaXhlZCgyKX0lPC90ZD4KICAgICAgICAgICAgPC90cj4KICAgICAgICAgICkpfQogICAgICAgIDwvdGJvZHk+CiAgICAgIDwvdGFibGU+CiAgICA8L2Rpdj4KICApOwp9CgpmdW5jdGlvbiBCdWNrZXRCYXJzKCkgewogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMyBmb250LWJvbGQgdGV4dC13aGl0ZSI+Q29tcGxldGlvbiBidWNrZXRzIOKAlCA0MSBzZXNzaW9uczwvZGl2PgogICAgICB7YnVja2V0cy5tYXAoKGIpID0+ICgKICAgICAgICA8ZGl2IGtleT17Yi5sYWJlbH0gY2xhc3NOYW1lPSJtYi0zIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0xIGZsZXgganVzdGlmeS1iZXR3ZWVuIHRleHQteHMgdGV4dC1zbGF0ZS0zMDAiPgogICAgICAgICAgICA8c3Bhbj57Yi5sYWJlbH08L3NwYW4+PHNwYW4+e2IuY291bnR9IHNlc3Npb25zIMK3IHsoKGIuY291bnQgLyBzLnNlc3Npb25zKSAqIDEwMCkudG9GaXhlZCgyKX0lPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaC0zIHctZnVsbCByb3VuZGVkLWZ1bGwgYmctc2xhdGUtODAwIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtMyByb3VuZGVkLWZ1bGwiIHN0eWxlPXt7IHdpZHRoOiBgJHsoYi5jb3VudCAvIHMuc2Vzc2lvbnMpICogMTAwfSVgLCBiYWNrZ3JvdW5kOiBiLmNvbG9yIH19IC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgKSl9CiAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXNsYXRlLTQwMCI+RXN0aW1hdGVkIGNvbXBsZXRpb24gPSBtYXggcGxheWJhY2sgcG9zaXRpb24gw7cgY2F0YWxvZyBkdXJhdGlvbiwgY2FwcGVkIGF0IDEwMCUuIFNtYWxsIGRlbW8gZGF0YXNldCDigJQgbm90IHJlcHJlc2VudGF0aXZlIGF1ZGllbmNlIGZpbmRpbmdzLjwvcD4KICAgIDwvZGl2PgogICk7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFBhZ2UoKSB7CiAgY29uc3QgW3RhYiwgc2V0VGFiXSA9IHVzZVN0YXRlPCh0eXBlb2YgVEFCUylbbnVtYmVyXT4oIkxpdmUgRGFzaGJvYXJkIik7CiAgY29uc3QgW2xpdmUsIHNldExpdmVdID0gdXNlU3RhdGU8TGl2ZUV2ZW50W10+KFtdKTsKICBjb25zdCBbbGl2ZUNvdW50LCBzZXRMaXZlQ291bnRdID0gdXNlU3RhdGUoMCk7CiAgY29uc3QgW3BhdXNlZCwgc2V0UGF1c2VkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmIChwYXVzZWQpIHJldHVybjsKICAgIGNvbnN0IHQgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgIHNldExpdmVDb3VudCgoYykgPT4gewogICAgICAgIGNvbnN0IGV2ID0gbmV4dExpdmVFdmVudChjICsgMSk7CiAgICAgICAgc2V0TGl2ZSgocHJldikgPT4gW2V2LCAuLi5wcmV2XS5zbGljZSgwLCAxNCkpOwogICAgICAgIHJldHVybiBjICsgMTsKICAgICAgfSk7CiAgICB9LCAxODAwKTsKICAgIHJldHVybiAoKSA9PiBjbGVhckludGVydmFsKHQpOwogIH0sIFtwYXVzZWRdKTsKCiAgY29uc3QgbGl2ZVNlc3Npb25zID0gdXNlTWVtbygKICAgICgpID0+IG5ldyBTZXQobGl2ZS5maWx0ZXIoKGUpID0+IGUuZXZlbnRfdHlwZSA9PT0gInBsYXkiKS5tYXAoKGUpID0+IGAke2UudXNlcl9pZH0tJHtlLmNvbnRlbnRfaWR9YCkpLnNpemUsCiAgICBbbGl2ZV0KICApOwogIGNvbnN0IGZlYXR1cmVTYW1wbGUgPSBzZWVkLnVzZXJGZWF0dXJlcy5zbGljZSgwLCAxMik7CgogIHJldHVybiAoCiAgICA8bWFpbiBjbGFzc05hbWU9Im14LWF1dG8gbWF4LXctN3hsIHB4LTQgcHktNiI+CiAgICAgIHsvKiBIZWFkZXIgKi99CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJtYi01IGZsZXggZmxleC13cmFwIGl0ZW1zLXN0YXJ0IGp1c3RpZnktYmV0d2VlbiBnYXAtMyI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMyI+CiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIGZvbnQtZXh0cmFib2xkIHRyYWNraW5nLXRpZ2h0IHRleHQtd2hpdGUiPlByb2plY3QgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LWFjY2VudCI+TWVyaWRpYW48L3NwYW4+PC9oMT4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJiYWRnZSBiZy1yZWQtNTAwLzIwIHRleHQtcmVkLTMwMCI+PHNwYW4gY2xhc3NOYW1lPSJsaXZlLWRvdCBtci0xIGlubGluZS1ibG9jayBoLTIgdy0yIHJvdW5kZWQtZnVsbCBiZy1yZWQtNDAwIiAvPkxJVkU8L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMSBtYXgtdy0yeGwgdGV4dC1zbSB0ZXh0LXNsYXRlLTQwMCI+CiAgICAgICAgICAgIFN0cmVhbWluZy1tZWRpYSBkYXRhIGVuZ2luZWVyaW5nICZhbXA7IGFuYWx5dGljcyBwbGF0Zm9ybSDigJQgcGxheWJhY2sgZXZlbnRzIOKGkiBLYWZrYSDihpIgQnJvbnplIC8gU2lsdmVyIC8gR29sZCDihpIKICAgICAgICAgICAgQ2xpY2tIb3VzZSArIGRidCDihpIgRmFzdEFQSSDihpIgdGhpcyBkYXNoYm9hcmQuIEJ5IFJvaGl0IEt1bWFyIMK3IEJUZWNoIENTRSAoRmluYWwgWWVhciksIEdEIEdvZW5rYSBVbml2ZXJzaXR5LgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtMyB0ZXh0LXhzIGxlYWRpbmctNiB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICA8ZGl2PkZhc3RBUEkgPHNwYW4gY2xhc3NOYW1lPSJmb250LWJvbGQgdGV4dC10ZWFsMiI+4pePIHNpbXVsYXRlZCBoZWFsdGh5IChkZW1vKTwvc3Bhbj48L2Rpdj4KICAgICAgICAgIDxkaXY+Q2xpY2tIb3VzZSA8c3BhbiBjbGFzc05hbWU9ImZvbnQtYm9sZCB0ZXh0LXRlYWwyIj7il48gc2VlZCBHb2xkIGRhdGEgKGRlbW8pPC9zcGFuPjwvZGl2PgogICAgICAgICAgPGRpdj5LYWZrYSB0b3BpYyA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXNsYXRlLTEwMCI+cGxheWJhY2stZXZlbnRzPC9zcGFuPjwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2hlYWRlcj4KCiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi01IHJvdW5kZWQteGwgYm9yZGVyIGJvcmRlci1hbWJlci00MDAvMzAgYmctYW1iZXItNDAwLzEwIHAtMyB0ZXh0LXhzIHRleHQtYW1iZXItMjAwIj4KICAgICAgICBMaXZlIGRlbW8gb24gVmVyY2VsIOKAlCBmdWxsIEthZmthL0NsaWNrSG91c2Ugc3RhY2sgcnVucyBsb2NhbGx5IHZpYSBEb2NrZXIuIE51bWJlcnMgYmVsb3cgYXJlIHRoZSB2ZXJpZmllZAogICAgICAgIHJlY29yZGVkIHJ1biAoMTEyIGV2ZW50cyDihpIgNDEgc2Vzc2lvbnMpIGdlbmVyYXRlZCBieSA8c3BhbiBjbGFzc05hbWU9ImZvbnQtbW9ubyI+cGlwZWxpbmUvcnVuX3BpcGVsaW5lX2xvY2FsLnB5PC9zcGFuPjsKICAgICAgICB0aGUgbGl2ZSBmZWVkIGlzIGEgYnJvd3NlciBzaW11bGF0aW9uIG9mIHRoZSBQeXRob24gS2Fma2EgcHJvZHVjZXIuCiAgICAgIDwvZGl2PgoKICAgICAgey8qIEtQSXMgKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ibWItNSBncmlkIGdyaWQtY29scy0yIGdhcC0zIG1kOmdyaWQtY29scy0zIHhsOmdyaWQtY29scy02Ij4KICAgICAgICA8S3BpIGxhYmVsPSJCcm9uemUgZXZlbnRzIiB2YWx1ZT17U3RyaW5nKHMuYnJvbnplRXZlbnRzKX0gc3ViPSJyYXcgSlNPTkwsIHdpdGggcGFydGl0aW9uL29mZnNldCIgLz4KICAgICAgICA8S3BpIGxhYmVsPSJWaWV3aW5nIHNlc3Npb25zIiB2YWx1ZT17U3RyaW5nKHMuc2Vzc2lvbnMpfSBzdWI9IjMwLW1pbiBpbmFjdGl2aXR5IHRocmVzaG9sZCIgLz4KICAgICAgICA8S3BpIGxhYmVsPSJVc2VycyIgdmFsdWU9e1N0cmluZyhzLnVzZXJzKX0gc3ViPSJpbiBHb2xkIG91dHB1dHMiIC8+CiAgICAgICAgPEtwaSBsYWJlbD0iQ29udGVudCBpdGVtcyIgdmFsdWU9e1N0cmluZyhzLmNvbnRlbnRJdGVtcyl9IHN1Yj17YCR7Y2F0YWxvZy5sZW5ndGh9IGNhdGFsb2cgdGl0bGVzIHJldHVybmVkYH0gLz4KICAgICAgICA8S3BpIGxhYmVsPSJBdmcgY29tcGxldGlvbiIgdmFsdWU9e2Ake3MuYXZnQ29tcGxldGlvblBjdC50b0ZpeGVkKDIpfSVgfSBzdWI9ImVzdGltYXRlZCwgY2FwcGVkIGF0IDEwMCUiIC8+CiAgICAgICAgPEtwaSBsYWJlbD0iVG90YWwgd2F0Y2ggKGVsYXBzZWQpIiB2YWx1ZT17YCR7cy50b3RhbFdhdGNoTWluLnRvRml4ZWQoMCl9IG1pbmB9IHN1Yj0iZmlyc3QtdG8tbGFzdCBldmVudCwgbm90IGFjdGl2ZSBwbGF5YmFjayIgLz4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIFRhYnMgKi99CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJtYi01IGZsZXggZmxleC13cmFwIGdhcC0yIj4KICAgICAgICB7VEFCUy5tYXAoKHQpID0+ICgKICAgICAgICAgIDxidXR0b24ga2V5PXt0fSBvbkNsaWNrPXsoKSA9PiBzZXRUYWIodCl9CiAgICAgICAgICAgIGNsYXNzTmFtZT17YHJvdW5kZWQtZnVsbCBweC00IHB5LTIgdGV4dC1zbSBmb250LXNlbWlib2xkICR7dGFiID09PSB0ID8gImJnLWFjY2VudCB0ZXh0LWJsYWNrIiA6ICJiZy1wYW5lbCB0ZXh0LXNsYXRlLTMwMCBib3JkZXIgYm9yZGVyLXNsYXRlLTcwMCJ9YH0+CiAgICAgICAgICAgIHt0fQogICAgICAgICAgPC9idXR0b24+CiAgICAgICAgKSl9CiAgICAgIDwvbmF2PgoKICAgICAge3RhYiA9PT0gIkxpdmUgRGFzaGJvYXJkIiAmJiAoCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJncmlkIGdhcC00IGxnOmdyaWQtY29scy01Ij4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCBsZzpjb2wtc3Bhbi0zIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZm9udC1ib2xkIHRleHQtd2hpdGUiPkxpdmUgcGxheWJhY2sgZXZlbnQgc3RyZWFtIDxzcGFuIGNsYXNzTmFtZT0iYmFkZ2UgYmctdGVhbDIvMjAgdGV4dC10ZWFsMiI+TElWRTwvc3Bhbj48L2Rpdj4KICAgICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNldFBhdXNlZCgocCkgPT4gIXApfSBjbGFzc05hbWU9InJvdW5kZWQtbGcgYmctc2xhdGUtODAwIHB4LTMgcHktMSB0ZXh0LXhzIGZvbnQtYm9sZCB0ZXh0LXNsYXRlLTIwMCI+e3BhdXNlZCA/ICJSZXN1bWUiIDogIlBhdXNlIn08L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0yIHRleHQteHMgdGV4dC1zbGF0ZS00MDAiPkxpdmUgZXZlbnRzIHRoaXMgc2Vzc2lvbjogPGIgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIj57bGl2ZUNvdW50fTwvYj4gwrcgbGl2ZSB2aWV3aW5nIHNlc3Npb25zIHN0YXJ0ZWQ6IDxiIGNsYXNzTmFtZT0idGV4dC13aGl0ZSI+e2xpdmVTZXNzaW9uc308L2I+PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgIHtsaXZlLmxlbmd0aCA9PT0gMCAmJiA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1zbGF0ZS00MDAiPldhaXRpbmcgZm9yIHRoZSBmaXJzdCBldmVudOKApjwvcD59CiAgICAgICAgICAgICAge2xpdmUubWFwKChlKSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2IGtleT17ZS5pZH0gY2xhc3NOYW1lPSJmbGV4IGZsZXgtd3JhcCBpdGVtcy1jZW50ZXIgZ2FwLTIgcm91bmRlZC1sZyBiZy1zbGF0ZS05MDAvNjAgcHgtMyBweS0yIHRleHQteHMiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImJhZGdlIGJnLXZpb2xldDIvMjUgdGV4dC12aW9sZXQtMjAwIj57ZS5ldmVudF90eXBlLnRvVXBwZXJDYXNlKCl9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSI+e2UudGl0bGV9PC9zcGFuPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtc2xhdGUtNDAwIj57ZS5nZW5yZX0gwrcge2UudXNlcl9pZH0gwrcgcG9zaXRpb24ge2UucGxheWJhY2tfcG9zaXRpb25fbWlufSBtaW4gwrcge2UuYXR9PC9zcGFuPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS00IGxnOmNvbC1zcGFuLTIiPgogICAgICAgICAgICA8QnVja2V0QmFycyAvPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5QaXBlbGluZSBmbG93PC9kaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIGxlYWRpbmctNyB0ZXh0LXNsYXRlLTMwMCI+UHl0aG9uIFByb2R1Y2VyIOKGkiBBcGFjaGUgS2Fma2Eg4oaSIENvbnN1bWVyIOKGkiA8Yj5Ccm9uemU8L2I+IEpTT05MIOKGkiA8Yj5TaWx2ZXI8L2I+IGNsZWFuaW5nIOKGkiBTZXNzaW9uaXphdGlvbiAoMzAgbWluKSDihpIgPGI+R29sZDwvYj4gZmFjdCAvIGRpbWVuc2lvbnMg4oaSIENsaWNrSG91c2UgKyBkYnQg4oaSIEZhc3RBUEkg4oaSIFJlYWN0PC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgKX0KCiAgICAgIHt0YWIgPT09ICJDb250ZW50IEFuYWx5dGljcyIgJiYgKAogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic3BhY2UteS00Ij4KICAgICAgICAgIDxHZW5yZVRhYmxlIC8+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBvdmVyZmxvdy14LWF1dG8gc2Nyb2xsdGhpbiBwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5QZXItdGl0bGUgZW5nYWdlbWVudCAoZGltX2NvbnRlbnQpPC9kaXY+CiAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCB0ZXh0LXNtIj4KICAgICAgICAgICAgICA8dGhlYWQ+PHRyPjx0aD5UaXRsZTwvdGg+PHRoPkdlbnJlPC90aD48dGg+RHVyYXRpb248L3RoPjx0aD5TZXNzaW9uczwvdGg+PHRoPlZpZXdlcnM8L3RoPjx0aD5Ub3RhbCB3YXRjaCAobWluKTwvdGg+PHRoPkF2ZyBjb21wbGV0aW9uICU8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICB7c2VlZC5kaW1Db250ZW50Lm1hcCgoYykgPT4gKAogICAgICAgICAgICAgICAgICA8dHIga2V5PXtjLmNvbnRlbnRfaWR9Pjx0ZCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSI+e2MudGl0bGV9PC90ZD48dGQ+e2MuZ2VucmV9PC90ZD48dGQ+e2MuZHVyYXRpb25fbWlufSBtaW48L3RkPjx0ZD57Yy50b3RhbF9zZXNzaW9uc308L3RkPjx0ZD57Yy51bmlxdWVfdmlld2Vyc308L3RkPjx0ZD57Yy50b3RhbF93YXRjaF9taW4udG9GaXhlZCgyKX08L3RkPjx0ZD57Yy5hdmdfY29tcGxldGlvbl9wY3QudG9GaXhlZCgyKX0lPC90ZD48L3RyPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC90Ym9keT4KICAgICAgICAgICAgPC90YWJsZT4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgKX0KCiAgICAgIHt0YWIgPT09ICJTZXNzaW9ucyAmIEdvbGQiICYmICgKICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBvdmVyZmxvdy14LWF1dG8gc2Nyb2xsdGhpbiBwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5mYWN0X3ZpZXdpbmdfc2Vzc2lvbnMg4oCUIGFsbCA0MSBzZXNzaW9uczwvZGl2PgogICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPHRoZWFkPjx0cj48dGg+U2Vzc2lvbjwvdGg+PHRoPlVzZXI8L3RoPjx0aD5UaXRsZTwvdGg+PHRoPlN0YXJ0IChVVEMpPC90aD48dGg+RWxhcHNlZCAobWluKTwvdGg+PHRoPkV2ZW50czwvdGg+PHRoPk1heCBwb3NpdGlvbjwvdGg+PHRoPkNvbXBsZXRpb248L3RoPjx0aD5CdWNrZXQ8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICA8dGJvZHk+CiAgICAgICAgICAgICAgICB7c2VlZC5mYWN0Vmlld2luZ1Nlc3Npb25zLm1hcCgocikgPT4gKAogICAgICAgICAgICAgICAgICA8dHIga2V5PXtyLnNlc3Npb25faWR9Pjx0ZCBjbGFzc05hbWU9ImZvbnQtbW9ubyB0ZXh0LXhzIj57ci5zZXNzaW9uX2lkfTwvdGQ+PHRkPntyLnVzZXJfaWR9PC90ZD48dGQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtd2hpdGUiPntyLnRpdGxlfTwvdGQ+PHRkIGNsYXNzTmFtZT0idGV4dC14cyI+e2ZtdERhdGVUaW1lKHIuc2Vzc2lvbl9zdGFydCl9PC90ZD48dGQ+e3IuZHVyYXRpb25fZWxhcHNlZF9taW4udG9GaXhlZCgyKX08L3RkPjx0ZD57ci5ldmVudF9jb3VudH08L3RkPjx0ZD57ci5tYXhfcGxheWJhY2tfcG9zaXRpb25fbWlufSAvIHtyLmNhdGFsb2dfZHVyYXRpb25fbWlufTwvdGQ+PHRkPntyLmVzdGltYXRlZF9jb21wbGV0aW9uX3BjdC50b0ZpeGVkKDEpfSU8L3RkPjx0ZD57ci5jb21wbGV0aW9uX2J1Y2tldH08L3RkPjwvdHI+CiAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICA8L3Rib2R5PgogICAgICAgICAgICA8L3RhYmxlPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBnYXAtNCBsZzpncmlkLWNvbHMtMiI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIG92ZXJmbG93LXgtYXV0byBzY3JvbGx0aGluIHAtMiI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtMiBmb250LWJvbGQgdGV4dC13aGl0ZSI+ZGltX3VzZXIgKDMzIHJvd3Mg4oCUIGZpcnN0IDEwKTwvZGl2PgogICAgICAgICAgICAgIDx0YWJsZSBjbGFzc05hbWU9InctZnVsbCB0ZXh0LXNtIj48dGhlYWQ+PHRyPjx0aD5Vc2VyPC90aD48dGg+U2Vzc2lvbnM8L3RoPjx0aD5FdmVudHM8L3RoPjx0aD5XYXRjaCAobWluKTwvdGg+PHRoPkF2ZyBjb21wbGV0aW9uICU8L3RoPjwvdHI+PC90aGVhZD4KICAgICAgICAgICAgICAgIDx0Ym9keT57c2VlZC5kaW1Vc2VyLnNsaWNlKDAsIDEwKS5tYXAoKHUpID0+ICg8dHIga2V5PXt1LnVzZXJfaWR9Pjx0ZD57dS51c2VyX2lkfTwvdGQ+PHRkPnt1LnRvdGFsX3Nlc3Npb25zfTwvdGQ+PHRkPnt1LnRvdGFsX2V2ZW50c308L3RkPjx0ZD57dS50b3RhbF93YXRjaF9taW4udG9GaXhlZCgyKX08L3RkPjx0ZD57dS5hdmdfY29tcGxldGlvbl9wY3QudG9GaXhlZCgyKX0lPC90ZD48L3RyPikpfTwvdGJvZHk+PC90YWJsZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZm9udC1ib2xkIHRleHQtd2hpdGUiPkdvbGQgZGF0YXNldHM8L2Rpdj4KICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJsaXN0LWRpc2Mgc3BhY2UteS0xIHBsLTUgdGV4dC1zbSB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICAgICAgICA8bGk+PGI+ZmFjdF92aWV3aW5nX3Nlc3Npb25zPC9iPiDigJQgNDEgcm93cywgc2Vzc2lvbiBzdGFydC9lbmQsIGVsYXBzZWQgZHVyYXRpb24sIGV2ZW50IGNvdW50cyBieSB0eXBlLCBtYXggcG9zaXRpb24sIGVzdGltYXRlZCBjb21wbGV0aW9uLjwvbGk+CiAgICAgICAgICAgICAgICA8bGk+PGI+ZGltX3VzZXI8L2I+IOKAlCAzMyByb3dzIG9mIHBlci11c2VyIHNlc3Npb24gLyBldmVudCAvIGR1cmF0aW9uIGFnZ3JlZ2F0ZXMuPC9saT4KICAgICAgICAgICAgICAgIDxsaT48Yj5kaW1fY29udGVudDwvYj4g4oCUIDE0IGNhdGFsb2cgdGl0bGVzIHdpdGggZW5nYWdlbWVudCBhZ2dyZWdhdGVzLjwvbGk+CiAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3NlY3Rpb24+CiAgICAgICl9CgogICAgICB7dGFiID09PSAiRGF0YSBRdWFsaXR5ICYgZGJ0IiAmJiAoCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJncmlkIGdhcC00IGxnOmdyaWQtY29scy0yIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5TaWx2ZXIgdmFsaWRhdGlvbiDigJQgcmVjb3JkZWQgcnVuPC9kaXY+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiB0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj4KICAgICAgICAgICAgICB7WwogICAgICAgICAgICAgICAgYEJyb256ZSBldmVudHMgY2FwdHVyZWQ6ICR7cy5icm9uemVFdmVudHN9YCwKICAgICAgICAgICAgICAgIGBSZWNvcmRzIHJldGFpbmVkIGFmdGVyIHZhbGlkYXRpb246ICR7cy5zaWx2ZXJSZXRhaW5lZH0gKDEwMCUpYCwKICAgICAgICAgICAgICAgICJSZXF1aXJlZCBmaWVsZHMgcHJlc2VudCAmIG5vbi1udWxsIOKAlCBQQVNTIiwKICAgICAgICAgICAgICAgICJFdmVudCB0eXBlcyB3aXRoaW4ge3BsYXksIHBhdXNlLCBzZWVrLCBidWZmZXIsIHN0b3B9IOKAlCBQQVNTIiwKICAgICAgICAgICAgICAgICJUaW1lc3RhbXBzIHBhcnNlZCBhcyBVVEMg4oCUIFBBU1MiLAogICAgICAgICAgICAgICAgIk5lZ2F0aXZlIHBsYXliYWNrIHBvc2l0aW9ucyDigJQgbm9uZSByZXRhaW5lZCIsCiAgICAgICAgICAgICAgICAiZGJ0IGJ1aWxkIChyZWNvcmRlZCBydW4pIOKAlCBjb21wbGV0ZWQsIG5vIHRlc3QgZXJyb3JzIiwKICAgICAgICAgICAgICBdLm1hcCgoeCkgPT4gKDxsaSBrZXk9e3h9PuKckyB7eH08L2xpPikpfQogICAgICAgICAgICA8L3VsPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTMgdGV4dC14cyB0ZXh0LXNsYXRlLTQwMCI+U3RpbGwgdG8gdGVzdCAocm9hZG1hcCk6IG1hbGZvcm1lZCBldmVudHMsIGR1cGxpY2F0ZSBkZWxpdmVyeSwgb3V0LW9mLW9yZGVyIC8gbGF0ZSBldmVudHMsIGVtcHR5IGlucHV0cywgZXhwaXJlZCBjYXRhbG9nIGxpY2Vuc2VzLjwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNhcmQgcC00Ij4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTIgZm9udC1ib2xkIHRleHQtd2hpdGUiPmRidCBtb2RlbHMgKGRidC1jbGlja2hvdXNlKTwvZGl2PgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTMwMCI+CiAgICAgICAgICAgICAgPGxpPjxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQtdGVhbDIiPnN0Z19wbGF5YmFja19ldmVudHM8L3NwYW4+IOKAlCBzdGFnaW5nLCB0eXBlZCBTaWx2ZXIgZXZlbnRzPC9saT4KICAgICAgICAgICAgICA8bGk+PHNwYW4gY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC10ZWFsMiI+c3RnX3ZpZXdpbmdfc2Vzc2lvbnM8L3NwYW4+IOKAlCBzdGFnaW5nLCBHb2xkIHNlc3Npb24gZmFjdDwvbGk+CiAgICAgICAgICAgICAgPGxpPjxzcGFuIGNsYXNzTmFtZT0iZm9udC1tb25vIHRleHQtdGVhbDIiPmludF9jb250ZW50X2VuZ2FnZW1lbnQ8L3NwYW4+IOKAlCBpbnRlcm1lZGlhdGUsIHBlci10aXRsZSBlbmdhZ2VtZW50PC9saT4KICAgICAgICAgICAgICA8bGk+PHNwYW4gY2xhc3NOYW1lPSJmb250LW1vbm8gdGV4dC10ZWFsMiI+bWFydF9jb250ZW50X2VuZ2FnZW1lbnQ8L3NwYW4+IOKAlCBtYXJ0LCBnZW5yZSBlbmdhZ2VtZW50IHNlcnZlZCBieSBGYXN0QVBJPC9saT4KICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJtdC0zIHRleHQteHMgdGV4dC1zbGF0ZS00MDAiPnNjaGVtYS55bWwgdGVzdHM6IG5vdF9udWxsLCB1bmlxdWUsIGFjY2VwdGVkX3ZhbHVlcyBvbiBldmVudCB0eXBlcyBhbmQgY29tcGxldGlvbiBidWNrZXRzLjwvcD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgKX0KCiAgICAgIHt0YWIgPT09ICJGZWF0dXJlcyAmIEEvQiBUZXN0IiAmJiAoCiAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ2FwLTQgbGc6Z3JpZC1jb2xzLTMiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0xIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5BL0IgdGVzdCDigJQgcmVjb3JkZWQgcnVuPC9kaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj5Db250cm9sIDxiIGNsYXNzTmFtZT0idGV4dC13aGl0ZSI+MTYgdXNlcnM8L2I+IMK3IFRyZWF0bWVudCA8YiBjbGFzc05hbWU9InRleHQtd2hpdGUiPjE3IHVzZXJzPC9iPjwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTIgdGV4dC1zbSB0ZXh0LXNsYXRlLTMwMCI+V2VsY2ggdHdvLXNhbXBsZSB0LXRlc3Qgb24gYXZlcmFnZSBlc3RpbWF0ZWQgd2F0Y2ggdGltZTogPGIgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIj5wID0gMC4zMTIxPC9iPjwvcD4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9Im10LTEgdGV4dC1zbSBmb250LXNlbWlib2xkIHRleHQtYW1iZXItMzAwIj5Ob3Qgc3RhdGlzdGljYWxseSBzaWduaWZpY2FudC48L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0xIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5SZXByb2R1Y2VkIHJ1biAodGhpcyByZXBvKTwvZGl2PgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXNsYXRlLTMwMCI+Q29udHJvbCBtZWFuIHtzZWVkLmFiVGVzdC5jb250cm9sX21lYW5fd2F0Y2hfbWlufSBtaW4gwrcgVHJlYXRtZW50IG1lYW4ge3NlZWQuYWJUZXN0LnRyZWF0bWVudF9tZWFuX3dhdGNoX21pbn0gbWluPC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj50ID0ge3NlZWQuYWJUZXN0LnRfc3RhdGlzdGljfSwgcCA9IHtzZWVkLmFiVGVzdC5wX3ZhbHVlfSDigJQgYWxzbyBub3Qgc2lnbmlmaWNhbnQsIGNvbnNpc3RlbnQgd2l0aCB0aGUgcmVjb3JkZWQgcnVuLjwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTEgZm9udC1ib2xkIHRleHQtd2hpdGUiPlNhbXBsZSBzaXplIHJlcXVpcmVkPC9kaXY+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj48YiBjbGFzc05hbWU9InRleHQtd2hpdGUiPjY0IHVzZXJzIHBlciBncm91cCDCtyAxMjggdG90YWw8L2I+PC9wPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXQtMiB0ZXh0LXhzIHRleHQtc2xhdGUtNDAwIj5FZmZlY3Qgc2l6ZSAwLjUsIGFscGhhIDAuMDUsIHBvd2VyIDAuODAg4oCUIHRoZSBjdXJyZW50IDMzLXVzZXIgZGVtbyBpcyB1bmRlcnBvd2VyZWQgYnkgZGVzaWduOyB0aGF0IGlzIHRoZSBob25lc3QgY29uY2x1c2lvbi48L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBvdmVyZmxvdy14LWF1dG8gc2Nyb2xsdGhpbiBwLTIiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5Vc2VyIGZlYXR1cmVzIOKAlCAzMyByZWNvcmRzIMOXIDEzIGNvbHVtbnMgKGZpcnN0IDEyIHNob3duKTwvZGl2PgogICAgICAgICAgICA8dGFibGUgY2xhc3NOYW1lPSJ3LWZ1bGwgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPHRoZWFkPjx0cj48dGg+VXNlcjwvdGg+PHRoPkdyb3VwPC90aD48dGg+U2Vzc2lvbnM8L3RoPjx0aD5FdmVudHM8L3RoPjx0aD5XYXRjaCAobWluKTwvdGg+PHRoPkF2ZyBzZXNzaW9uIChtaW4pPC90aD48dGg+QXZnIG1heCBwb3M8L3RoPjx0aD5BdmcgY29tcGxldGlvbiAlPC90aD48dGg+TmlnaHQgc2Vzc2lvbnM8L3RoPjx0aD5BdmcgaG91cjwvdGg+PC90cj48L3RoZWFkPgogICAgICAgICAgICAgIDx0Ym9keT4KICAgICAgICAgICAgICAgIHtmZWF0dXJlU2FtcGxlLm1hcCgoZikgPT4gKAogICAgICAgICAgICAgICAgICA8dHIga2V5PXtmLnVzZXJfaWR9Pjx0ZD57Zi51c2VyX2lkfTwvdGQ+PHRkPntzZWVkLmFiQXNzaWdubWVudHNbZi51c2VyX2lkXX08L3RkPjx0ZD57Zi50b3RhbF9zZXNzaW9uc308L3RkPjx0ZD57Zi50b3RhbF9ldmVudHN9PC90ZD48dGQ+e2YudG90YWxfd2F0Y2hfbWluLnRvRml4ZWQoMil9PC90ZD48dGQ+e2YuYXZnX3Nlc3Npb25fZHVyYXRpb25fbWluLnRvRml4ZWQoMil9PC90ZD48dGQ+e2YuYXZnX21heF9wb3NpdGlvbl9taW4udG9GaXhlZCgyKX08L3RkPjx0ZD57Zi5hdmdfY29tcGxldGlvbl9wY3QudG9GaXhlZCgyKX0lPC90ZD48dGQ+e2YubmlnaHRfc2Vzc2lvbnN9PC90ZD48dGQ+e2YuYXZnX3ZpZXdpbmdfaG91ci50b0ZpeGVkKDEpfTwvdGQ+PC90cj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdGJvZHk+CiAgICAgICAgICAgIDwvdGFibGU+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3NlY3Rpb24+CiAgICAgICl9CgogICAgICB7dGFiID09PSAiQXJjaGl0ZWN0dXJlICYgUm9hZG1hcCIgJiYgKAogICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0iZ3JpZCBnYXAtNCBsZzpncmlkLWNvbHMtMiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCBwLTQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibWItMiBmb250LWJvbGQgdGV4dC13aGl0ZSI+QXJjaGl0ZWN0dXJlPC9kaXY+CiAgICAgICAgICAgIDxvbCBjbGFzc05hbWU9Imxpc3QtZGVjaW1hbCBzcGFjZS15LTIgcGwtNSB0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj4KICAgICAgICAgICAgICA8bGk+PGI+UHJvZHVjZXI8L2I+IOKAlCBQeXRob24gZ2VuZXJhdGVzIHBsYXkgLyBwYXVzZSAvIHNlZWsgLyBidWZmZXIgLyBzdG9wIGV2ZW50cyDihpIgS2Fma2EgdG9waWMgPHNwYW4gY2xhc3NOYW1lPSJmb250LW1vbm8iPnBsYXliYWNrLWV2ZW50czwvc3Bhbj4uPC9saT4KICAgICAgICAgICAgICA8bGk+PGI+QnJvbnplPC9iPiDigJQgY29uc3VtZXIgYXBwZW5kcyByYXcgSlNPTkwgd2l0aCBwYXJ0aXRpb24sIG9mZnNldCwgaW5nZXN0ZWRfYXQuPC9saT4KICAgICAgICAgICAgICA8bGk+PGI+U2lsdmVyPC9iPiDigJQgcGFuZGFzIHZhbGlkYXRpb24sIFVUQyB0aW1lc3RhbXBzLCBudW1lcmljIHBvc2l0aW9ucywgc3VwcG9ydGVkIHR5cGVzIG9ubHkuPC9saT4KICAgICAgICAgICAgICA8bGk+PGI+U2Vzc2lvbml6YXRpb248L2I+IOKAlCBzb3J0ZWQgYnkgdXNlciArIGNvbnRlbnQgKyB0aW1lOyBuZXcgc2Vzc2lvbiBhZnRlciBhICZndDszMC1taW4gZ2FwLjwvbGk+CiAgICAgICAgICAgICAgPGxpPjxiPkdvbGQ8L2I+IOKAlCBmYWN0X3ZpZXdpbmdfc2Vzc2lvbnMgKyBkaW1fdXNlciArIGRpbV9jb250ZW50LjwvbGk+CiAgICAgICAgICAgICAgPGxpPjxiPkFuYWx5dGljczwvYj4g4oCUIENsaWNrSG91c2UgdGFibGVzL3ZpZXdzOyBkYnQgc3RhZ2luZyDihpIgaW50ZXJtZWRpYXRlIOKGkiBtYXJ0IHdpdGggdGVzdHMuPC9saT4KICAgICAgICAgICAgICA8bGk+PGI+RGVsaXZlcnk8L2I+IOKAlCBGYXN0QVBJIC8sIC9oZWFsdGgsIC9hbmFseXRpY3MvY29udGVudCDihpIgUmVhY3QgZGFzaGJvYXJkLjwvbGk+CiAgICAgICAgICAgIDwvb2w+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjYXJkIHAtNCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYi0yIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5MaW1pdGF0aW9ucyAmYW1wOyByb2FkbWFwPC9kaXY+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3QtZGlzYyBzcGFjZS15LTIgcGwtNSB0ZXh0LXNtIHRleHQtc2xhdGUtMzAwIj4KICAgICAgICAgICAgICA8bGk+U21hbGwgc3ludGhldGljIGRlbW8gZGF0YXNldCAoMTEyIGV2ZW50cykg4oCUIHJlc3VsdHMgYXJlIG5vdCByZXByZXNlbnRhdGl2ZSBhdWRpZW5jZSBmaW5kaW5ncy48L2xpPgogICAgICAgICAgICAgIDxsaT5TZXNzaW9uIGR1cmF0aW9uID0gZWxhcHNlZCBmaXJzdC10by1sYXN0IGV2ZW50LCBub3QgdmVyaWZpZWQgYWN0aXZlIHBsYXliYWNrIHRpbWUuPC9saT4KICAgICAgICAgICAgICA8bGk+QWlyZmxvdyBvcmNoZXN0cmF0aW9uIGluIHByb2dyZXNzIOKAlCBEb2NrZXIgc3RvcmFnZS1jYXBhY2l0eSBpc3N1ZSBibG9ja2VkIGl0cyBkZXBsb3ltZW50LjwvbGk+CiAgICAgICAgICAgICAgPGxpPk5leHQ6IHdhdGVybWFyay1iYXNlZCBjYXRhbG9nIGluZ2VzdGlvbiArIGxpY2Vuc2luZyBleHBpcnksIGxhdGUtYXJyaXZhbCAvIGRlZHVwIHBvbGljaWVzLCByb2xsaW5nIDMwLWRheSBnZW5yZSBmZWF0dXJlcyArIHJlY29tbWVuZGF0aW9uIEFQSSwgY29uY3VycmVudC12aWV3ZXIgJmFtcDsgZnVubmVsIGNoYXJ0cywgR2l0SHViIEFjdGlvbnMgQ0kgKyBUZXJyYWZvcm0uPC9saT4KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvc2VjdGlvbj4KICAgICAgKX0KCiAgICAgIDxmb290ZXIgY2xhc3NOYW1lPSJtdC04IHRleHQtY2VudGVyIHRleHQteHMgdGV4dC1zbGF0ZS01MDAiPgogICAgICAgIFByb2plY3QgTWVyaWRpYW4gwrcgUm9oaXQgS3VtYXIgwrcgZ2l0aHViLmNvbS9yb2hpdDAxcmsgwrcgUGlwZWxpbmU6IFB5dGhvbiAvIEthZmthIC8gcGFuZGFzIC8gQ2xpY2tIb3VzZSAvIGRidCAvIEZhc3RBUEkgLyBSZWFjdCAoTmV4dC5qcykKICAgICAgPC9mb290ZXI+CiAgICA8L21haW4+CiAgKTsKfQo=
+"use client";
+
+import { useEffect, useMemo, useState } from "react";
+import Kpi from "@/components/Kpi";
+import {
+  catalog, fmtDateTime, nextLiveEvent, seed,
+  type LiveEvent,
+} from "@/lib/engine";
+
+const TABS = [
+  "Live Dashboard",
+  "Content Analytics",
+  "Sessions & Gold",
+  "Data Quality & dbt",
+  "Features & A/B Test",
+  "Architecture & Roadmap",
+] as const;
+
+const s = seed.summary;
+const buckets = [
+  { label: "High — completion ≥ 80%", count: s.completionBuckets.high_ge_80, color: "#2DD4BF" },
+  { label: "Mid — completion 30–79%", count: s.completionBuckets.mid_30_79, color: "#E8B33D" },
+  { label: "Low — completion < 30%", count: s.completionBuckets.low_lt_30, color: "#FF4D6D" },
+];
+
+function GenreTable() {
+  return (
+    <div className="card overflow-x-auto scrollthin p-2">
+      <table className="w-full text-sm">
+        <thead><tr><th>Genre</th><th>Sessions</th><th>Unique viewers</th><th>Total duration (min)</th><th>Avg duration (min)</th><th>Avg completion %</th></tr></thead>
+        <tbody>
+          {seed.contentAnalyticsByGenre.map((g) => (
+            <tr key={g.genre}>
+              <td className="font-semibold text-white">{g.genre}</td><td>{g.sessions}</td><td>{g.unique_viewers}</td>
+              <td>{g.total_duration_min.toFixed(2)}</td><td>{g.avg_duration_min.toFixed(2)}</td><td>{g.avg_completion_pct.toFixed(2)}%</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function BucketBars() {
+  return (
+    <div className="card p-4">
+      <div className="mb-3 font-bold text-white">Completion buckets — 41 sessions</div>
+      {buckets.map((b) => (
+        <div key={b.label} className="mb-3">
+          <div className="mb-1 flex justify-between text-xs text-slate-300">
+            <span>{b.label}</span><span>{b.count} sessions · {((b.count / s.sessions) * 100).toFixed(2)}%</span>
+          </div>
+          <div className="h-3 w-full rounded-full bg-slate-800">
+            <div className="h-3 rounded-full" style={{ width: `${(b.count / s.sessions) * 100}%`, background: b.color }} />
+          </div>
+        </div>
+      ))}
+      <p className="text-xs text-slate-400">Estimated completion = max playback position ÷ catalog duration, capped at 100%. Small demo dataset — not representative audience findings.</p>
+    </div>
+  );
+}
+
+export default function Page() {
+  const [tab, setTab] = useState<(typeof TABS)[number]>("Live Dashboard");
+  const [live, setLive] = useState<LiveEvent[]>([]);
+  const [liveCount, setLiveCount] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  useEffect(() => {
+    if (paused) return;
+    const t = setInterval(() => {
+      setLiveCount((c) => {
+        const ev = nextLiveEvent(c + 1);
+        setLive((prev) => [ev, ...prev].slice(0, 14));
+        return c + 1;
+      });
+    }, 1800);
+    return () => clearInterval(t);
+  }, [paused]);
+
+  const liveSessions = useMemo(
+    () => new Set(live.filter((e) => e.event_type === "play").map((e) => `${e.user_id}-${e.content_id}`)).size,
+    [live]
+  );
+  const featureSample = seed.userFeatures.slice(0, 12);
+
+  return (
+    <main className="mx-auto max-w-7xl px-4 py-6">
+      {/* Header */}
+      <header className="mb-5 flex flex-wrap items-start justify-between gap-3">
+        <div>
+          <div className="flex items-center gap-3">
+            <h1 className="text-3xl font-extrabold tracking-tight text-white">Project <span className="text-accent">Meridian</span></h1>
+            <span className="badge bg-red-500/20 text-red-300"><span className="live-dot mr-1 inline-block h-2 w-2 rounded-full bg-red-400" />LIVE</span>
+          </div>
+          <p className="mt-1 max-w-2xl text-sm text-slate-400">
+            Streaming-media data engineering &amp; analytics platform — playback events → Kafka → Bronze / Silver / Gold →
+            ClickHouse + dbt → FastAPI → this dashboard. By Rohit Kumar · BTech CSE (Final Year), GD Goenka University.
+          </p>
+        </div>
+        <div className="card p-3 text-xs leading-6 text-slate-300">
+          <div>FastAPI <span className="font-bold text-teal2">● simulated healthy (demo)</span></div>
+          <div>ClickHouse <span className="font-bold text-teal2">● seed Gold data (demo)</span></div>
+          <div>Kafka topic <span className="font-mono text-slate-100">playback-events</span></div>
+        </div>
+      </header>
+
+      <div className="mb-5 rounded-xl border border-amber-400/30 bg-amber-400/10 p-3 text-xs text-amber-200">
+        Live demo on Vercel — full Kafka/ClickHouse stack runs locally via Docker. Numbers below are the verified
+        recorded run (112 events → 41 sessions) generated by <span className="font-mono">pipeline/run_pipeline_local.py</span>;
+        the live feed is a browser simulation of the Python Kafka producer.
+      </div>
+
+      {/* KPIs */}
+      <section className="mb-5 grid grid-cols-2 gap-3 md:grid-cols-3 xl:grid-cols-6">
+        <Kpi label="Bronze events" value={String(s.bronzeEvents)} sub="raw JSONL, with partition/offset" />
+        <Kpi label="Viewing sessions" value={String(s.sessions)} sub="30-min inactivity threshold" />
+        <Kpi label="Users" value={String(s.users)} sub="in Gold outputs" />
+        <Kpi label="Content items" value={String(s.contentItems)} sub={`${catalog.length} catalog titles returned`} />
+        <Kpi label="Avg completion" value={`${s.avgCompletionPct.toFixed(2)}%`} sub="estimated, capped at 100%" />
+        <Kpi label="Total watch (elapsed)" value={`${s.totalWatchMin.toFixed(0)} min`} sub="first-to-last event, not active playback" />
+      </section>
+
+      {/* Tabs */}
+      <nav className="mb-5 flex flex-wrap gap-2">
+        {TABS.map((t) => (
+          <button key={t} onClick={() => setTab(t)}
+            className={`rounded-full px-4 py-2 text-sm font-semibold ${tab === t ? "bg-accent text-black" : "bg-panel text-slate-300 border border-slate-700"}`}>
+            {t}
+          </button>
+        ))}
+      </nav>
+
+      {tab === "Live Dashboard" && (
+        <section className="grid gap-4 lg:grid-cols-5">
+          <div className="card p-4 lg:col-span-3">
+            <div className="mb-2 flex items-center justify-between">
+              <div className="font-bold text-white">Live playback event stream <span className="badge bg-teal2/20 text-teal2">LIVE</span></div>
+              <button onClick={() => setPaused((p) => !p)} className="rounded-lg bg-slate-800 px-3 py-1 text-xs font-bold text-slate-200">{paused ? "Resume" : "Pause"}</button>
+            </div>
+            <div className="mb-2 text-xs text-slate-400">Live events this session: <b className="text-white">{liveCount}</b> · live viewing sessions started: <b className="text-white">{liveSessions}</b></div>
+            <div className="space-y-2">
+              {live.length === 0 && <p className="text-sm text-slate-400">Waiting for the first event…</p>}
+              {live.map((e) => (
+                <div key={e.id} className="flex flex-wrap items-center gap-2 rounded-lg bg-slate-900/60 px-3 py-2 text-xs">
+                  <span className="badge bg-violet2/25 text-violet-200">{e.event_type.toUpperCase()}</span>
+                  <span className="font-semibold text-white">{e.title}</span>
+                  <span className="text-slate-400">{e.genre} · {e.user_id} · position {e.playback_position_min} min · {e.at}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="space-y-4 lg:col-span-2">
+            <BucketBars />
+            <div className="card p-4">
+              <div className="mb-2 font-bold text-white">Pipeline flow</div>
+              <p className="text-sm leading-7 text-slate-300">Python Producer → Apache Kafka → Consumer → <b>Bronze</b> JSONL → <b>Silver</b> cleaning → Sessionization (30 min) → <b>Gold</b> fact / dimensions → ClickHouse + dbt → FastAPI → React</p>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {tab === "Content Analytics" && (
+        <section className="space-y-4">
+          <GenreTable />
+          <div className="card overflow-x-auto scrollthin p-2">
+            <div className="p-2 font-bold text-white">Per-title engagement (dim_content)</div>
+            <table className="w-full text-sm">
+              <thead><tr><th>Title</th><th>Genre</th><th>Duration</th><th>Sessions</th><th>Viewers</th><th>Total watch (min)</th><th>Avg completion %</th></tr></thead>
+              <tbody>
+                {seed.dimContent.map((c) => (
+                  <tr key={c.content_id}><td className="font-semibold text-white">{c.title}</td><td>{c.genre}</td><td>{c.duration_min} min</td><td>{c.total_sessions}</td><td>{c.unique_viewers}</td><td>{c.total_watch_min.toFixed(2)}</td><td>{c.avg_completion_pct.toFixed(2)}%</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {tab === "Sessions & Gold" && (
+        <section className="space-y-4">
+          <div className="card overflow-x-auto scrollthin p-2">
+            <div className="p-2 font-bold text-white">fact_viewing_sessions — all 41 sessions</div>
+            <table className="w-full text-sm">
+              <thead><tr><th>Session</th><th>User</th><th>Title</th><th>Start (UTC)</th><th>Elapsed (min)</th><th>Events</th><th>Max position</th><th>Completion</th><th>Bucket</th></tr></thead>
+              <tbody>
+                {seed.factViewingSessions.map((r) => (
+                  <tr key={r.session_id}><td className="font-mono text-xs">{r.session_id}</td><td>{r.user_id}</td><td className="font-semibold text-white">{r.title}</td><td className="text-xs">{fmtDateTime(r.session_start)}</td><td>{r.duration_elapsed_min.toFixed(2)}</td><td>{r.event_count}</td><td>{r.max_playback_position_min} / {r.catalog_duration_min}</td><td>{r.estimated_completion_pct.toFixed(1)}%</td><td>{r.completion_bucket}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <div className="grid gap-4 lg:grid-cols-2">
+            <div className="card overflow-x-auto scrollthin p-2">
+              <div className="p-2 font-bold text-white">dim_user (33 rows — first 10)</div>
+              <table className="w-full text-sm"><thead><tr><th>User</th><th>Sessions</th><th>Events</th><th>Watch (min)</th><th>Avg completion %</th></tr></thead>
+                <tbody>{seed.dimUser.slice(0, 10).map((u) => (<tr key={u.user_id}><td>{u.user_id}</td><td>{u.total_sessions}</td><td>{u.total_events}</td><td>{u.total_watch_min.toFixed(2)}</td><td>{u.avg_completion_pct.toFixed(2)}%</td></tr>))}</tbody></table>
+            </div>
+            <div className="card p-4">
+              <div className="mb-2 font-bold text-white">Gold datasets</div>
+              <ul className="list-disc space-y-1 pl-5 text-sm text-slate-300">
+                <li><b>fact_viewing_sessions</b> — 41 rows, session start/end, elapsed duration, event counts by type, max position, estimated completion.</li>
+                <li><b>dim_user</b> — 33 rows of per-user session / event / duration aggregates.</li>
+                <li><b>dim_content</b> — 14 catalog titles with engagement aggregates.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {tab === "Data Quality & dbt" && (
+        <section className="grid gap-4 lg:grid-cols-2">
+          <div className="card p-4">
+            <div className="mb-2 font-bold text-white">Silver validation — recorded run</div>
+            <ul className="space-y-2 text-sm text-slate-300">
+              {[
+                `Bronze events captured: ${s.bronzeEvents}`,
+                `Records retained after validation: ${s.silverRetained} (100%)`,
+                "Required fields present & non-null — PASS",
+                "Event types within {play, pause, seek, buffer, stop} — PASS",
+                "Timestamps parsed as UTC — PASS",
+                "Negative playback positions — none retained",
+                "dbt build (recorded run) — completed, no test errors",
+              ].map((x) => (<li key={x}>✓ {x}</li>))}
+            </ul>
+            <p className="mt-3 text-xs text-slate-400">Still to test (roadmap): malformed events, duplicate delivery, out-of-order / late events, empty inputs, expired catalog licenses.</p>
+          </div>
+          <div className="card p-4">
+            <div className="mb-2 font-bold text-white">dbt models (dbt-clickhouse)</div>
+            <ul className="space-y-2 text-sm text-slate-300">
+              <li><span className="font-mono text-teal2">stg_playback_events</span> — staging, typed Silver events</li>
+              <li><span className="font-mono text-teal2">stg_viewing_sessions</span> — staging, Gold session fact</li>
+              <li><span className="font-mono text-teal2">int_content_engagement</span> — intermediate, per-title engagement</li>
+              <li><span className="font-mono text-teal2">mart_content_engagement</span> — mart, genre engagement served by FastAPI</li>
+            </ul>
+            <p className="mt-3 text-xs text-slate-400">schema.yml tests: not_null, unique, accepted_values on event types and completion buckets.</p>
+          </div>
+        </section>
+      )}
+
+      {tab === "Features & A/B Test" && (
+        <section className="space-y-4">
+          <div className="grid gap-4 lg:grid-cols-3">
+            <div className="card p-4">
+              <div className="mb-1 font-bold text-white">A/B test — recorded run</div>
+              <p className="text-sm text-slate-300">Control <b className="text-white">16 users</b> · Treatment <b className="text-white">17 users</b></p>
+              <p className="mt-2 text-sm text-slate-300">Welch two-sample t-test on average estimated watch time: <b className="text-white">p = 0.3121</b></p>
+              <p className="mt-1 text-sm font-semibold text-amber-300">Not statistically significant.</p>
+            </div>
+            <div className="card p-4">
+              <div className="mb-1 font-bold text-white">Reproduced run (this repo)</div>
+              <p className="text-sm text-slate-300">Control mean {seed.abTest.control_mean_watch_min} min · Treatment mean {seed.abTest.treatment_mean_watch_min} min</p>
+              <p className="mt-2 text-sm text-slate-300">t = {seed.abTest.t_statistic}, p = {seed.abTest.p_value} — also not significant, consistent with the recorded run.</p>
+            </div>
+            <div className="card p-4">
+              <div className="mb-1 font-bold text-white">Sample size required</div>
+              <p className="text-sm text-slate-300"><b className="text-white">64 users per group · 128 total</b></p>
+              <p className="mt-2 text-xs text-slate-400">Effect size 0.5, alpha 0.05, power 0.80 — the current 33-user demo is underpowered by design; that is the honest conclusion.</p>
+            </div>
+          </div>
+          <div className="card overflow-x-auto scrollthin p-2">
+            <div className="p-2 font-bold text-white">User features — 33 records × 13 columns (first 12 shown)</div>
+            <table className="w-full text-sm">
+              <thead><tr><th>User</th><th>Group</th><th>Sessions</th><th>Events</th><th>Watch (min)</th><th>Avg session (min)</th><th>Avg max pos</th><th>Avg completion %</th><th>Night sessions</th><th>Avg hour</th></tr></thead>
+              <tbody>
+                {featureSample.map((f) => (
+                  <tr key={f.user_id}><td>{f.user_id}</td><td>{seed.abAssignments[f.user_id]}</td><td>{f.total_sessions}</td><td>{f.total_events}</td><td>{f.total_watch_min.toFixed(2)}</td><td>{f.avg_session_duration_min.toFixed(2)}</td><td>{f.avg_max_position_min.toFixed(2)}</td><td>{f.avg_completion_pct.toFixed(2)}%</td><td>{f.night_sessions}</td><td>{f.avg_viewing_hour.toFixed(1)}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </section>
+      )}
+
+      {tab === "Architecture & Roadmap" && (
+        <section className="grid gap-4 lg:grid-cols-2">
+          <div className="card p-4">
+            <div className="mb-2 font-bold text-white">Architecture</div>
+            <ol className="list-decimal space-y-2 pl-5 text-sm text-slate-300">
+              <li><b>Producer</b> — Python generates play / pause / seek / buffer / stop events → Kafka topic <span className="font-mono">playback-events</span>.</li>
+              <li><b>Bronze</b> — consumer appends raw JSONL with partition, offset, ingested_at.</li>
+              <li><b>Silver</b> — pandas validation, UTC timestamps, numeric positions, supported types only.</li>
+              <li><b>Sessionization</b> — sorted by user + content + time; new session after a &gt;30-min gap.</li>
+              <li><b>Gold</b> — fact_viewing_sessions + dim_user + dim_content.</li>
+              <li><b>Analytics</b> — ClickHouse tables/views; dbt staging → intermediate → mart with tests.</li>
+              <li><b>Delivery</b> — FastAPI /, /health, /analytics/content → React dashboard.</li>
+            </ol>
+          </div>
+          <div className="card p-4">
+            <div className="mb-2 font-bold text-white">Limitations &amp; roadmap</div>
+            <ul className="list-disc space-y-2 pl-5 text-sm text-slate-300">
+              <li>Small synthetic demo dataset (112 events) — results are not representative audience findings.</li>
+              <li>Session duration = elapsed first-to-last event, not verified active playback time.</li>
+              <li>Airflow orchestration in progress — Docker storage-capacity issue blocked its deployment.</li>
+              <li>Next: watermark-based catalog ingestion + licensing expiry, late-arrival / dedup policies, rolling 30-day genre features + recommendation API, concurrent-viewer &amp; funnel charts, GitHub Actions CI + Terraform.</li>
+            </ul>
+          </div>
+        </section>
+      )}
+
+      <footer className="mt-8 text-center text-xs text-slate-500">
+        Project Meridian · Rohit Kumar · github.com/rohit01rk · Pipeline: Python / Kafka / pandas / ClickHouse / dbt / FastAPI / React (Next.js)
+      </footer>
+    </main>
+  );
+}
