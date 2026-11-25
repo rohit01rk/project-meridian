@@ -1,1 +1,1 @@
-IiIiUHJvamVjdCBNZXJpZGlhbiBwaXBlbGluZSBwYWNrYWdlOiBwcm9kdWNlciAtPiBCcm9uemUgLT4gU2lsdmVyIC0+IEdvbGQuIiIiCg==
+"""Project Meridian pipeline package: producer -> Bronze -> Silver -> Gold."""
