@@ -1,1 +1,128 @@
-IiIiR29sZCBsYXllcjogZmFjdF92aWV3aW5nX3Nlc3Npb25zLCBkaW1fdXNlciwgZGltX2NvbnRlbnQuCgpIb25lc3QgbWV0cmljIGRlZmluaXRpb25zIChhbHNvIGluIFJFQURNRSk6CiAgKiBzZXNzaW9uIGR1cmF0aW9uID0gZWxhcHNlZCBtaW51dGVzIGJldHdlZW4gdGhlIHNlc3Npb24ncyBmaXJzdCBhbmQKICAgIGxhc3QgZXZlbnQg4oCUIE5PVCB2ZXJpZmllZCBhY3RpdmUgcGxheWJhY2sgdGltZS4KICAqIGVzdGltYXRlZCBjb21wbGV0aW9uID0gbWF4IHBsYXliYWNrIHBvc2l0aW9uIC8gY2F0YWxvZyBkdXJhdGlvbiwKICAgIGNhcHBlZCBhdCAxMDAlIOKAlCBOT1QgYSBwcmVjaXNlIHdhdGNoLXBlcmNlbnRhZ2UgbWVhc3VyZS4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHBhbmRhcyBhcyBwZAoKZnJvbSAuY2F0YWxvZyBpbXBvcnQgQ0FUQUxPRwoKCmRlZiBjYXRhbG9nX2RmKCkgLT4gcGQuRGF0YUZyYW1lOgogICAgcmV0dXJuIHBkLkRhdGFGcmFtZShDQVRBTE9HKQoKCmRlZiBidWlsZF9mYWN0KHNlc3Npb25pemVkOiBwZC5EYXRhRnJhbWUsIGNhdGFsb2c6IHBkLkRhdGFGcmFtZSkgLT4gcGQuRGF0YUZyYW1lOgogICAgcm93cyA9IFtdCiAgICBmb3IgKHNlc3Npb25faWQsIHVzZXJfaWQsIGNvbnRlbnRfaWQpLCBnIGluIHNlc3Npb25pemVkLmdyb3VwYnkoCiAgICAgICAgWyJzZXNzaW9uX2lkIiwgInVzZXJfaWQiLCAiY29udGVudF9pZCJdLCBzb3J0PVRydWUKICAgICk6CiAgICAgICAgZyA9IGcuc29ydF92YWx1ZXMoInRpbWVzdGFtcCIpCiAgICAgICAgY2F0ID0gY2F0YWxvZ1tjYXRhbG9nWyJjb250ZW50X2lkIl0gPT0gY29udGVudF9pZF0uaWxvY1swXQogICAgICAgIG1heF9wb3MgPSBmbG9hdChnWyJwbGF5YmFja19wb3NpdGlvbl9taW4iXS5tYXgoKSkKICAgICAgICBkdXJhdGlvbl9taW4gPSBmbG9hdChjYXRbImR1cmF0aW9uX21pbiJdKQogICAgICAgIGNvdW50cyA9IGdbImV2ZW50X3R5cGUiXS52YWx1ZV9jb3VudHMoKS50b19kaWN0KCkKICAgICAgICBzdGFydCwgZW5kID0gZ1sidGltZXN0YW1wIl0uaWxvY1swXSwgZ1sidGltZXN0YW1wIl0uaWxvY1stMV0KICAgICAgICBjb21wbGV0aW9uID0gbWluKDEwMC4wLCByb3VuZChtYXhfcG9zIC8gZHVyYXRpb25fbWluICogMTAwLCAyKSkgaWYgZHVyYXRpb25fbWluIGVsc2UgMC4wCiAgICAgICAgcm93cy5hcHBlbmQoCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJzZXNzaW9uX2lkIjogc2Vzc2lvbl9pZCwKICAgICAgICAgICAgICAgICJ1c2VyX2lkIjogdXNlcl9pZCwKICAgICAgICAgICAgICAgICJjb250ZW50X2lkIjogY29udGVudF9pZCwKICAgICAgICAgICAgICAgICJ0aXRsZSI6IGNhdFsidGl0bGUiXSwKICAgICAgICAgICAgICAgICJnZW5yZSI6IGNhdFsiZ2VucmUiXSwKICAgICAgICAgICAgICAgICJzZXNzaW9uX3N0YXJ0Ijogc3RhcnQsCiAgICAgICAgICAgICAgICAic2Vzc2lvbl9lbmQiOiBlbmQsCiAgICAgICAgICAgICAgICAiZHVyYXRpb25fZWxhcHNlZF9taW4iOiByb3VuZCgoZW5kIC0gc3RhcnQpLnRvdGFsX3NlY29uZHMoKSAvIDYwLjAsIDIpLAogICAgICAgICAgICAgICAgImV2ZW50X2NvdW50IjogaW50KGxlbihnKSksCiAgICAgICAgICAgICAgICAicGxheV9ldmVudHMiOiBpbnQoY291bnRzLmdldCgicGxheSIsIDApKSwKICAgICAgICAgICAgICAgICJwYXVzZV9ldmVudHMiOiBpbnQoY291bnRzLmdldCgicGF1c2UiLCAwKSksCiAgICAgICAgICAgICAgICAic2Vla19ldmVudHMiOiBpbnQoY291bnRzLmdldCgic2VlayIsIDApKSwKICAgICAgICAgICAgICAgICJidWZmZXJfZXZlbnRzIjogaW50KGNvdW50cy5nZXQoImJ1ZmZlciIsIDApKSwKICAgICAgICAgICAgICAgICJzdG9wX2V2ZW50cyI6IGludChjb3VudHMuZ2V0KCJzdG9wIiwgMCkpLAogICAgICAgICAgICAgICAgIm1heF9wbGF5YmFja19wb3NpdGlvbl9taW4iOiBtYXhfcG9zLAogICAgICAgICAgICAgICAgImNhdGFsb2dfZHVyYXRpb25fbWluIjogZHVyYXRpb25fbWluLAogICAgICAgICAgICAgICAgImVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCI6IGNvbXBsZXRpb24sCiAgICAgICAgICAgICAgICAiY29tcGxldGlvbl9idWNrZXQiOiAoCiAgICAgICAgICAgICAgICAgICAgImhpZ2hfZ2VfODAiIGlmIGNvbXBsZXRpb24gPj0gODAgZWxzZSAibWlkXzMwXzc5IiBpZiBjb21wbGV0aW9uID49IDMwIGVsc2UgImxvd19sdF8zMCIKICAgICAgICAgICAgICAgICksCiAgICAgICAgICAgIH0KICAgICAgICApCiAgICBmYWN0ID0gcGQuRGF0YUZyYW1lKHJvd3MpLnNvcnRfdmFsdWVzKFsic2Vzc2lvbl9zdGFydCIsICJzZXNzaW9uX2lkIl0pLnJlc2V0X2luZGV4KGRyb3A9VHJ1ZSkKICAgIHJldHVybiBmYWN0CgoKZGVmIGJ1aWxkX2RpbV91c2VyKGZhY3Q6IHBkLkRhdGFGcmFtZSkgLT4gcGQuRGF0YUZyYW1lOgogICAgZGltID0gKAogICAgICAgIGZhY3QuZ3JvdXBieSgidXNlcl9pZCIpCiAgICAgICAgLmFnZygKICAgICAgICAgICAgdG90YWxfc2Vzc2lvbnM9KCJzZXNzaW9uX2lkIiwgImNvdW50IiksCiAgICAgICAgICAgIHRvdGFsX2V2ZW50cz0oImV2ZW50X2NvdW50IiwgInN1bSIpLAogICAgICAgICAgICB0b3RhbF93YXRjaF9taW49KCJkdXJhdGlvbl9lbGFwc2VkX21pbiIsICJzdW0iKSwKICAgICAgICAgICAgYXZnX3Nlc3Npb25fZHVyYXRpb25fbWluPSgiZHVyYXRpb25fZWxhcHNlZF9taW4iLCAibWVhbiIpLAogICAgICAgICAgICBhdmdfY29tcGxldGlvbl9wY3Q9KCJlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QiLCAibWVhbiIpLAogICAgICAgICAgICBkaXN0aW5jdF9jb250ZW50PSgiY29udGVudF9pZCIsICJudW5pcXVlIiksCiAgICAgICAgKQogICAgICAgIC5yZXNldF9pbmRleCgpCiAgICAgICAgLnNvcnRfdmFsdWVzKCJ1c2VyX2lkIikKICAgICkKICAgIGZvciBjIGluIFsidG90YWxfd2F0Y2hfbWluIiwgImF2Z19zZXNzaW9uX2R1cmF0aW9uX21pbiIsICJhdmdfY29tcGxldGlvbl9wY3QiXToKICAgICAgICBkaW1bY10gPSBkaW1bY10ucm91bmQoMikKICAgIHJldHVybiBkaW0KCgpkZWYgYnVpbGRfZGltX2NvbnRlbnQoZmFjdDogcGQuRGF0YUZyYW1lLCBjYXRhbG9nOiBwZC5EYXRhRnJhbWUpIC0+IHBkLkRhdGFGcmFtZToKICAgIGFnZyA9ICgKICAgICAgICBmYWN0Lmdyb3VwYnkoWyJjb250ZW50X2lkIiwgInRpdGxlIiwgImdlbnJlIl0pCiAgICAgICAgLmFnZygKICAgICAgICAgICAgdG90YWxfc2Vzc2lvbnM9KCJzZXNzaW9uX2lkIiwgImNvdW50IiksCiAgICAgICAgICAgIHVuaXF1ZV92aWV3ZXJzPSgidXNlcl9pZCIsICJudW5pcXVlIiksCiAgICAgICAgICAgIHRvdGFsX2V2ZW50cz0oImV2ZW50X2NvdW50IiwgInN1bSIpLAogICAgICAgICAgICB0b3RhbF93YXRjaF9taW49KCJkdXJhdGlvbl9lbGFwc2VkX21pbiIsICJzdW0iKSwKICAgICAgICAgICAgYXZnX3Nlc3Npb25fZHVyYXRpb25fbWluPSgiZHVyYXRpb25fZWxhcHNlZF9taW4iLCAibWVhbiIpLAogICAgICAgICAgICBhdmdfY29tcGxldGlvbl9wY3Q9KCJlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QiLCAibWVhbiIpLAogICAgICAgICkKICAgICAgICAucmVzZXRfaW5kZXgoKQogICAgKQogICAgZGltID0gY2F0YWxvZy5tZXJnZShhZ2csIG9uPVsiY29udGVudF9pZCIsICJ0aXRsZSIsICJnZW5yZSJdLCBob3c9ImxlZnQiKQogICAgZm9yIGMgaW4gWyJ0b3RhbF9zZXNzaW9ucyIsICJ1bmlxdWVfdmlld2VycyIsICJ0b3RhbF9ldmVudHMiXToKICAgICAgICBkaW1bY10gPSBkaW1bY10uZmlsbG5hKDApLmFzdHlwZShpbnQpCiAgICBmb3IgYyBpbiBbInRvdGFsX3dhdGNoX21pbiIsICJhdmdfc2Vzc2lvbl9kdXJhdGlvbl9taW4iLCAiYXZnX2NvbXBsZXRpb25fcGN0Il06CiAgICAgICAgZGltW2NdID0gZGltW2NdLmZpbGxuYSgwKS5yb3VuZCgyKQogICAgcmV0dXJuIGRpbS5zb3J0X3ZhbHVlcygiY29udGVudF9pZCIpLnJlc2V0X2luZGV4KGRyb3A9VHJ1ZSkKCgpkZWYgYnVpbGRfY29udGVudF9hbmFseXRpY3MoZmFjdDogcGQuRGF0YUZyYW1lKSAtPiBwZC5EYXRhRnJhbWU6CiAgICAiIiJUaGUgZ2VucmUtbGV2ZWwgdGFibGUgdGhlIEZhc3RBUEkgL2FuYWx5dGljcy9jb250ZW50IGVuZHBvaW50IHNlcnZlcy4iIiIKICAgIG91dCA9ICgKICAgICAgICBmYWN0Lmdyb3VwYnkoImdlbnJlIikKICAgICAgICAuYWdnKAogICAgICAgICAgICBzZXNzaW9ucz0oInNlc3Npb25faWQiLCAiY291bnQiKSwKICAgICAgICAgICAgdW5pcXVlX3ZpZXdlcnM9KCJ1c2VyX2lkIiwgIm51bmlxdWUiKSwKICAgICAgICAgICAgdG90YWxfZHVyYXRpb25fbWluPSgiZHVyYXRpb25fZWxhcHNlZF9taW4iLCAic3VtIiksCiAgICAgICAgICAgIGF2Z19kdXJhdGlvbl9taW49KCJkdXJhdGlvbl9lbGFwc2VkX21pbiIsICJtZWFuIiksCiAgICAgICAgICAgIGF2Z19jb21wbGV0aW9uX3BjdD0oImVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCIsICJtZWFuIiksCiAgICAgICAgKQogICAgICAgIC5yZXNldF9pbmRleCgpCiAgICAgICAgLnNvcnRfdmFsdWVzKCJnZW5yZSIpCiAgICApCiAgICBmb3IgYyBpbiBbInRvdGFsX2R1cmF0aW9uX21pbiIsICJhdmdfZHVyYXRpb25fbWluIiwgImF2Z19jb21wbGV0aW9uX3BjdCJdOgogICAgICAgIG91dFtjXSA9IG91dFtjXS5yb3VuZCgyKQogICAgcmV0dXJuIG91dAoKCmRlZiB3cml0ZV9nb2xkKGZhY3Q6IHBkLkRhdGFGcmFtZSwgZGltX3VzZXI6IHBkLkRhdGFGcmFtZSwgZGltX2NvbnRlbnQ6IHBkLkRhdGFGcmFtZSwKICAgICAgICAgICAgICAgYW5hbHl0aWNzOiBwZC5EYXRhRnJhbWUsIGNhdGFsb2c6IHBkLkRhdGFGcmFtZSwgb3V0X2RpcjogUGF0aCkgLT4gTm9uZToKICAgIG91dF9kaXIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgZmFjdC50b19jc3Yob3V0X2RpciAvICJmYWN0X3ZpZXdpbmdfc2Vzc2lvbnMuY3N2IiwgaW5kZXg9RmFsc2UpCiAgICBkaW1fdXNlci50b19jc3Yob3V0X2RpciAvICJkaW1fdXNlci5jc3YiLCBpbmRleD1GYWxzZSkKICAgIGRpbV9jb250ZW50LnRvX2NzdihvdXRfZGlyIC8gImRpbV9jb250ZW50LmNzdiIsIGluZGV4PUZhbHNlKQogICAgYW5hbHl0aWNzLnRvX2NzdihvdXRfZGlyIC8gImNvbnRlbnRfYW5hbHl0aWNzX2J5X2dlbnJlLmNzdiIsIGluZGV4PUZhbHNlKQogICAgY2F0YWxvZy50b19jc3Yob3V0X2RpciAvICJjb250ZW50X2NhdGFsb2cuY3N2IiwgaW5kZXg9RmFsc2UpCg==
+"""Gold layer: fact_viewing_sessions, dim_user, dim_content.
+
+Honest metric definitions (also in README):
+  * session duration = elapsed minutes between the session's first and
+    last event — NOT verified active playback time.
+  * estimated completion = max playback position / catalog duration,
+    capped at 100% — NOT a precise watch-percentage measure.
+"""
+from __future__ import annotations
+
+from pathlib import Path
+
+import pandas as pd
+
+from .catalog import CATALOG
+
+
+def catalog_df() -> pd.DataFrame:
+    return pd.DataFrame(CATALOG)
+
+
+def build_fact(sessionized: pd.DataFrame, catalog: pd.DataFrame) -> pd.DataFrame:
+    rows = []
+    for (session_id, user_id, content_id), g in sessionized.groupby(
+        ["session_id", "user_id", "content_id"], sort=True
+    ):
+        g = g.sort_values("timestamp")
+        cat = catalog[catalog["content_id"] == content_id].iloc[0]
+        max_pos = float(g["playback_position_min"].max())
+        duration_min = float(cat["duration_min"])
+        counts = g["event_type"].value_counts().to_dict()
+        start, end = g["timestamp"].iloc[0], g["timestamp"].iloc[-1]
+        completion = min(100.0, round(max_pos / duration_min * 100, 2)) if duration_min else 0.0
+        rows.append(
+            {
+                "session_id": session_id,
+                "user_id": user_id,
+                "content_id": content_id,
+                "title": cat["title"],
+                "genre": cat["genre"],
+                "session_start": start,
+                "session_end": end,
+                "duration_elapsed_min": round((end - start).total_seconds() / 60.0, 2),
+                "event_count": int(len(g)),
+                "play_events": int(counts.get("play", 0)),
+                "pause_events": int(counts.get("pause", 0)),
+                "seek_events": int(counts.get("seek", 0)),
+                "buffer_events": int(counts.get("buffer", 0)),
+                "stop_events": int(counts.get("stop", 0)),
+                "max_playback_position_min": max_pos,
+                "catalog_duration_min": duration_min,
+                "estimated_completion_pct": completion,
+                "completion_bucket": (
+                    "high_ge_80" if completion >= 80 else "mid_30_79" if completion >= 30 else "low_lt_30"
+                ),
+            }
+        )
+    fact = pd.DataFrame(rows).sort_values(["session_start", "session_id"]).reset_index(drop=True)
+    return fact
+
+
+def build_dim_user(fact: pd.DataFrame) -> pd.DataFrame:
+    dim = (
+        fact.groupby("user_id")
+        .agg(
+            total_sessions=("session_id", "count"),
+            total_events=("event_count", "sum"),
+            total_watch_min=("duration_elapsed_min", "sum"),
+            avg_session_duration_min=("duration_elapsed_min", "mean"),
+            avg_completion_pct=("estimated_completion_pct", "mean"),
+            distinct_content=("content_id", "nunique"),
+        )
+        .reset_index()
+        .sort_values("user_id")
+    )
+    for c in ["total_watch_min", "avg_session_duration_min", "avg_completion_pct"]:
+        dim[c] = dim[c].round(2)
+    return dim
+
+
+def build_dim_content(fact: pd.DataFrame, catalog: pd.DataFrame) -> pd.DataFrame:
+    agg = (
+        fact.groupby(["content_id", "title", "genre"])
+        .agg(
+            total_sessions=("session_id", "count"),
+            unique_viewers=("user_id", "nunique"),
+            total_events=("event_count", "sum"),
+            total_watch_min=("duration_elapsed_min", "sum"),
+            avg_session_duration_min=("duration_elapsed_min", "mean"),
+            avg_completion_pct=("estimated_completion_pct", "mean"),
+        )
+        .reset_index()
+    )
+    dim = catalog.merge(agg, on=["content_id", "title", "genre"], how="left")
+    for c in ["total_sessions", "unique_viewers", "total_events"]:
+        dim[c] = dim[c].fillna(0).astype(int)
+    for c in ["total_watch_min", "avg_session_duration_min", "avg_completion_pct"]:
+        dim[c] = dim[c].fillna(0).round(2)
+    return dim.sort_values("content_id").reset_index(drop=True)
+
+
+def build_content_analytics(fact: pd.DataFrame) -> pd.DataFrame:
+    """The genre-level table the FastAPI /analytics/content endpoint serves."""
+    out = (
+        fact.groupby("genre")
+        .agg(
+            sessions=("session_id", "count"),
+            unique_viewers=("user_id", "nunique"),
+            total_duration_min=("duration_elapsed_min", "sum"),
+            avg_duration_min=("duration_elapsed_min", "mean"),
+            avg_completion_pct=("estimated_completion_pct", "mean"),
+        )
+        .reset_index()
+        .sort_values("genre")
+    )
+    for c in ["total_duration_min", "avg_duration_min", "avg_completion_pct"]:
+        out[c] = out[c].round(2)
+    return out
+
+
+def write_gold(fact: pd.DataFrame, dim_user: pd.DataFrame, dim_content: pd.DataFrame,
+               analytics: pd.DataFrame, catalog: pd.DataFrame, out_dir: Path) -> None:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    fact.to_csv(out_dir / "fact_viewing_sessions.csv", index=False)
+    dim_user.to_csv(out_dir / "dim_user.csv", index=False)
+    dim_content.to_csv(out_dir / "dim_content.csv", index=False)
+    analytics.to_csv(out_dir / "content_analytics_by_genre.csv", index=False)
+    catalog.to_csv(out_dir / "content_catalog.csv", index=False)
