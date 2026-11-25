@@ -1,1 +1,14 @@
-aW1wb3J0IHsgTmV4dFJlc3BvbnNlIH0gZnJvbSAibmV4dC9zZXJ2ZXIiOwppbXBvcnQgeyBzZWVkIH0gZnJvbSAiQC9saWIvZW5naW5lIjsKCi8vIFZlcmNlbCBkZW1vIGhlYWx0aDogdGhlIGZ1bGwgS2Fma2EvQ2xpY2tIb3VzZSBzdGFjayBydW5zIGxvY2FsbHkgdmlhCi8vIERvY2tlciBDb21wb3NlOyBvbiBWZXJjZWwgdGhlIEFQSSBzZXJ2ZXMgdGhlIHZlcmlmaWVkIEdvbGQgc2VlZCBkYXRhLgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gR0VUKCkgewogIHJldHVybiBOZXh0UmVzcG9uc2UuanNvbih7CiAgICBzdGF0dXM6ICJoZWFsdGh5IiwKICAgIG1vZGU6ICJ2ZXJjZWxfZGVtb19zZWVkX2RhdGEiLAogICAgZGF0YWJhc2U6ICJjbGlja2hvdXNlX2xvY2FsX29ubHkiLAogICAgZ29sZF9zZXNzaW9uczogc2VlZC5zdW1tYXJ5LnNlc3Npb25zLAogICAgbm90ZTogIkZ1bGwgS2Fma2EvQ2xpY2tIb3VzZSBzdGFjayBydW5zIGxvY2FsbHkgdmlhIERvY2tlciBDb21wb3NlLiIsCiAgfSk7Cn0K
+import { NextResponse } from "next/server";
+import { seed } from "@/lib/engine";
+
+// Vercel demo health: the full Kafka/ClickHouse stack runs locally via
+// Docker Compose; on Vercel the API serves the verified Gold seed data.
+export async function GET() {
+  return NextResponse.json({
+    status: "healthy",
+    mode: "vercel_demo_seed_data",
+    database: "clickhouse_local_only",
+    gold_sessions: seed.summary.sessions,
+    note: "Full Kafka/ClickHouse stack runs locally via Docker Compose.",
+  });
+}
