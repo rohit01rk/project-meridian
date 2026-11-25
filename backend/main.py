@@ -1,1 +1,87 @@
-IiIiUHJvamVjdCBNZXJpZGlhbiDigJQgRmFzdEFQSSBkZWxpdmVyeSBsYXllci4KCkVuZHBvaW50czoKICBHRVQgLyAgICAgICAgICAgICAgICAgIHNlcnZpY2Ugc3RhdHVzCiAgR0VUIC9oZWFsdGggICAgICAgICAgICBDbGlja0hvdXNlIGNvbm5lY3Rpdml0eSB3aGVuIENMSUNLSE9VU0VfSE9TVCBpcwogICAgICAgICAgICAgICAgICAgICAgICAgY29uZmlndXJlZDsgb3RoZXJ3aXNlIGZhbGxzIGJhY2sgdG8gdGhlIEdvbGQgQ1NWcwogICAgICAgICAgICAgICAgICAgICAgICAgcHJvZHVjZWQgYnkgcGlwZWxpbmUvcnVuX3BpcGVsaW5lX2xvY2FsLnB5IGFuZAogICAgICAgICAgICAgICAgICAgICAgICAgcmVwb3J0cyBtb2RlPSJnb2xkX2Nzdl9mYWxsYmFjayIuCiAgR0VUIC9hbmFseXRpY3MvY29udGVudCBnZW5yZS1sZXZlbCBjb250ZW50IGVuZ2FnZW1lbnQgZnJvbSB0aGUgR29sZAogICAgICAgICAgICAgICAgICAgICAgICAgbGF5ZXIgKENsaWNrSG91c2Ugd2hlbiBjb25maWd1cmVkLCBlbHNlIEdvbGQgQ1NWKS4KClJ1bjogIHV2aWNvcm4gYmFja2VuZC5tYWluOmFwcCAtLXJlbG9hZCAtLXBvcnQgODAwMAoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IG9zCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHBhbmRhcyBhcyBwZApmcm9tIGZhc3RhcGkgaW1wb3J0IEZhc3RBUEkKZnJvbSBmYXN0YXBpLm1pZGRsZXdhcmUuY29ycyBpbXBvcnQgQ09SU01pZGRsZXdhcmUKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApHT0xEID0gUk9PVCAvICJkYXRhIiAvICJnb2xkIgoKYXBwID0gRmFzdEFQSSh0aXRsZT0iUHJvamVjdCBNZXJpZGlhbiBBUEkiLCB2ZXJzaW9uPSIxLjAuMCIpCmFwcC5hZGRfbWlkZGxld2FyZSgKICAgIENPUlNNaWRkbGV3YXJlLCBhbGxvd19vcmlnaW5zPVsiaHR0cDovL2xvY2FsaG9zdDozMDAwIl0sIGFsbG93X21ldGhvZHM9WyJHRVQiXSwgYWxsb3dfaGVhZGVycz1bIioiXQopCgoKZGVmIF9jbGlja2hvdXNlX2NsaWVudCgpOgogICAgIiIiUmV0dXJuIGEgQ2xpY2tIb3VzZSBjbGllbnQgb3IgTm9uZSB3aGVuIG5vdCBjb25maWd1cmVkL2F2YWlsYWJsZS4iIiIKICAgIGhvc3QgPSBvcy5nZXRlbnYoIkNMSUNLSE9VU0VfSE9TVCIpCiAgICBpZiBub3QgaG9zdDoKICAgICAgICByZXR1cm4gTm9uZQogICAgdHJ5OgogICAgICAgIGltcG9ydCBjbGlja2hvdXNlX2Nvbm5lY3QgICMgb3B0aW9uYWwgZGVwZW5kZW5jeQogICAgICAgIHJldHVybiBjbGlja2hvdXNlX2Nvbm5lY3QuZ2V0X2NsaWVudCgKICAgICAgICAgICAgaG9zdD1ob3N0LCBwb3J0PWludChvcy5nZXRlbnYoIkNMSUNLSE9VU0VfUE9SVCIsICI4MTIzIikpLAogICAgICAgICAgICBkYXRhYmFzZT1vcy5nZXRlbnYoIkNMSUNLSE9VU0VfREIiLCAibWVyaWRpYW4iKSwKICAgICAgICApCiAgICBleGNlcHQgRXhjZXB0aW9uOgogICAgICAgIHJldHVybiBOb25lCgoKZGVmIF9nb2xkX2FuYWx5dGljcygpIC0+IHBkLkRhdGFGcmFtZToKICAgIHJldHVybiBwZC5yZWFkX2NzdihHT0xEIC8gImNvbnRlbnRfYW5hbHl0aWNzX2J5X2dlbnJlLmNzdiIpCgoKQGFwcC5nZXQoIi8iKQpkZWYgcm9vdCgpIC0+IGRpY3Q6CiAgICByZXR1cm4geyJzZXJ2aWNlIjogInByb2plY3QtbWVyaWRpYW4iLCAic3RhdHVzIjogIm9rIiwKICAgICAgICAgICAgInBpcGVsaW5lIjogIlByb2R1Y2VyIC0+IEthZmthIC0+IEJyb256ZSAtPiBTaWx2ZXIgLT4gR29sZCAtPiBDbGlja0hvdXNlL2RidCAtPiBGYXN0QVBJIC0+IFJlYWN0In0KCgpAYXBwLmdldCgiL2hlYWx0aCIpCmRlZiBoZWFsdGgoKSAtPiBkaWN0OgogICAgY2xpZW50ID0gX2NsaWNraG91c2VfY2xpZW50KCkKICAgIGlmIGNsaWVudCBpcyBub3QgTm9uZToKICAgICAgICB0cnk6CiAgICAgICAgICAgIGNsaWVudC5xdWVyeSgiU0VMRUNUIDEiKQogICAgICAgICAgICByZXR1cm4geyJzdGF0dXMiOiAiaGVhbHRoeSIsICJkYXRhYmFzZSI6ICJjbGlja2hvdXNlIiwgIm1vZGUiOiAiY2xpY2tob3VzZSJ9CiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBleGM6ICAjIGZhbGwgdGhyb3VnaCB0byBDU1YgbW9kZSwgYnV0IHNheSBzbwogICAgICAgICAgICByZXR1cm4geyJzdGF0dXMiOiAiZGVncmFkZWQiLCAiZGF0YWJhc2UiOiAidW5yZWFjaGFibGUiLCAibW9kZSI6ICJnb2xkX2Nzdl9mYWxsYmFjayIsCiAgICAgICAgICAgICAgICAgICAgImRldGFpbCI6IHN0cihleGMpWzoyMDBdfQogICAgZ29sZF9vayA9IChHT0xEIC8gImZhY3Rfdmlld2luZ19zZXNzaW9ucy5jc3YiKS5leGlzdHMoKQogICAgcmV0dXJuIHsic3RhdHVzIjogImhlYWx0aHkiIGlmIGdvbGRfb2sgZWxzZSAiZGVncmFkZWQiLCAiZGF0YWJhc2UiOiAibm90X2NvbmZpZ3VyZWQiLAogICAgICAgICAgICAibW9kZSI6ICJnb2xkX2Nzdl9mYWxsYmFjayIsICJnb2xkX2RhdGFfcHJlc2VudCI6IGdvbGRfb2t9CgoKQGFwcC5nZXQoIi9hbmFseXRpY3MvY29udGVudCIpCmRlZiBjb250ZW50X2FuYWx5dGljcygpIC0+IGRpY3Q6CiAgICBjbGllbnQgPSBfY2xpY2tob3VzZV9jbGllbnQoKQogICAgaWYgY2xpZW50IGlzIG5vdCBOb25lOgogICAgICAgIHRyeToKICAgICAgICAgICAgcm93cyA9IGNsaWVudC5xdWVyeSgKICAgICAgICAgICAgICAgICJTRUxFQ1QgZ2VucmUsIHNlc3Npb25zLCB1bmlxdWVfdmlld2VycywgdG90YWxfZHVyYXRpb25fbWluLCAiCiAgICAgICAgICAgICAgICAiYXZnX2R1cmF0aW9uX21pbiwgYXZnX2NvbXBsZXRpb25fcGN0IEZST00gbWVyaWRpYW4udl9jb250ZW50X2VuZ2FnZW1lbnQgT1JERVIgQlkgZ2VucmUiCiAgICAgICAgICAgICkucmVzdWx0X3Jvd3MKICAgICAgICAgICAgY29scyA9IFsiZ2VucmUiLCAic2Vzc2lvbnMiLCAidW5pcXVlX3ZpZXdlcnMiLCAidG90YWxfZHVyYXRpb25fbWluIiwKICAgICAgICAgICAgICAgICAgICAiYXZnX2R1cmF0aW9uX21pbiIsICJhdmdfY29tcGxldGlvbl9wY3QiXQogICAgICAgICAgICByZXR1cm4geyJzb3VyY2UiOiAiY2xpY2tob3VzZSIsICJpdGVtcyI6IFtkaWN0KHppcChjb2xzLCByKSkgZm9yIHIgaW4gcm93c119CiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbjoKICAgICAgICAgICAgcGFzcyAgIyBmYWxsIGJhY2sgdG8gR29sZCBDU1YgYmVsb3cKICAgIGRmID0gX2dvbGRfYW5hbHl0aWNzKCkKICAgIHJldHVybiB7InNvdXJjZSI6ICJnb2xkX2NzdiIsICJpdGVtcyI6IGRmLnRvX2RpY3Qob3JpZW50PSJyZWNvcmRzIil9Cg==
+"""Project Meridian — FastAPI delivery layer.
+
+Endpoints:
+  GET /                  service status
+  GET /health            ClickHouse connectivity when CLICKHOUSE_HOST is
+                         configured; otherwise falls back to the Gold CSVs
+                         produced by pipeline/run_pipeline_local.py and
+                         reports mode="gold_csv_fallback".
+  GET /analytics/content genre-level content engagement from the Gold
+                         layer (ClickHouse when configured, else Gold CSV).
+
+Run:  uvicorn backend.main:app --reload --port 8000
+"""
+from __future__ import annotations
+
+import os
+from pathlib import Path
+
+import pandas as pd
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+ROOT = Path(__file__).resolve().parent.parent
+GOLD = ROOT / "data" / "gold"
+
+app = FastAPI(title="Project Meridian API", version="1.0.0")
+app.add_middleware(
+    CORSMiddleware, allow_origins=["http://localhost:3000"], allow_methods=["GET"], allow_headers=["*"]
+)
+
+
+def _clickhouse_client():
+    """Return a ClickHouse client or None when not configured/available."""
+    host = os.getenv("CLICKHOUSE_HOST")
+    if not host:
+        return None
+    try:
+        import clickhouse_connect  # optional dependency
+        return clickhouse_connect.get_client(
+            host=host, port=int(os.getenv("CLICKHOUSE_PORT", "8123")),
+            database=os.getenv("CLICKHOUSE_DB", "meridian"),
+        )
+    except Exception:
+        return None
+
+
+def _gold_analytics() -> pd.DataFrame:
+    return pd.read_csv(GOLD / "content_analytics_by_genre.csv")
+
+
+@app.get("/")
+def root() -> dict:
+    return {"service": "project-meridian", "status": "ok",
+            "pipeline": "Producer -> Kafka -> Bronze -> Silver -> Gold -> ClickHouse/dbt -> FastAPI -> React"}
+
+
+@app.get("/health")
+def health() -> dict:
+    client = _clickhouse_client()
+    if client is not None:
+        try:
+            client.query("SELECT 1")
+            return {"status": "healthy", "database": "clickhouse", "mode": "clickhouse"}
+        except Exception as exc:  # fall through to CSV mode, but say so
+            return {"status": "degraded", "database": "unreachable", "mode": "gold_csv_fallback",
+                    "detail": str(exc)[:200]}
+    gold_ok = (GOLD / "fact_viewing_sessions.csv").exists()
+    return {"status": "healthy" if gold_ok else "degraded", "database": "not_configured",
+            "mode": "gold_csv_fallback", "gold_data_present": gold_ok}
+
+
+@app.get("/analytics/content")
+def content_analytics() -> dict:
+    client = _clickhouse_client()
+    if client is not None:
+        try:
+            rows = client.query(
+                "SELECT genre, sessions, unique_viewers, total_duration_min, "
+                "avg_duration_min, avg_completion_pct FROM meridian.v_content_engagement ORDER BY genre"
+            ).result_rows
+            cols = ["genre", "sessions", "unique_viewers", "total_duration_min",
+                    "avg_duration_min", "avg_completion_pct"]
+            return {"source": "clickhouse", "items": [dict(zip(cols, r)) for r in rows]}
+        except Exception:
+            pass  # fall back to Gold CSV below
+    df = _gold_analytics()
+    return {"source": "gold_csv", "items": df.to_dict(orient="records")}
