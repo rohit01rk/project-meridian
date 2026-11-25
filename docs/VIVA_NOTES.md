@@ -1,1 +1,70 @@
-IyBQcm9qZWN0IE1lcmlkaWFuIOKAlCBWaXZhIE5vdGVzCgojIyBPbmUtbGluZSBwaXRjaApBIHN0cmVhbWluZy1tZWRpYSBkYXRhIHBsYXRmb3JtIHRoYXQgdHVybnMgcmF3IHBsYXliYWNrIGV2ZW50cyBpbnRvCnRydXN0d29ydGh5IGVuZ2FnZW1lbnQgYW5hbHl0aWNzOiBLYWZrYSBpbmdlc3Rpb24sIGEgQnJvbnplL1NpbHZlci9Hb2xkCm1lZGFsbGlvbiBwaXBlbGluZSwgQ2xpY2tIb3VzZSArIGRidCBhbmFseXRpY3MsIGFuZCBhIEZhc3RBUEkgKyBSZWFjdApkZWxpdmVyeSBsYXllci4KCiMjIFEmQQoKKipXaHkgYSBtZWRhbGxpb24gYXJjaGl0ZWN0dXJlPyoqCkJyb256ZSBwcmVzZXJ2ZXMgdGhlIHJhdyByZWNvcmQgd2l0aCBpdHMgS2Fma2EgcGFydGl0aW9uL29mZnNldCBhbmQKaW5nZXN0aW9uIHRpbWUsIHNvIGFueSBsYXRlciByZXN1bHQgY2FuIGJlIHRyYWNlZCBhbmQgcmVwbGF5ZWQuIFNpbHZlcgplbmZvcmNlcyBvbmUgZXhwbGljaXQgdmFsaWRhdGlvbiBjb250cmFjdC4gR29sZCBpcyBtb2RlbGxlZCBmb3IgYW5hbHlzaXMKKGZhY3QgKyBkaW1lbnNpb25zKSwgc28gZGFzaGJvYXJkcyBuZXZlciBxdWVyeSByYXcgZXZlbnRzLgoKKipIb3cgZG9lcyBzZXNzaW9uaXphdGlvbiB3b3JrPyoqCkV2ZW50cyBhcmUgc29ydGVkIGJ5IHVzZXIsIGNvbnRlbnQgYW5kIHRpbWVzdGFtcC4gQSBuZXcgc2Vzc2lvbiBzdGFydHMKd2hlbiB0aGUgZ2FwIGZyb20gdGhlIHByZXZpb3VzIGV2ZW50IGZvciB0aGUgc2FtZSB1c2VyK2NvbnRlbnQgZXhjZWVkcwozMCBtaW51dGVzLiBPbiB0aGUgcmVjb3JkZWQgcnVuIHRoaXMgdHVybnMgMTEyIGV2ZW50cyBpbnRvIDQxIHNlc3Npb25zLgoKKipIb3cgaXMgY29tcGxldGlvbiBjYWxjdWxhdGVkIOKAlCBhbmQgd2hhdCBpcyBpdHMgd2Vha25lc3M/KioKRXN0aW1hdGVkIGNvbXBsZXRpb24gPSBtYXhpbXVtIHBsYXliYWNrIHBvc2l0aW9uIMO3IGNhdGFsb2cgZHVyYXRpb24sCmNhcHBlZCBhdCAxMDAlLiBJdCBpcyBhbiBlc3RpbWF0ZTogYSBzZWVrIGNhbiBqdW1wIHRoZSBwb3NpdGlvbiB3aXRob3V0CnRoZSB1c2VyIHdhdGNoaW5nIGV2ZXJ5dGhpbmcgaW4gYmV0d2Vlbiwgc28gaXQgaXMgbm90IGEgdHJ1ZQp3YXRjaC1wZXJjZW50YWdlLgoKKipXaGF0IGRvZXMgInNlc3Npb24gZHVyYXRpb24iIGFjdHVhbGx5IG1lYW4gaGVyZT8qKgpFbGFwc2VkIG1pbnV0ZXMgYmV0d2VlbiB0aGUgc2Vzc2lvbidzIGZpcnN0IGFuZCBsYXN0IGV2ZW50IOKAlCBub3QKdmVyaWZpZWQgYWN0aXZlIHBsYXliYWNrIHRpbWUuIFBhdXNlcyBhcmUgaW5jbHVkZWQuIFdlIHN0YXRlIHRoaXMKd2hlcmV2ZXIgdGhlIG51bWJlciBpcyBzaG93bi4KCioqV2h5IGRpZCBhbGwgMTEyIHJlY29yZHMgc3Vydml2ZSBjbGVhbmluZz8qKgpUaGUgc2VlZCBkYXRhc2V0IGlzIGdlbmVyYXRlZCB2YWxpZCBieSBjb25zdHJ1Y3Rpb247IHRoZSBTaWx2ZXIgcnVsZXMKKHJlcXVpcmVkIGZpZWxkcywgc3VwcG9ydGVkIGV2ZW50IHR5cGVzLCBVVEMgdGltZXN0YW1wcywgbnVtZXJpYywKbm9uLW5lZ2F0aXZlIHBvc2l0aW9ucykgYXJlIHN0aWxsIGVuZm9yY2VkIGFuZCB1bml0LXZlcmlmaWFibGUgd2l0aAptYWxmb3JtZWQgaW5wdXRzIOKAlCB0ZXN0aW5nIHRob3NlIGNhc2VzIGlzIG9uIHRoZSByb2FkbWFwLgoKKipXaGF0IGRpZCB0aGUgQS9CIHRlc3Qgc2hvdz8qKgoxNiBjb250cm9sIHZzIDE3IHRyZWF0bWVudCB1c2VycywgV2VsY2ggdHdvLXNhbXBsZSB0LXRlc3Qgb24gYXZlcmFnZQplc3RpbWF0ZWQgd2F0Y2ggdGltZTogcCA9IDAuMzEyMSBpbiB0aGUgcmVjb3JkZWQgcnVuIOKAlCBub3Qgc2lnbmlmaWNhbnQuClRoZSByZXByb2R1Y2VkIHJ1biBpbiB0aGlzIHJlcG8gZ2l2ZXMgcCDiiYggMC4zMCwgdGhlIHNhbWUgY29uY2x1c2lvbi4KQSBwb3dlcmVkIHRlc3QgbmVlZHMgNjQgdXNlcnMgcGVyIGdyb3VwIChlZmZlY3QgMC41LCDOsSAwLjA1LCBwb3dlciAwLjgwKSwKc28gdGhlIGhvbmVzdCBmaW5kaW5nIGlzICJ1bmRlcnBvd2VyZWQg4oCUIGNvbGxlY3QgbW9yZSBkYXRhIiwgbm90IGEgd2luCmZvciBlaXRoZXIgdmFyaWFudC4KCioqV2h5IENsaWNrSG91c2U/KioKQ29sdW1uYXIgT0xBUCBzdG9yYWdlIGZpdHMgYXBwZW5kLWhlYXZ5IGV2ZW50IGZhY3RzIGFuZCBmYXN0IGdyb3VwLWJ5CmFnZ3JlZ2F0aW9ucyAoZ2VucmUgZW5nYWdlbWVudCwgY29tcGxldGlvbiBmdW5uZWxzKSBmYXIgYmV0dGVyIHRoYW4gYQpyb3cgc3RvcmUuCgoqKldoYXQgZG9lcyBkYnQgYWRkIGlmIHBhbmRhcyBhbHJlYWR5IGJ1aWxkcyBHb2xkPyoqCmRidCB2ZXJzaW9ucyB0aGUgU1FMIHRyYW5zZm9ybWF0aW9ucyAoc3RhZ2luZyDihpIgaW50ZXJtZWRpYXRlIOKGkiBtYXJ0KSwKZG9jdW1lbnRzIGxpbmVhZ2UsIGFuZCBydW5zIGRhdGEtcXVhbGl0eSB0ZXN0cyAobm90X251bGwsIHVuaXF1ZSwKYWNjZXB0ZWRfdmFsdWVzKSBpbiB0aGUgd2FyZWhvdXNlIGl0c2VsZiwgY2xvc2UgdG8gd2hlcmUgYW5hbHlzdHMgcXVlcnkuCgoqKldoYXQgYnJlYWtzIGZpcnN0IGF0IHByb2R1Y3Rpb24gc2NhbGU/KioKQmF0Y2ggc2Vzc2lvbml6YXRpb24gKG5lZWRzIHdhdGVybWFya3MgKyBsYXRlLWFycml2YWwgcG9saWN5KSwKZHVwbGljYXRlIGRlbGl2ZXJ5IChuZWVkcyBkZWR1cGxpY2F0aW9uIGtleXMpLCBhbmQgY2F0YWxvZyBjaGFuZ2VzCihuZWVkcyBpbmNyZW1lbnRhbCwgd2F0ZXJtYXJrLWJhc2VkIGluZ2VzdGlvbiB3aXRoIGxpY2Vuc2luZyBleHBpcnkpLgoKKipXaHkgaXMgQWlyZmxvdyBub3QgcnVubmluZz8qKgpBIERvY2tlciBzdG9yYWdlLWNhcGFjaXR5IGlzc3VlIGJsb2NrZWQgaXRzIGRlcGxveW1lbnQgb24gdGhlIGRldgptYWNoaW5lLiBJdCBpcyBvbiB0aGUgcm9hZG1hcCB3aXRoIGEgREFHIHRoYXQgcnVucyBwcm9jZXNzaW5nIGFuZCBkYnQKaW4gZGVwZW5kZW5jeSBvcmRlciDigJQgd2UgZG8gbm90IGNsYWltIGl0IGFzIGRvbmUuCgojIyBOdW1iZXJzIHRvIHF1b3RlCjExMiBicm9uemUgZXZlbnRzIMK3IDExMiByZXRhaW5lZCDCtyA0MSBzZXNzaW9ucyDCtyAzMyB1c2VycyDCtyAxNCB0aXRsZXMgwrcKY29tcGxldGlvbiAxOCAvIDExIC8gMTIgKOKJpTgwJSAvIDMw4oCTNzklIC8gPDMwJSkgwrcgZmVhdHVyZXMgMzMgw5cgMTMgwrcKQS9CIDE2IHZzIDE3LCBwID0gMC4zMTIxIChuLnMuKSDCtyByZXF1aXJlZCBzYW1wbGUgNjQvZ3JvdXAuCg==
+# Project Meridian — Viva Notes
+
+## One-line pitch
+A streaming-media data platform that turns raw playback events into
+trustworthy engagement analytics: Kafka ingestion, a Bronze/Silver/Gold
+medallion pipeline, ClickHouse + dbt analytics, and a FastAPI + React
+delivery layer.
+
+## Q&A
+
+**Why a medallion architecture?**
+Bronze preserves the raw record with its Kafka partition/offset and
+ingestion time, so any later result can be traced and replayed. Silver
+enforces one explicit validation contract. Gold is modelled for analysis
+(fact + dimensions), so dashboards never query raw events.
+
+**How does sessionization work?**
+Events are sorted by user, content and timestamp. A new session starts
+when the gap from the previous event for the same user+content exceeds
+30 minutes. On the recorded run this turns 112 events into 41 sessions.
+
+**How is completion calculated — and what is its weakness?**
+Estimated completion = maximum playback position ÷ catalog duration,
+capped at 100%. It is an estimate: a seek can jump the position without
+the user watching everything in between, so it is not a true
+watch-percentage.
+
+**What does "session duration" actually mean here?**
+Elapsed minutes between the session's first and last event — not
+verified active playback time. Pauses are included. We state this
+wherever the number is shown.
+
+**Why did all 112 records survive cleaning?**
+The seed dataset is generated valid by construction; the Silver rules
+(required fields, supported event types, UTC timestamps, numeric,
+non-negative positions) are still enforced and unit-verifiable with
+malformed inputs — testing those cases is on the roadmap.
+
+**What did the A/B test show?**
+16 control vs 17 treatment users, Welch two-sample t-test on average
+estimated watch time: p = 0.3121 in the recorded run — not significant.
+The reproduced run in this repo gives p ≈ 0.30, the same conclusion.
+A powered test needs 64 users per group (effect 0.5, α 0.05, power 0.80),
+so the honest finding is "underpowered — collect more data", not a win
+for either variant.
+
+**Why ClickHouse?**
+Columnar OLAP storage fits append-heavy event facts and fast group-by
+aggregations (genre engagement, completion funnels) far better than a
+row store.
+
+**What does dbt add if pandas already builds Gold?**
+dbt versions the SQL transformations (staging → intermediate → mart),
+documents lineage, and runs data-quality tests (not_null, unique,
+accepted_values) in the warehouse itself, close to where analysts query.
+
+**What breaks first at production scale?**
+Batch sessionization (needs watermarks + late-arrival policy),
+duplicate delivery (needs deduplication keys), and catalog changes
+(needs incremental, watermark-based ingestion with licensing expiry).
+
+**Why is Airflow not running?**
+A Docker storage-capacity issue blocked its deployment on the dev
+machine. It is on the roadmap with a DAG that runs processing and dbt
+in dependency order — we do not claim it as done.
+
+## Numbers to quote
+112 bronze events · 112 retained · 41 sessions · 33 users · 14 titles ·
+completion 18 / 11 / 12 (≥80% / 30–79% / <30%) · features 33 × 13 ·
+A/B 16 vs 17, p = 0.3121 (n.s.) · required sample 64/group.
