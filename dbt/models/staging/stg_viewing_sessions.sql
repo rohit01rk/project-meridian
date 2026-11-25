@@ -1,1 +1,23 @@
-LS0gU3RhZ2luZzogR29sZCB2aWV3aW5nLXNlc3Npb24gZmFjdCwgb25lIHJvdyBwZXIgc2Vzc2lvbi4KLS0gRHVyYXRpb24gaXMgZWxhcHNlZCBmaXJzdC10by1sYXN0IGV2ZW50IHRpbWUgKG5vdCB2ZXJpZmllZCBhY3RpdmUKLS0gcGxheWJhY2spOyBjb21wbGV0aW9uIGlzIG1heCBwb3NpdGlvbiAvIGNhdGFsb2cgZHVyYXRpb24gY2FwcGVkIGF0IDEwMC4Kc2VsZWN0CiAgICBzZXNzaW9uX2lkLAogICAgdXNlcl9pZCwKICAgIGNvbnRlbnRfaWQsCiAgICB0aXRsZSwKICAgIGdlbnJlLAogICAgc2Vzc2lvbl9zdGFydCwKICAgIHNlc3Npb25fZW5kLAogICAgZHVyYXRpb25fZWxhcHNlZF9taW4sCiAgICBldmVudF9jb3VudCwKICAgIHBsYXlfZXZlbnRzLAogICAgcGF1c2VfZXZlbnRzLAogICAgc2Vla19ldmVudHMsCiAgICBidWZmZXJfZXZlbnRzLAogICAgc3RvcF9ldmVudHMsCiAgICBtYXhfcGxheWJhY2tfcG9zaXRpb25fbWluLAogICAgY2F0YWxvZ19kdXJhdGlvbl9taW4sCiAgICBlc3RpbWF0ZWRfY29tcGxldGlvbl9wY3QsCiAgICBjb21wbGV0aW9uX2J1Y2tldApmcm9tIHt7IHNvdXJjZSgnbWVyaWRpYW5fcmF3JywgJ2ZhY3Rfdmlld2luZ19zZXNzaW9ucycpIH19Cg==
+-- Staging: Gold viewing-session fact, one row per session.
+-- Duration is elapsed first-to-last event time (not verified active
+-- playback); completion is max position / catalog duration capped at 100.
+select
+    session_id,
+    user_id,
+    content_id,
+    title,
+    genre,
+    session_start,
+    session_end,
+    duration_elapsed_min,
+    event_count,
+    play_events,
+    pause_events,
+    seek_events,
+    buffer_events,
+    stop_events,
+    max_playback_position_min,
+    catalog_duration_min,
+    estimated_completion_pct,
+    completion_bucket
+from {{ source('meridian_raw', 'fact_viewing_sessions') }}
