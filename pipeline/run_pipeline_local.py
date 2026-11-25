@@ -1,1 +1,108 @@
-IiIiRmlsZS1iYXNlZCBlbmQtdG8tZW5kIHJ1biAobm8gS2Fma2EgLyBDbGlja0hvdXNlIHJlcXVpcmVkKS4KCiAgcHl0aG9uMyAtbSBwaXBlbGluZS5ydW5fcGlwZWxpbmVfbG9jYWwgICAgICAgICMgZnJvbSB0aGUgcmVwbyByb290CiAgcHl0aG9uMyBwaXBlbGluZS9ydW5fcGlwZWxpbmVfbG9jYWwucHkgICAgICAgICMgYWxzbyB3b3JrcwoKR2VuZXJhdGVzIHRoZSBkZXRlcm1pbmlzdGljIHNlZWQgZXZlbnRzLCB3cml0ZXMgQnJvbnplIEpTT05MLCBjbGVhbnMgdG8KU2lsdmVyLCBzZXNzaW9uaXplcyAoMzAtbWluIHRocmVzaG9sZCksIGJ1aWxkcyBHb2xkIGZhY3QvZGltIHRhYmxlcywgdXNlcgpmZWF0dXJlcyBhbmQgdGhlIEEvQiB0ZXN0IHN1bW1hcnksIHRoZW4gcHJpbnRzIHRoZSB2ZXJpZmljYXRpb24gY291bnRzLgpUaGUgcmVjb3JkZWQgcnVuIG11c3QgcHJpbnQ6IGJyb256ZSAxMTIsIHJldGFpbmVkIDExMiwgc2Vzc2lvbnMgNDEsCnVzZXJzIDMzLCBjb250ZW50IDE0LCBjb21wbGV0aW9uIGJ1Y2tldHMgMTggLyAxMSAvIDEyLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KaW1wb3J0IHN5cwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKCiMgU3VwcG9ydCBib3RoIGBweXRob24gLW0gcGlwZWxpbmUucnVuX3BpcGVsaW5lX2xvY2FsYCBhbmQgZGlyZWN0IGV4ZWN1dGlvbi4KaWYgX19wYWNrYWdlX18gaW4gKE5vbmUsICIiKToKICAgIHN5cy5wYXRoLmluc2VydCgwLCBzdHIoUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQpKQogICAgZnJvbSBwaXBlbGluZSBpbXBvcnQgZ29sZF9idWlsZAogICAgZnJvbSBwaXBlbGluZS5hYl90ZXN0IGltcG9ydCBydW5fYWJfdGVzdAogICAgZnJvbSBwaXBlbGluZS5jb25zdW1lciBpbXBvcnQgd3JpdGVfYnJvbnplCiAgICBmcm9tIHBpcGVsaW5lLmZlYXR1cmVzIGltcG9ydCBidWlsZF9mZWF0dXJlcwogICAgZnJvbSBwaXBlbGluZS5nZW5lcmF0ZV9ldmVudHMgaW1wb3J0IGdlbmVyYXRlX2V2ZW50cwogICAgZnJvbSBwaXBlbGluZS5zZXNzaW9uaXplIGltcG9ydCBzZXNzaW9uaXplCiAgICBmcm9tIHBpcGVsaW5lLnNpbHZlcl9jbGVhbiBpbXBvcnQgY2xlYW4sIGxvYWRfYnJvbnplLCB3cml0ZV9zaWx2ZXIKZWxzZToKICAgIGZyb20gLiBpbXBvcnQgZ29sZF9idWlsZAogICAgZnJvbSAuYWJfdGVzdCBpbXBvcnQgcnVuX2FiX3Rlc3QKICAgIGZyb20gLmNvbnN1bWVyIGltcG9ydCB3cml0ZV9icm9uemUKICAgIGZyb20gLmZlYXR1cmVzIGltcG9ydCBidWlsZF9mZWF0dXJlcwogICAgZnJvbSAuZ2VuZXJhdGVfZXZlbnRzIGltcG9ydCBnZW5lcmF0ZV9ldmVudHMKICAgIGZyb20gLnNlc3Npb25pemUgaW1wb3J0IHNlc3Npb25pemUKICAgIGZyb20gLnNpbHZlcl9jbGVhbiBpbXBvcnQgY2xlYW4sIGxvYWRfYnJvbnplLCB3cml0ZV9zaWx2ZXIKClJPT1QgPSBQYXRoKF9fZmlsZV9fKS5yZXNvbHZlKCkucGFyZW50LnBhcmVudApEQVRBID0gUk9PVCAvICJkYXRhIgoKRVhQRUNURUQgPSB7CiAgICAiYnJvbnplX2V2ZW50cyI6IDExMiwKICAgICJzaWx2ZXJfcmV0YWluZWQiOiAxMTIsCiAgICAic2Vzc2lvbnMiOiA0MSwKICAgICJ1c2VycyI6IDMzLAogICAgImNvbnRlbnRfaXRlbXMiOiAxNCwKICAgICJidWNrZXRfaGlnaF9nZV84MCI6IDE4LAogICAgImJ1Y2tldF9taWRfMzBfNzkiOiAxMSwKICAgICJidWNrZXRfbG93X2x0XzMwIjogMTIsCn0KCgpkZWYgbWFpbigpIC0+IGludDoKICAgIGV2ZW50cyA9IGdlbmVyYXRlX2V2ZW50cygpCgogICAgYnJvbnplX3BhdGggPSBEQVRBIC8gImJyb256ZSIgLyAicGxheWJhY2tfZXZlbnRzLmpzb25sIgogICAgbl9icm9uemUgPSB3cml0ZV9icm9uemUoZXZlbnRzLCBicm9uemVfcGF0aCkKCiAgICBicm9uemVfZGYgPSBsb2FkX2Jyb256ZShicm9uemVfcGF0aCkKICAgIHNpbHZlcl9kZiA9IGNsZWFuKGJyb256ZV9kZikKICAgIHNpbHZlcl9wYXRoID0gd3JpdGVfc2lsdmVyKHNpbHZlcl9kZiwgREFUQSAvICJzaWx2ZXIiKQoKICAgIHNlc3Npb25pemVkID0gc2Vzc2lvbml6ZShzaWx2ZXJfZGYpCiAgICBjYXRhbG9nID0gZ29sZF9idWlsZC5jYXRhbG9nX2RmKCkKICAgIGZhY3QgPSBnb2xkX2J1aWxkLmJ1aWxkX2ZhY3Qoc2Vzc2lvbml6ZWQsIGNhdGFsb2cpCiAgICBkaW1fdXNlciA9IGdvbGRfYnVpbGQuYnVpbGRfZGltX3VzZXIoZmFjdCkKICAgIGRpbV9jb250ZW50ID0gZ29sZF9idWlsZC5idWlsZF9kaW1fY29udGVudChmYWN0LCBjYXRhbG9nKQogICAgYW5hbHl0aWNzID0gZ29sZF9idWlsZC5idWlsZF9jb250ZW50X2FuYWx5dGljcyhmYWN0KQogICAgZ29sZF9idWlsZC53cml0ZV9nb2xkKGZhY3QsIGRpbV91c2VyLCBkaW1fY29udGVudCwgYW5hbHl0aWNzLCBjYXRhbG9nLCBEQVRBIC8gImdvbGQiKQoKICAgIGZlYXR1cmVzID0gYnVpbGRfZmVhdHVyZXMoZmFjdCkKICAgIGZlYXRfZGlyID0gREFUQSAvICJmZWF0dXJlcyIKICAgIGZlYXRfZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIGZlYXR1cmVzLnRvX2NzdihmZWF0X2RpciAvICJ1c2VyX2ZlYXR1cmVzLmNzdiIsIGluZGV4PUZhbHNlKQoKICAgIGFiID0gcnVuX2FiX3Rlc3QoZmVhdHVyZXMpCiAgICBhYl9kaXIgPSBEQVRBIC8gImFiX3Rlc3QiCiAgICBhYl9kaXIubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQogICAgKGFiX2RpciAvICJhYl90ZXN0X3Jlc3VsdHMuanNvbiIpLndyaXRlX3RleHQoanNvbi5kdW1wcyhhYiwgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQoKICAgIGJ1Y2tldHMgPSBmYWN0WyJjb21wbGV0aW9uX2J1Y2tldCJdLnZhbHVlX2NvdW50cygpLnRvX2RpY3QoKQogICAgY291bnRzID0gewogICAgICAgICJicm9uemVfZXZlbnRzIjogaW50KG5fYnJvbnplKSwKICAgICAgICAic2lsdmVyX3JldGFpbmVkIjogaW50KGxlbihzaWx2ZXJfZGYpKSwKICAgICAgICAic2Vzc2lvbnMiOiBpbnQobGVuKGZhY3QpKSwKICAgICAgICAidXNlcnMiOiBpbnQoZmFjdFsidXNlcl9pZCJdLm51bmlxdWUoKSksCiAgICAgICAgImNvbnRlbnRfaXRlbXMiOiBpbnQoZmFjdFsiY29udGVudF9pZCJdLm51bmlxdWUoKSksCiAgICAgICAgImJ1Y2tldF9oaWdoX2dlXzgwIjogaW50KGJ1Y2tldHMuZ2V0KCJoaWdoX2dlXzgwIiwgMCkpLAogICAgICAgICJidWNrZXRfbWlkXzMwXzc5IjogaW50KGJ1Y2tldHMuZ2V0KCJtaWRfMzBfNzkiLCAwKSksCiAgICAgICAgImJ1Y2tldF9sb3dfbHRfMzAiOiBpbnQoYnVja2V0cy5nZXQoImxvd19sdF8zMCIsIDApKSwKICAgIH0KCiAgICBwcmludCgiPT09IFByb2plY3QgTWVyaWRpYW4g4oCUIHBpcGVsaW5lIHZlcmlmaWNhdGlvbiA9PT0iKQogICAgZm9yIGssIHYgaW4gY291bnRzLml0ZW1zKCk6CiAgICAgICAgbWFyayA9ICJPSyIgaWYgdiA9PSBFWFBFQ1RFRFtrXSBlbHNlIGYiTUlTTUFUQ0ggKGV4cGVjdGVkIHtFWFBFQ1RFRFtrXX0pIgogICAgICAgIHByaW50KGYie2t9OiB7dn0gW3ttYXJrfV0iKQogICAgcHJpbnQoZiJmZWF0dXJlX3JlY29yZHM6IHtsZW4oZmVhdHVyZXMpfTsgZmVhdHVyZV9jb2x1bW5zOiB7bGVuKGZlYXR1cmVzLmNvbHVtbnMpfSIpCiAgICBwcmludChmInNpbHZlcl9maWxlOiB7c2lsdmVyX3BhdGgucmVsYXRpdmVfdG8oUk9PVCl9IikKICAgIHByaW50KGYiYWJfdGVzdDogY29udHJvbD17YWJbJ2NvbnRyb2xfdXNlcnMnXX0gdHJlYXRtZW50PXthYlsndHJlYXRtZW50X3VzZXJzJ119ICIKICAgICAgICAgIGYicF92YWx1ZT17YWJbJ3BfdmFsdWUnXX0gc2lnbmlmaWNhbnQ9e2FiWydzaWduaWZpY2FudF9hdF8wXzA1J119ICIKICAgICAgICAgIGYicmVxdWlyZWRfcGVyX2dyb3VwPXthYlsncmVxdWlyZWRfdXNlcnNfcGVyX2dyb3VwJ119IHJlcXVpcmVkX3RvdGFsPXthYlsncmVxdWlyZWRfdXNlcnNfdG90YWwnXX0iKQoKICAgIG9rID0gY291bnRzID09IEVYUEVDVEVEIGFuZCBsZW4oZmVhdHVyZXMpID09IDMzIGFuZCBsZW4oZmVhdHVyZXMuY29sdW1ucykgPT0gMTMKICAgIHByaW50KCJWRVJJRklDQVRJT046IiwgIlBBU1MiIGlmIG9rIGVsc2UgIkZBSUwiKQogICAgcmV0dXJuIDAgaWYgb2sgZWxzZSAxCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIHJhaXNlIFN5c3RlbUV4aXQobWFpbigpKQo=
+"""File-based end-to-end run (no Kafka / ClickHouse required).
+
+  python3 -m pipeline.run_pipeline_local        # from the repo root
+  python3 pipeline/run_pipeline_local.py        # also works
+
+Generates the deterministic seed events, writes Bronze JSONL, cleans to
+Silver, sessionizes (30-min threshold), builds Gold fact/dim tables, user
+features and the A/B test summary, then prints the verification counts.
+The recorded run must print: bronze 112, retained 112, sessions 41,
+users 33, content 14, completion buckets 18 / 11 / 12.
+"""
+from __future__ import annotations
+
+import json
+import sys
+from pathlib import Path
+
+# Support both `python -m pipeline.run_pipeline_local` and direct execution.
+if __package__ in (None, ""):
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    from pipeline import gold_build
+    from pipeline.ab_test import run_ab_test
+    from pipeline.consumer import write_bronze
+    from pipeline.features import build_features
+    from pipeline.generate_events import generate_events
+    from pipeline.sessionize import sessionize
+    from pipeline.silver_clean import clean, load_bronze, write_silver
+else:
+    from . import gold_build
+    from .ab_test import run_ab_test
+    from .consumer import write_bronze
+    from .features import build_features
+    from .generate_events import generate_events
+    from .sessionize import sessionize
+    from .silver_clean import clean, load_bronze, write_silver
+
+ROOT = Path(__file__).resolve().parent.parent
+DATA = ROOT / "data"
+
+EXPECTED = {
+    "bronze_events": 112,
+    "silver_retained": 112,
+    "sessions": 41,
+    "users": 33,
+    "content_items": 14,
+    "bucket_high_ge_80": 18,
+    "bucket_mid_30_79": 11,
+    "bucket_low_lt_30": 12,
+}
+
+
+def main() -> int:
+    events = generate_events()
+
+    bronze_path = DATA / "bronze" / "playback_events.jsonl"
+    n_bronze = write_bronze(events, bronze_path)
+
+    bronze_df = load_bronze(bronze_path)
+    silver_df = clean(bronze_df)
+    silver_path = write_silver(silver_df, DATA / "silver")
+
+    sessionized = sessionize(silver_df)
+    catalog = gold_build.catalog_df()
+    fact = gold_build.build_fact(sessionized, catalog)
+    dim_user = gold_build.build_dim_user(fact)
+    dim_content = gold_build.build_dim_content(fact, catalog)
+    analytics = gold_build.build_content_analytics(fact)
+    gold_build.write_gold(fact, dim_user, dim_content, analytics, catalog, DATA / "gold")
+
+    features = build_features(fact)
+    feat_dir = DATA / "features"
+    feat_dir.mkdir(parents=True, exist_ok=True)
+    features.to_csv(feat_dir / "user_features.csv", index=False)
+
+    ab = run_ab_test(features)
+    ab_dir = DATA / "ab_test"
+    ab_dir.mkdir(parents=True, exist_ok=True)
+    (ab_dir / "ab_test_results.json").write_text(json.dumps(ab, indent=2), encoding="utf-8")
+
+    buckets = fact["completion_bucket"].value_counts().to_dict()
+    counts = {
+        "bronze_events": int(n_bronze),
+        "silver_retained": int(len(silver_df)),
+        "sessions": int(len(fact)),
+        "users": int(fact["user_id"].nunique()),
+        "content_items": int(fact["content_id"].nunique()),
+        "bucket_high_ge_80": int(buckets.get("high_ge_80", 0)),
+        "bucket_mid_30_79": int(buckets.get("mid_30_79", 0)),
+        "bucket_low_lt_30": int(buckets.get("low_lt_30", 0)),
+    }
+
+    print("=== Project Meridian — pipeline verification ===")
+    for k, v in counts.items():
+        mark = "OK" if v == EXPECTED[k] else f"MISMATCH (expected {EXPECTED[k]})"
+        print(f"{k}: {v} [{mark}]")
+    print(f"feature_records: {len(features)}; feature_columns: {len(features.columns)}")
+    print(f"silver_file: {silver_path.relative_to(ROOT)}")
+    print(f"ab_test: control={ab['control_users']} treatment={ab['treatment_users']} "
+          f"p_value={ab['p_value']} significant={ab['significant_at_0_05']} "
+          f"required_per_group={ab['required_users_per_group']} required_total={ab['required_users_total']}")
+
+    ok = counts == EXPECTED and len(features) == 33 and len(features.columns) == 13
+    print("VERIFICATION:", "PASS" if ok else "FAIL")
+    return 0 if ok else 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())
