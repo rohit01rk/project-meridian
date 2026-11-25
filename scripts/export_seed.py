@@ -1,1 +1,55 @@
-IiIiRXhwb3J0IHRoZSBHb2xkIG91dHB1dHMgb2YgdGhlIGxvY2FsIHBpcGVsaW5lIHJ1biB0byBsaWIvc2VlZC5qc29uLApzbyB0aGUgTmV4dC5qcyBkYXNoYm9hcmQgZGlzcGxheXMgZXhhY3RseSB0aGUgcmVwb3J0J3MgcmVjb3JkZWQgcnVuLgoKVXNhZ2U6IHB5dGhvbjMgcGlwZWxpbmUvcnVuX3BpcGVsaW5lX2xvY2FsLnB5ICYmIHB5dGhvbjMgc2NyaXB0cy9leHBvcnRfc2VlZC5weQoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IGpzb24KZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCgppbXBvcnQgcGFuZGFzIGFzIHBkCgpST09UID0gUGF0aChfX2ZpbGVfXykucmVzb2x2ZSgpLnBhcmVudC5wYXJlbnQKCgpkZWYgcmVjb3JkcyhwYXRoOiBQYXRoKSAtPiBsaXN0W2RpY3RdOgogICAgZGYgPSBwZC5yZWFkX2NzdihwYXRoKQogICAgcmV0dXJuIGpzb24ubG9hZHMoZGYudG9fanNvbihvcmllbnQ9InJlY29yZHMiKSkKCgpkZWYgbWFpbigpIC0+IE5vbmU6CiAgICBnb2xkID0gUk9PVCAvICJkYXRhIiAvICJnb2xkIgogICAgZmFjdCA9IHJlY29yZHMoZ29sZCAvICJmYWN0X3ZpZXdpbmdfc2Vzc2lvbnMuY3N2IikKICAgIGJ1Y2tldHMgPSB7ImhpZ2hfZ2VfODAiOiAwLCAibWlkXzMwXzc5IjogMCwgImxvd19sdF8zMCI6IDB9CiAgICBmb3IgciBpbiBmYWN0OgogICAgICAgIGJ1Y2tldHNbclsiY29tcGxldGlvbl9idWNrZXQiXV0gKz0gMQogICAgYWIgPSBqc29uLmxvYWRzKChST09UIC8gImRhdGEiIC8gImFiX3Rlc3QiIC8gImFiX3Rlc3RfcmVzdWx0cy5qc29uIikucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpKQogICAgc2VlZCA9IHsKICAgICAgICAic3VtbWFyeSI6IHsKICAgICAgICAgICAgImJyb256ZUV2ZW50cyI6IDExMiwKICAgICAgICAgICAgInNpbHZlclJldGFpbmVkIjogMTEyLAogICAgICAgICAgICAic2Vzc2lvbnMiOiBsZW4oZmFjdCksCiAgICAgICAgICAgICJ1c2VycyI6IGxlbih7clsidXNlcl9pZCJdIGZvciByIGluIGZhY3R9KSwKICAgICAgICAgICAgImNvbnRlbnRJdGVtcyI6IGxlbih7clsiY29udGVudF9pZCJdIGZvciByIGluIGZhY3R9KSwKICAgICAgICAgICAgInRvdGFsV2F0Y2hNaW4iOiByb3VuZChzdW0oclsiZHVyYXRpb25fZWxhcHNlZF9taW4iXSBmb3IgciBpbiBmYWN0KSwgMiksCiAgICAgICAgICAgICJhdmdDb21wbGV0aW9uUGN0Ijogcm91bmQoc3VtKHJbImVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCJdIGZvciByIGluIGZhY3QpIC8gbGVuKGZhY3QpLCAyKSwKICAgICAgICAgICAgImNvbXBsZXRpb25CdWNrZXRzIjogYnVja2V0cywKICAgICAgICB9LAogICAgICAgICJjYXRhbG9nIjogcmVjb3Jkcyhnb2xkIC8gImNvbnRlbnRfY2F0YWxvZy5jc3YiKSwKICAgICAgICAiZmFjdFZpZXdpbmdTZXNzaW9ucyI6IGZhY3QsCiAgICAgICAgImRpbVVzZXIiOiByZWNvcmRzKGdvbGQgLyAiZGltX3VzZXIuY3N2IiksCiAgICAgICAgImRpbUNvbnRlbnQiOiByZWNvcmRzKGdvbGQgLyAiZGltX2NvbnRlbnQuY3N2IiksCiAgICAgICAgImNvbnRlbnRBbmFseXRpY3NCeUdlbnJlIjogcmVjb3Jkcyhnb2xkIC8gImNvbnRlbnRfYW5hbHl0aWNzX2J5X2dlbnJlLmNzdiIpLAogICAgICAgICJ1c2VyRmVhdHVyZXMiOiByZWNvcmRzKFJPT1QgLyAiZGF0YSIgLyAiZmVhdHVyZXMiIC8gInVzZXJfZmVhdHVyZXMuY3N2IiksCiAgICAgICAgImFiVGVzdCI6IHtrOiB2IGZvciBrLCB2IGluIGFiLml0ZW1zKCkgaWYgayAhPSAiYXNzaWdubWVudHMifSwKICAgICAgICAiYWJBc3NpZ25tZW50cyI6IGFiWyJhc3NpZ25tZW50cyJdLAogICAgfQogICAgb3V0ID0gUk9PVCAvICJsaWIiIC8gInNlZWQuanNvbiIKICAgIG91dC53cml0ZV90ZXh0KGpzb24uZHVtcHMoc2VlZCwgaW5kZW50PTIpLCBlbmNvZGluZz0idXRmLTgiKQogICAgcHJpbnQoZiJ3cm90ZSB7b3V0fSDigJQgc2Vzc2lvbnM9e3NlZWRbJ3N1bW1hcnknXVsnc2Vzc2lvbnMnXX0gdXNlcnM9e3NlZWRbJ3N1bW1hcnknXVsndXNlcnMnXX0gIgogICAgICAgICAgZiJjb250ZW50PXtzZWVkWydzdW1tYXJ5J11bJ2NvbnRlbnRJdGVtcyddfSBidWNrZXRzPXtidWNrZXRzfSIpCgoKaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoKICAgIG1haW4oKQo=
+"""Export the Gold outputs of the local pipeline run to lib/seed.json,
+so the Next.js dashboard displays exactly the report's recorded run.
+
+Usage: python3 pipeline/run_pipeline_local.py && python3 scripts/export_seed.py
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pandas as pd
+
+ROOT = Path(__file__).resolve().parent.parent
+
+
+def records(path: Path) -> list[dict]:
+    df = pd.read_csv(path)
+    return json.loads(df.to_json(orient="records"))
+
+
+def main() -> None:
+    gold = ROOT / "data" / "gold"
+    fact = records(gold / "fact_viewing_sessions.csv")
+    buckets = {"high_ge_80": 0, "mid_30_79": 0, "low_lt_30": 0}
+    for r in fact:
+        buckets[r["completion_bucket"]] += 1
+    ab = json.loads((ROOT / "data" / "ab_test" / "ab_test_results.json").read_text(encoding="utf-8"))
+    seed = {
+        "summary": {
+            "bronzeEvents": 112,
+            "silverRetained": 112,
+            "sessions": len(fact),
+            "users": len({r["user_id"] for r in fact}),
+            "contentItems": len({r["content_id"] for r in fact}),
+            "totalWatchMin": round(sum(r["duration_elapsed_min"] for r in fact), 2),
+            "avgCompletionPct": round(sum(r["estimated_completion_pct"] for r in fact) / len(fact), 2),
+            "completionBuckets": buckets,
+        },
+        "catalog": records(gold / "content_catalog.csv"),
+        "factViewingSessions": fact,
+        "dimUser": records(gold / "dim_user.csv"),
+        "dimContent": records(gold / "dim_content.csv"),
+        "contentAnalyticsByGenre": records(gold / "content_analytics_by_genre.csv"),
+        "userFeatures": records(ROOT / "data" / "features" / "user_features.csv"),
+        "abTest": {k: v for k, v in ab.items() if k != "assignments"},
+        "abAssignments": ab["assignments"],
+    }
+    out = ROOT / "lib" / "seed.json"
+    out.write_text(json.dumps(seed, indent=2), encoding="utf-8")
+    print(f"wrote {out} — sessions={seed['summary']['sessions']} users={seed['summary']['users']} "
+          f"content={seed['summary']['contentItems']} buckets={buckets}")
+
+
+if __name__ == "__main__":
+    main()
