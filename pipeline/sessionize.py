@@ -1,1 +1,22 @@
-IiIiU2Vzc2lvbml6YXRpb246IGEgbmV3IHZpZXdpbmcgc2Vzc2lvbiBzdGFydHMgd2hlbiB0aGUgZ2FwIGJldHdlZW4KYWRqYWNlbnQgZXZlbnRzIGZvciB0aGUgc2FtZSAodXNlcl9pZCwgY29udGVudF9pZCkgZXhjZWVkcyAzMCBtaW51dGVzLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHBhbmRhcyBhcyBwZAoKR0FQX1RIUkVTSE9MRCA9IHBkLlRpbWVkZWx0YShtaW51dGVzPTMwKQoKCmRlZiBzZXNzaW9uaXplKGRmOiBwZC5EYXRhRnJhbWUpIC0+IHBkLkRhdGFGcmFtZToKICAgICIiIkFkZCBgc2Vzc2lvbl9pZGAgYW5kIGBzZXNzaW9uX3NlcWAgdG8gYSBTaWx2ZXItY2xlYW5lZCBmcmFtZS4iIiIKICAgIGlmIGRmLmVtcHR5OgogICAgICAgIHJldHVybiBkZi5hc3NpZ24oc2Vzc2lvbl9pZD1wZC5TZXJpZXMoZHR5cGU9c3RyKSwgc2Vzc2lvbl9zZXE9cGQuU2VyaWVzKGR0eXBlPWludCkpCiAgICBkZiA9IGRmLnNvcnRfdmFsdWVzKFsidXNlcl9pZCIsICJjb250ZW50X2lkIiwgInRpbWVzdGFtcCIsICJldmVudF9pZCJdKS5yZXNldF9pbmRleChkcm9wPVRydWUpCiAgICBnYXAgPSBkZi5ncm91cGJ5KFsidXNlcl9pZCIsICJjb250ZW50X2lkIl0pWyJ0aW1lc3RhbXAiXS5kaWZmKCkKICAgIGlzX25ldyA9IGdhcC5pc25hKCkgfCAoZ2FwID4gR0FQX1RIUkVTSE9MRCkKICAgIGRmWyJzZXNzaW9uX3NlcSJdID0gaXNfbmV3Lmdyb3VwYnkoW2RmWyJ1c2VyX2lkIl0sIGRmWyJjb250ZW50X2lkIl1dKS5jdW1zdW0oKS5hc3R5cGUoaW50KQogICAgZGZbInNlc3Npb25faWQiXSA9ICgKICAgICAgICAiUy0iICsgZGZbInVzZXJfaWQiXSArICItIiArIGRmWyJjb250ZW50X2lkIl0gKyAiLSIgKyBkZlsic2Vzc2lvbl9zZXEiXS5hc3R5cGUoc3RyKS5zdHIuemZpbGwoMikKICAgICkKICAgIHJldHVybiBkZgo=
+"""Sessionization: a new viewing session starts when the gap between
+adjacent events for the same (user_id, content_id) exceeds 30 minutes.
+"""
+from __future__ import annotations
+
+import pandas as pd
+
+GAP_THRESHOLD = pd.Timedelta(minutes=30)
+
+
+def sessionize(df: pd.DataFrame) -> pd.DataFrame:
+    """Add `session_id` and `session_seq` to a Silver-cleaned frame."""
+    if df.empty:
+        return df.assign(session_id=pd.Series(dtype=str), session_seq=pd.Series(dtype=int))
+    df = df.sort_values(["user_id", "content_id", "timestamp", "event_id"]).reset_index(drop=True)
+    gap = df.groupby(["user_id", "content_id"])["timestamp"].diff()
+    is_new = gap.isna() | (gap > GAP_THRESHOLD)
+    df["session_seq"] = is_new.groupby([df["user_id"], df["content_id"]]).cumsum().astype(int)
+    df["session_id"] = (
+        "S-" + df["user_id"] + "-" + df["content_id"] + "-" + df["session_seq"].astype(str).str.zfill(2)
+    )
+    return df
