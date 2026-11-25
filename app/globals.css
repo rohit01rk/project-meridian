@@ -1,1 +1,30 @@
-QHRhaWx3aW5kIGJhc2U7CkB0YWlsd2luZCBjb21wb25lbnRzOwpAdGFpbHdpbmQgdXRpbGl0aWVzOwoKOnJvb3QgeyBjb2xvci1zY2hlbWU6IGRhcms7IH0KYm9keSB7CiAgYmFja2dyb3VuZDoKICAgIHJhZGlhbC1ncmFkaWVudCg5MDBweCA0MjBweCBhdCA4NSUgLTEwJSwgcmdiYSgyMzIsIDE3OSwgNjEsIDAuMTQpLCB0cmFuc3BhcmVudCA2MCUpLAogICAgcmFkaWFsLWdyYWRpZW50KDgwMHB4IDUwMHB4IGF0IC0xMCUgMTAlLCByZ2JhKDQ1LCAyMTIsIDE5MSwgMC4xMCksIHRyYW5zcGFyZW50IDU1JSksCiAgICAjMDgwYjE0OwogIGNvbG9yOiAjZThlZGY3OwogIGZvbnQtZmFtaWx5OiBJbnRlciwgc3lzdGVtLXVpLCAtYXBwbGUtc3lzdGVtLCAiU2Vnb2UgVUkiLCBSb2JvdG8sIHNhbnMtc2VyaWY7Cn0KLmNhcmQgewogIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxODBkZWcsICMxMDFhMmUsICMwYzE0MjQpOwogIGJvcmRlcjogMXB4IHNvbGlkICMxZjMwNTA7CiAgYm9yZGVyLXJhZGl1czogMTZweDsKfQouYmFkZ2UgewogIGZvbnQtc2l6ZTogMTFweDsgcGFkZGluZzogM3B4IDhweDsgYm9yZGVyLXJhZGl1czogOTk5cHg7CiAgZm9udC13ZWlnaHQ6IDcwMDsgbGV0dGVyLXNwYWNpbmc6IDAuMDRlbTsKfQouc2Nyb2xsdGhpbjo6LXdlYmtpdC1zY3JvbGxiYXIgeyBoZWlnaHQ6IDZweDsgd2lkdGg6IDZweDsgfQouc2Nyb2xsdGhpbjo6LXdlYmtpdC1zY3JvbGxiYXItdGh1bWIgeyBiYWNrZ3JvdW5kOiAjMjc0MDVmOyBib3JkZXItcmFkaXVzOiA5OXB4OyB9CkBrZXlmcmFtZXMgcHVsc2VEb3QgeyAwJSwgMTAwJSB7IG9wYWNpdHk6IDE7IH0gNTAlIHsgb3BhY2l0eTogMC4zOyB9IH0KLmxpdmUtZG90IHsgYW5pbWF0aW9uOiBwdWxzZURvdCAxLjJzIGluZmluaXRlOyB9CnRhYmxlIHsgYm9yZGVyLWNvbGxhcHNlOiBjb2xsYXBzZTsgfQp0aCB7IHRleHQtYWxpZ246IGxlZnQ7IGZvbnQtc2l6ZTogMTFweDsgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTsgbGV0dGVyLXNwYWNpbmc6IDAuMDZlbTsgY29sb3I6ICM4ZmEzYzA7IH0KdGQsIHRoIHsgcGFkZGluZzogN3B4IDEwcHg7IH0KdGJvZHkgdHIgeyBib3JkZXItdG9wOiAxcHggc29saWQgIzFiMmE0NDsgfQo=
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+body {
+  background:
+    radial-gradient(900px 420px at 85% -10%, rgba(232, 179, 61, 0.14), transparent 60%),
+    radial-gradient(800px 500px at -10% 10%, rgba(45, 212, 191, 0.10), transparent 55%),
+    #080b14;
+  color: #e8edf7;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+.card {
+  background: linear-gradient(180deg, #101a2e, #0c1424);
+  border: 1px solid #1f3050;
+  border-radius: 16px;
+}
+.badge {
+  font-size: 11px; padding: 3px 8px; border-radius: 999px;
+  font-weight: 700; letter-spacing: 0.04em;
+}
+.scrollthin::-webkit-scrollbar { height: 6px; width: 6px; }
+.scrollthin::-webkit-scrollbar-thumb { background: #27405f; border-radius: 99px; }
+@keyframes pulseDot { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+.live-dot { animation: pulseDot 1.2s infinite; }
+table { border-collapse: collapse; }
+th { text-align: left; font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: #8fa3c0; }
+td, th { padding: 7px 10px; }
+tbody tr { border-top: 1px solid #1b2a44; }
