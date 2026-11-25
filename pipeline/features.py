@@ -1,1 +1,51 @@
-IiIiVXNlciBmZWF0dXJlIGVuZ2luZWVyaW5nOiBvbmUgcm93IHBlciB1c2VyLCBleGFjdGx5IDEzIGNvbHVtbnMuCgpDb2x1bW5zOiB1c2VyX2lkLCB0b3RhbF9zZXNzaW9ucywgdG90YWxfZXZlbnRzLCB0b3RhbF93YXRjaF9taW4sCmF2Z19zZXNzaW9uX2R1cmF0aW9uX21pbiwgYXZnX21heF9wb3NpdGlvbl9taW4sIGF2Z19jb21wbGV0aW9uX3BjdCwKbmlnaHRfc2Vzc2lvbnMsIGF2Z192aWV3aW5nX2hvdXIsIGRpc3RpbmN0X2NvbnRlbnQsIHBsYXlfZXZlbnRzLApzdG9wX2V2ZW50cywgaGlnaF9jb21wbGV0aW9uX3Nlc3Npb25zLgoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhbm5vdGF0aW9ucwoKaW1wb3J0IHBhbmRhcyBhcyBwZAoKRkVBVFVSRV9DT0xVTU5TID0gWwogICAgInVzZXJfaWQiLCAidG90YWxfc2Vzc2lvbnMiLCAidG90YWxfZXZlbnRzIiwgInRvdGFsX3dhdGNoX21pbiIsCiAgICAiYXZnX3Nlc3Npb25fZHVyYXRpb25fbWluIiwgImF2Z19tYXhfcG9zaXRpb25fbWluIiwgImF2Z19jb21wbGV0aW9uX3BjdCIsCiAgICAibmlnaHRfc2Vzc2lvbnMiLCAiYXZnX3ZpZXdpbmdfaG91ciIsICJkaXN0aW5jdF9jb250ZW50IiwKICAgICJwbGF5X2V2ZW50cyIsICJzdG9wX2V2ZW50cyIsICJoaWdoX2NvbXBsZXRpb25fc2Vzc2lvbnMiLApdCgoKZGVmIGJ1aWxkX2ZlYXR1cmVzKGZhY3Q6IHBkLkRhdGFGcmFtZSkgLT4gcGQuRGF0YUZyYW1lOgogICAgZmFjdCA9IGZhY3QuY29weSgpCiAgICBmYWN0WyJzZXNzaW9uX3N0YXJ0Il0gPSBwZC50b19kYXRldGltZShmYWN0WyJzZXNzaW9uX3N0YXJ0Il0sIHV0Yz1UcnVlKQogICAgZmFjdFsic3RhcnRfaG91ciJdID0gZmFjdFsic2Vzc2lvbl9zdGFydCJdLmR0LmhvdXIKICAgIGZhY3RbImlzX25pZ2h0Il0gPSAoKGZhY3RbInN0YXJ0X2hvdXIiXSA+PSAyMikgfCAoZmFjdFsic3RhcnRfaG91ciJdIDwgNSkpLmFzdHlwZShpbnQpCiAgICBmYWN0WyJpc19oaWdoIl0gPSAoZmFjdFsiZXN0aW1hdGVkX2NvbXBsZXRpb25fcGN0Il0gPj0gODApLmFzdHlwZShpbnQpCgogICAgZmVhdHMgPSAoCiAgICAgICAgZmFjdC5ncm91cGJ5KCJ1c2VyX2lkIikKICAgICAgICAuYWdnKAogICAgICAgICAgICB0b3RhbF9zZXNzaW9ucz0oInNlc3Npb25faWQiLCAiY291bnQiKSwKICAgICAgICAgICAgdG90YWxfZXZlbnRzPSgiZXZlbnRfY291bnQiLCAic3VtIiksCiAgICAgICAgICAgIHRvdGFsX3dhdGNoX21pbj0oImR1cmF0aW9uX2VsYXBzZWRfbWluIiwgInN1bSIpLAogICAgICAgICAgICBhdmdfc2Vzc2lvbl9kdXJhdGlvbl9taW49KCJkdXJhdGlvbl9lbGFwc2VkX21pbiIsICJtZWFuIiksCiAgICAgICAgICAgIGF2Z19tYXhfcG9zaXRpb25fbWluPSgibWF4X3BsYXliYWNrX3Bvc2l0aW9uX21pbiIsICJtZWFuIiksCiAgICAgICAgICAgIGF2Z19jb21wbGV0aW9uX3BjdD0oImVzdGltYXRlZF9jb21wbGV0aW9uX3BjdCIsICJtZWFuIiksCiAgICAgICAgICAgIG5pZ2h0X3Nlc3Npb25zPSgiaXNfbmlnaHQiLCAic3VtIiksCiAgICAgICAgICAgIGF2Z192aWV3aW5nX2hvdXI9KCJzdGFydF9ob3VyIiwgIm1lYW4iKSwKICAgICAgICAgICAgZGlzdGluY3RfY29udGVudD0oImNvbnRlbnRfaWQiLCAibnVuaXF1ZSIpLAogICAgICAgICAgICBwbGF5X2V2ZW50cz0oInBsYXlfZXZlbnRzIiwgInN1bSIpLAogICAgICAgICAgICBzdG9wX2V2ZW50cz0oInN0b3BfZXZlbnRzIiwgInN1bSIpLAogICAgICAgICAgICBoaWdoX2NvbXBsZXRpb25fc2Vzc2lvbnM9KCJpc19oaWdoIiwgInN1bSIpLAogICAgICAgICkKICAgICAgICAucmVzZXRfaW5kZXgoKQogICAgICAgIC5zb3J0X3ZhbHVlcygidXNlcl9pZCIpCiAgICAgICAgLnJlc2V0X2luZGV4KGRyb3A9VHJ1ZSkKICAgICkKICAgIGZvciBjIGluIFsidG90YWxfd2F0Y2hfbWluIiwgImF2Z19zZXNzaW9uX2R1cmF0aW9uX21pbiIsICJhdmdfbWF4X3Bvc2l0aW9uX21pbiIsCiAgICAgICAgICAgICAgImF2Z19jb21wbGV0aW9uX3BjdCIsICJhdmdfdmlld2luZ19ob3VyIl06CiAgICAgICAgZmVhdHNbY10gPSBmZWF0c1tjXS5yb3VuZCgyKQogICAgYXNzZXJ0IGxpc3QoZmVhdHMuY29sdW1ucykgPT0gRkVBVFVSRV9DT0xVTU5TLCBsaXN0KGZlYXRzLmNvbHVtbnMpCiAgICByZXR1cm4gZmVhdHNbRkVBVFVSRV9DT0xVTU5TXQo=
+"""User feature engineering: one row per user, exactly 13 columns.
+
+Columns: user_id, total_sessions, total_events, total_watch_min,
+avg_session_duration_min, avg_max_position_min, avg_completion_pct,
+night_sessions, avg_viewing_hour, distinct_content, play_events,
+stop_events, high_completion_sessions.
+"""
+from __future__ import annotations
+
+import pandas as pd
+
+FEATURE_COLUMNS = [
+    "user_id", "total_sessions", "total_events", "total_watch_min",
+    "avg_session_duration_min", "avg_max_position_min", "avg_completion_pct",
+    "night_sessions", "avg_viewing_hour", "distinct_content",
+    "play_events", "stop_events", "high_completion_sessions",
+]
+
+
+def build_features(fact: pd.DataFrame) -> pd.DataFrame:
+    fact = fact.copy()
+    fact["session_start"] = pd.to_datetime(fact["session_start"], utc=True)
+    fact["start_hour"] = fact["session_start"].dt.hour
+    fact["is_night"] = ((fact["start_hour"] >= 22) | (fact["start_hour"] < 5)).astype(int)
+    fact["is_high"] = (fact["estimated_completion_pct"] >= 80).astype(int)
+
+    feats = (
+        fact.groupby("user_id")
+        .agg(
+            total_sessions=("session_id", "count"),
+            total_events=("event_count", "sum"),
+            total_watch_min=("duration_elapsed_min", "sum"),
+            avg_session_duration_min=("duration_elapsed_min", "mean"),
+            avg_max_position_min=("max_playback_position_min", "mean"),
+            avg_completion_pct=("estimated_completion_pct", "mean"),
+            night_sessions=("is_night", "sum"),
+            avg_viewing_hour=("start_hour", "mean"),
+            distinct_content=("content_id", "nunique"),
+            play_events=("play_events", "sum"),
+            stop_events=("stop_events", "sum"),
+            high_completion_sessions=("is_high", "sum"),
+        )
+        .reset_index()
+        .sort_values("user_id")
+        .reset_index(drop=True)
+    )
+    for c in ["total_watch_min", "avg_session_duration_min", "avg_max_position_min",
+              "avg_completion_pct", "avg_viewing_hour"]:
+        feats[c] = feats[c].round(2)
+    assert list(feats.columns) == FEATURE_COLUMNS, list(feats.columns)
+    return feats[FEATURE_COLUMNS]
