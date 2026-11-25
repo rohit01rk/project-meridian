@@ -1,1 +1,49 @@
-IyBQcm9qZWN0IE1lcmlkaWFuIOKAlCBsb2NhbCBzdGFjayAoS2Fma2EgKyBDbGlja0hvdXNlKS4KIyBUaGUgZGFzaGJvYXJkL0Zhc3RBUEkgZGVtbyBkb2VzIE5PVCBuZWVkIHRoaXM7IGl0IHJ1bnMgdGhlIGZ1bGwgbG9jYWwKIyBwaXBlbGluZSBkZXNjcmliZWQgaW4gdGhlIHJlcG9ydC4KIwojIE5PVEUgKGZyb20gdGhlIHJlcG9ydCk6IEFwYWNoZSBBaXJmbG93IG9yY2hlc3RyYXRpb24gaXMgTk9UIGluY2x1ZGVkIOKAlAojIGl0cyBkZXBsb3ltZW50IHdhcyBibG9ja2VkIGJ5IGEgRG9ja2VyIHN0b3JhZ2UtY2FwYWNpdHkgaXNzdWUgb24gdGhlCiMgZGV2ZWxvcG1lbnQgbWFjaGluZS4gQWlyZmxvdyBzdGF5cyBvbiB0aGUgcm9hZG1hcCB1bnRpbCB0aGF0IGlzIHJlc29sdmVkLgpzZXJ2aWNlczoKICB6b29rZWVwZXI6CiAgICBpbWFnZTogY29uZmx1ZW50aW5jL2NwLXpvb2tlZXBlcjo3LjYuMQogICAgZW52aXJvbm1lbnQ6CiAgICAgIFpPT0tFRVBFUl9DTElFTlRfUE9SVDogMjE4MQogICAgICBaT09LRUVQRVJfVElDS19USU1FOiAyMDAwCiAgICBwb3J0czoKICAgICAgLSAiMjE4MToyMTgxIgoKICBrYWZrYToKICAgIGltYWdlOiBjb25mbHVlbnRpbmMvY3Ata2Fma2E6Ny42LjEKICAgIGRlcGVuZHNfb246CiAgICAgIC0gem9va2VlcGVyCiAgICBwb3J0czoKICAgICAgLSAiOTA5Mjo5MDkyIgogICAgZW52aXJvbm1lbnQ6CiAgICAgIEtBRktBX0JST0tFUl9JRDogMQogICAgICBLQUZLQV9aT09LRUVQRVJfQ09OTkVDVDogem9va2VlcGVyOjIxODEKICAgICAgS0FGS0FfTElTVEVORVJfU0VDVVJJVFlfUFJPVE9DT0xfTUFQOiBQTEFJTlRFWFQ6UExBSU5URVhULFBMQUlOVEVYVF9IT1NUOlBMQUlOVEVYVAogICAgICBLQUZLQV9BRFZFUlRJU0VEX0xJU1RFTkVSUzogUExBSU5URVhUOi8va2Fma2E6MjkwOTIsUExBSU5URVhUX0hPU1Q6Ly9sb2NhbGhvc3Q6OTA5MgogICAgICBLQUZLQV9JTlRFUl9CUk9LRVJfTElTVEVORVJfTkFNRTogUExBSU5URVhUCiAgICAgIEtBRktBX09GRlNFVFNfVE9QSUNfUkVQTElDQVRJT05fRkFDVE9SOiAxCiAgICAgIEtBRktBX0FVVE9fQ1JFQVRFX1RPUElDU19FTkFCTEU6ICJ0cnVlIgoKICBjbGlja2hvdXNlOgogICAgaW1hZ2U6IGNsaWNraG91c2UvY2xpY2tob3VzZS1zZXJ2ZXI6MjQuMwogICAgcG9ydHM6CiAgICAgIC0gIjgxMjM6ODEyMyIKICAgICAgLSAiOTAwMDo5MDAwIgogICAgZW52aXJvbm1lbnQ6CiAgICAgIENMSUNLSE9VU0VfREI6IG1lcmlkaWFuCiAgICAgIENMSUNLSE9VU0VfREVGQVVMVF9BQ0NFU1NfTUFOQUdFTUVOVDogMQogICAgdm9sdW1lczoKICAgICAgLSBjbGlja2hvdXNlX2RhdGE6L3Zhci9saWIvY2xpY2tob3VzZQogICAgICAtIC4vY2xpY2tob3VzZS9zY2hlbWEuc3FsOi9kb2NrZXItZW50cnlwb2ludC1pbml0ZGIuZC8wMS1zY2hlbWEuc3FsOnJvCiAgICB1bGltaXRzOgogICAgICBub2ZpbGU6CiAgICAgICAgc29mdDogMjYyMTQ0CiAgICAgICAgaGFyZDogMjYyMTQ0Cgp2b2x1bWVzOgogIGNsaWNraG91c2VfZGF0YToK
+# Project Meridian — local stack (Kafka + ClickHouse).
+# The dashboard/FastAPI demo does NOT need this; it runs the full local
+# pipeline described in the report.
+#
+# NOTE (from the report): Apache Airflow orchestration is NOT included —
+# its deployment was blocked by a Docker storage-capacity issue on the
+# development machine. Airflow stays on the roadmap until that is resolved.
+services:
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.1
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+
+  kafka:
+    image: confluentinc/cp-kafka:7.6.1
+    depends_on:
+      - zookeeper
+    ports:
+      - "9092:9092"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.3
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    environment:
+      CLICKHOUSE_DB: meridian
+      CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT: 1
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+      - ./clickhouse/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+    ulimits:
+      nofile:
+        soft: 262144
+        hard: 262144
+
+volumes:
+  clickhouse_data:
