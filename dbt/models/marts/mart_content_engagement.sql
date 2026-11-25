@@ -1,1 +1,13 @@
-LS0gTWFydDogZ2VucmUtbGV2ZWwgY29udGVudCBlbmdhZ2VtZW50IOKAlCB0aGUgdGFibGUgYmVoaW5kIHRoZSBGYXN0QVBJCi0tIC9hbmFseXRpY3MvY29udGVudCBlbmRwb2ludCBhbmQgdGhlIGRhc2hib2FyZCBlbmdhZ2VtZW50IHRhYmxlLgpzZWxlY3QKICAgIGdlbnJlLAogICAgc3VtKHNlc3Npb25zKSBhcyBzZXNzaW9ucywKICAgIHN1bSh1bmlxdWVfdmlld2VycykgYXMgdW5pcXVlX3ZpZXdlcnMsCiAgICByb3VuZChzdW0odG90YWxfZHVyYXRpb25fbWluKSwgMikgYXMgdG90YWxfZHVyYXRpb25fbWluLAogICAgcm91bmQoc3VtKHRvdGFsX2R1cmF0aW9uX21pbikgLyBudWxsSWYoc3VtKHNlc3Npb25zKSwgMCksIDIpIGFzIGF2Z19kdXJhdGlvbl9taW4sCiAgICByb3VuZChhdmcoYXZnX2NvbXBsZXRpb25fcGN0KSwgMikgYXMgYXZnX2NvbXBsZXRpb25fcGN0LAogICAgc3VtKGhpZ2hfY29tcGxldGlvbl9zZXNzaW9ucykgYXMgaGlnaF9jb21wbGV0aW9uX3Nlc3Npb25zCmZyb20ge3sgcmVmKCdpbnRfY29udGVudF9lbmdhZ2VtZW50JykgfX0KZ3JvdXAgYnkgZ2VucmUKb3JkZXIgYnkgZ2VucmUK
+-- Mart: genre-level content engagement — the table behind the FastAPI
+-- /analytics/content endpoint and the dashboard engagement table.
+select
+    genre,
+    sum(sessions) as sessions,
+    sum(unique_viewers) as unique_viewers,
+    round(sum(total_duration_min), 2) as total_duration_min,
+    round(sum(total_duration_min) / nullIf(sum(sessions), 0), 2) as avg_duration_min,
+    round(avg(avg_completion_pct), 2) as avg_completion_pct,
+    sum(high_completion_sessions) as high_completion_sessions
+from {{ ref('int_content_engagement') }}
+group by genre
+order by genre
