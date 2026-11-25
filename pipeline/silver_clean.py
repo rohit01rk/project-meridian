@@ -1,1 +1,71 @@
-IiIiU2lsdmVyIGNsZWFuaW5nOiBCcm9uemUgSlNPTkwgLT4gdmFsaWRhdGVkLCB0eXBlZCBwbGF5YmFjayBldmVudHMuCgpSdWxlcyAoZXhhY3RseSB0aGUgb25lcyByZWNvcmRlZCBpbiB0aGUgcmVwb3J0KToKICAqIHJlcXVpcmVkIGZpZWxkcyBtdXN0IGJlIHByZXNlbnQgYW5kIG5vbi1udWxsCiAgKiBldmVudCBuYW1lcyBub3JtYWxpemVkICh0cmltICsgbG93ZXItY2FzZSkgYW5kIGZpbHRlcmVkIHRvIHRoZQogICAgc3VwcG9ydGVkIHNldCB7cGxheSwgcGF1c2UsIHNlZWssIGJ1ZmZlciwgc3RvcH0KICAqIGlkZW50aWZpZXJzIG5vcm1hbGl6ZWQgKHRyaW0gKyB1cHBlci1jYXNlKQogICogdGltZXN0YW1wcyBwYXJzZWQgYXMgVVRDCiAgKiBwbGF5YmFjayBwb3NpdGlvbnMgY29lcmNlZCB0byBudW1lcmljOyBuZWdhdGl2ZSBwb3NpdGlvbnMgZHJvcHBlZApPdXRwdXQ6IFBhcnF1ZXQgd2hlbiBweWFycm93IGlzIGF2YWlsYWJsZSwgQ1NWIG90aGVyd2lzZS4KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYW5ub3RhdGlvbnMKCmltcG9ydCBqc29uCmZyb20gcGF0aGxpYiBpbXBvcnQgUGF0aAoKaW1wb3J0IHBhbmRhcyBhcyBwZAoKZnJvbSAuY2F0YWxvZyBpbXBvcnQgU1VQUE9SVEVEX0VWRU5UUwoKUkVRVUlSRUQgPSBbImV2ZW50X2lkIiwgImV2ZW50X3R5cGUiLCAidXNlcl9pZCIsICJjb250ZW50X2lkIiwgInRpbWVzdGFtcCIsICJwbGF5YmFja19wb3NpdGlvbl9taW4iXQoKCmRlZiBsb2FkX2Jyb256ZShicm9uemVfcGF0aDogUGF0aCkgLT4gcGQuRGF0YUZyYW1lOgogICAgcm93cyA9IFtdCiAgICB3aXRoIG9wZW4oYnJvbnplX3BhdGgsIGVuY29kaW5nPSJ1dGYtOCIpIGFzIGZoOgogICAgICAgIGZvciBsaW5lIGluIGZoOgogICAgICAgICAgICBsaW5lID0gbGluZS5zdHJpcCgpCiAgICAgICAgICAgIGlmIGxpbmU6CiAgICAgICAgICAgICAgICByb3dzLmFwcGVuZChqc29uLmxvYWRzKGxpbmUpKQogICAgcmV0dXJuIHBkLkRhdGFGcmFtZShyb3dzKQoKCmRlZiBjbGVhbihkZjogcGQuRGF0YUZyYW1lKSAtPiBwZC5EYXRhRnJhbWU6CiAgICBpZiBkZi5lbXB0eToKICAgICAgICByZXR1cm4gZGYKICAgIGRmID0gZGYuY29weSgpCiAgICAjIFJlcXVpcmVkIGZpZWxkcyBwcmVzZW50IGFuZCBub24tbnVsbC4KICAgIGRmID0gZGYuZHJvcG5hKHN1YnNldD1bYyBmb3IgYyBpbiBSRVFVSVJFRCBpZiBjIGluIGRmLmNvbHVtbnNdKQogICAgZm9yIGNvbCBpbiBSRVFVSVJFRDoKICAgICAgICBpZiBjb2wgbm90IGluIGRmLmNvbHVtbnM6CiAgICAgICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJicm9uemUgZGF0YSBpcyBtaXNzaW5nIHJlcXVpcmVkIGNvbHVtbjoge2NvbH0iKQoKICAgIGRmWyJldmVudF90eXBlIl0gPSBkZlsiZXZlbnRfdHlwZSJdLmFzdHlwZShzdHIpLnN0ci5zdHJpcCgpLnN0ci5sb3dlcigpCiAgICBkZlsidXNlcl9pZCJdID0gZGZbInVzZXJfaWQiXS5hc3R5cGUoc3RyKS5zdHIuc3RyaXAoKS5zdHIudXBwZXIoKQogICAgZGZbImNvbnRlbnRfaWQiXSA9IGRmWyJjb250ZW50X2lkIl0uYXN0eXBlKHN0cikuc3RyLnN0cmlwKCkuc3RyLnVwcGVyKCkKICAgIGRmWyJldmVudF9pZCJdID0gZGZbImV2ZW50X2lkIl0uYXN0eXBlKHN0cikuc3RyLnN0cmlwKCkKCiAgICBkZlsidGltZXN0YW1wIl0gPSBwZC50b19kYXRldGltZShkZlsidGltZXN0YW1wIl0sIHV0Yz1UcnVlLCBlcnJvcnM9ImNvZXJjZSIpCiAgICBkZiA9IGRmLmRyb3BuYShzdWJzZXQ9WyJ0aW1lc3RhbXAiXSkKCiAgICBkZlsicGxheWJhY2tfcG9zaXRpb25fbWluIl0gPSBwZC50b19udW1lcmljKGRmWyJwbGF5YmFja19wb3NpdGlvbl9taW4iXSwgZXJyb3JzPSJjb2VyY2UiKQogICAgZGYgPSBkZi5kcm9wbmEoc3Vic2V0PVsicGxheWJhY2tfcG9zaXRpb25fbWluIl0pCiAgICBkZiA9IGRmW2RmWyJldmVudF90eXBlIl0uaXNpbihTVVBQT1JURURfRVZFTlRTKV0KICAgIGRmID0gZGZbZGZbInBsYXliYWNrX3Bvc2l0aW9uX21pbiJdID49IDBdCgogICAgIyBTaWx2ZXIgb3JkZXIgaXMgdGhlIGFuYWx5dGljYWwgb3JkZXI6IHVzZXIsIGNvbnRlbnQsIGV2ZW50IHRpbWUuCiAgICBkZiA9IGRmLnNvcnRfdmFsdWVzKFsidXNlcl9pZCIsICJjb250ZW50X2lkIiwgInRpbWVzdGFtcCIsICJldmVudF9pZCJdKS5yZXNldF9pbmRleChkcm9wPVRydWUpCiAgICByZXR1cm4gZGYKCgpkZWYgd3JpdGVfc2lsdmVyKGRmOiBwZC5EYXRhRnJhbWUsIG91dF9kaXI6IFBhdGgpIC0+IFBhdGg6CiAgICBvdXRfZGlyLm1rZGlyKHBhcmVudHM9VHJ1ZSwgZXhpc3Rfb2s9VHJ1ZSkKICAgIHRyeToKICAgICAgICBpbXBvcnQgcHlhcnJvdyAgIyBub3FhOiBGNDAxCiAgICAgICAgb3V0ID0gb3V0X2RpciAvICJwbGF5YmFja19ldmVudHNfY2xlYW4ucGFycXVldCIKICAgICAgICBkZi50b19wYXJxdWV0KG91dCwgaW5kZXg9RmFsc2UpCiAgICBleGNlcHQgSW1wb3J0RXJyb3I6CiAgICAgICAgb3V0ID0gb3V0X2RpciAvICJwbGF5YmFja19ldmVudHNfY2xlYW4uY3N2IgogICAgICAgIGRmLnRvX2NzdihvdXQsIGluZGV4PUZhbHNlKQogICAgcmV0dXJuIG91dAo=
+"""Silver cleaning: Bronze JSONL -> validated, typed playback events.
+
+Rules (exactly the ones recorded in the report):
+  * required fields must be present and non-null
+  * event names normalized (trim + lower-case) and filtered to the
+    supported set {play, pause, seek, buffer, stop}
+  * identifiers normalized (trim + upper-case)
+  * timestamps parsed as UTC
+  * playback positions coerced to numeric; negative positions dropped
+Output: Parquet when pyarrow is available, CSV otherwise.
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+import pandas as pd
+
+from .catalog import SUPPORTED_EVENTS
+
+REQUIRED = ["event_id", "event_type", "user_id", "content_id", "timestamp", "playback_position_min"]
+
+
+def load_bronze(bronze_path: Path) -> pd.DataFrame:
+    rows = []
+    with open(bronze_path, encoding="utf-8") as fh:
+        for line in fh:
+            line = line.strip()
+            if line:
+                rows.append(json.loads(line))
+    return pd.DataFrame(rows)
+
+
+def clean(df: pd.DataFrame) -> pd.DataFrame:
+    if df.empty:
+        return df
+    df = df.copy()
+    # Required fields present and non-null.
+    df = df.dropna(subset=[c for c in REQUIRED if c in df.columns])
+    for col in REQUIRED:
+        if col not in df.columns:
+            raise ValueError(f"bronze data is missing required column: {col}")
+
+    df["event_type"] = df["event_type"].astype(str).str.strip().str.lower()
+    df["user_id"] = df["user_id"].astype(str).str.strip().str.upper()
+    df["content_id"] = df["content_id"].astype(str).str.strip().str.upper()
+    df["event_id"] = df["event_id"].astype(str).str.strip()
+
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True, errors="coerce")
+    df = df.dropna(subset=["timestamp"])
+
+    df["playback_position_min"] = pd.to_numeric(df["playback_position_min"], errors="coerce")
+    df = df.dropna(subset=["playback_position_min"])
+    df = df[df["event_type"].isin(SUPPORTED_EVENTS)]
+    df = df[df["playback_position_min"] >= 0]
+
+    # Silver order is the analytical order: user, content, event time.
+    df = df.sort_values(["user_id", "content_id", "timestamp", "event_id"]).reset_index(drop=True)
+    return df
+
+
+def write_silver(df: pd.DataFrame, out_dir: Path) -> Path:
+    out_dir.mkdir(parents=True, exist_ok=True)
+    try:
+        import pyarrow  # noqa: F401
+        out = out_dir / "playback_events_clean.parquet"
+        df.to_parquet(out, index=False)
+    except ImportError:
+        out = out_dir / "playback_events_clean.csv"
+        df.to_csv(out, index=False)
+    return out
